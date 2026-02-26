@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://socialcaution.com/sitemap.xml
+
+# Disallow sensitive areas
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /admin/
+
+# SEO optimization
+Crawl-delay: 1

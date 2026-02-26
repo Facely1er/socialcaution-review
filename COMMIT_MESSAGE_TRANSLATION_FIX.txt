@@ -1,0 +1,39 @@
+Fix recurring translation toggle issue with improved event handling
+
+This fix addresses a long-standing recurring issue where the language
+selector dropdown in the header would not work correctly.
+
+Root causes fixed:
+- Race condition in click-outside detection (click vs mousedown)
+- Redundant ref management (removed containerRef)
+- Low z-index causing dropdown to be hidden (60 -> 9999)
+- Missing explicit button types
+- Poor UX timing (close dropdown before language change instead of after)
+
+Technical changes:
+- Changed event listeners from 'click' to 'mousedown'/'touchstart'
+- Removed unnecessary containerRef (kept only buttonRef and dropdownRef)
+- Increased z-index from z-[60] to z-[9999]
+- Added type="button" to all buttons
+- Close dropdown immediately before calling changeLanguage()
+- Simplified click-outside logic with early return
+- Added preventDefault() to event handlers
+
+Files modified:
+- src/contexts/TranslationContext.jsx (63 lines changed, -17 net)
+
+Build status: ✅ Success, no linter errors
+
+Documentation created:
+- TRANSLATION_TOGGLE_FIX_SUMMARY.md - Executive summary
+- TRANSLATION_TOGGLE_FIX.md - Technical details
+- TRANSLATION_TOGGLE_QUICK_FIX_GUIDE.md - Quick reference
+- WHY_TRANSLATION_TOGGLE_KEEPS_BREAKING.md - Root cause analysis
+- TRANSLATION_TOGGLE_DOCS_INDEX.md - Documentation index
+
+This fix has been thoroughly documented to prevent the issue from
+recurring in the future. See TRANSLATION_TOGGLE_DOCS_INDEX.md for
+complete documentation.
+
+Resolves: Translation toggle recurring issue
+Branch: cursor/translation-toggle-recurring-issue-566f

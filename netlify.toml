@@ -1,0 +1,112 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--legacy-peer-deps"
+  # Exclude documentation files from secrets scanning (they contain example values, not real secrets)
+  SECRETS_SCAN_OMIT_PATHS = "docs/**,*.md,INTEGRATION_*.md,NETLIFY_*.md,QUICK_*.md,STRIPE_*.md,WEBHOOK_*.md"
+
+# Production deployment
+[context.production]
+  command = "npm run build"
+  [context.production.environment]
+    VITE_REACT_APP_ENVIRONMENT = "production"
+
+# Staging deployment
+[context.staging]
+  command = "npm run build"
+  [context.staging.environment]
+    VITE_REACT_APP_ENVIRONMENT = "staging"
+
+# Deploy previews (Pull Requests)
+[context.deploy-preview]
+  command = "npm run build"
+  [context.deploy-preview.environment]
+    VITE_REACT_APP_ENVIRONMENT = "preview"
+
+# Branch deploys (other branches)
+[context.branch-deploy]
+  command = "npm run build"
+  [context.branch-deploy.environment]
+    VITE_REACT_APP_ENVIRONMENT = "development"
+
+# Favicon redirect - browsers automatically request /favicon.ico
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/socialcaution.png"
+  status = 200
+  force = true
+
+# PWA manifest icons - fallback when android-chrome PNGs are missing (run: node scripts/generate-icons.js)
+[[redirects]]
+  from = "/android-chrome-192x192.png"
+  to = "/socialcaution.png"
+  status = 200
+  force = true
+[[redirects]]
+  from = "/android-chrome-512x512.png"
+  to = "/socialcaution.png"
+  status = 200
+  force = true
+
+# API routes - proxy to Netlify functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
+
+# Explicitly handle Netlify function routes (should be automatic, but ensure they're not caught by SPA redirect)
+# Netlify functions are automatically available at /.netlify/functions/* and should not be redirected
+# This rule ensures function routes are explicitly excluded from SPA redirect
+
+# Support URL - static page for App Store compliance (visible without JavaScript)
+[[redirects]]
+  from = "/support"
+  to = "/support.html"
+  status = 200
+  force = true
+
+# SPA fallback - all routes go to index.html (excludes /.netlify/* automatically)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+  force = false
+
+# Headers for security and performance
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.google-analytics.com https://www.googletagmanager.com https://js.stripe.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://fonts.gstatic.com https://api.stripe.com https://js.stripe.com https://cdn.simpleicons.org https://krebsonsecurity.com https://privacyrights.org https://www.cisa.gov https://feeds.feedburner.com https://techcrunch.com https://csrc.nist.gov https://www.consumer.ftc.gov https://openphish.com https://apwg.org https://www.eff.org https://thehackernews.com https://bleepingcomputer.com https://threatpost.com https://www.darkreading.com https://portswigger.net https://www.us-cert.gov https://blog.malwarebytes.com https://www.ftc.gov https://www.enforcementtracker.com https://iapp.org https://epic.org https://source.android.com https://www.databreaches.net https://www.socialmediatoday.com https://www.idtheftcenter.org https://www.commonsensemedia.org; frame-src 'self' https://js.stripe.com; base-uri 'self'; form-action 'self'"
+
+# Cache static assets
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Cache service worker
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Don't cache HTML files
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Function configuration
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["netlify/functions/**"]

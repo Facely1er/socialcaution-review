@@ -1,0 +1,3412 @@
+{
+  "cookieBanner": {
+    "title": "Nous respectons votre vie privée",
+    "description": "Nous utilisons des cookies pour améliorer votre expérience et pour des analyses anonymisées. Vous pouvez tout accepter, refuser les cookies non essentiels ou gérer vos préférences.",
+    "acceptAll": "Tout accepter",
+    "rejectNonEssential": "Refuser les non essentiels",
+    "managePreferences": "Gérer les préférences",
+    "analyticsLabel": "Analytiques (utilisation anonyme pour améliorer le site)",
+    "save": "Enregistrer les préférences",
+    "cookiePolicyLink": "Politique des cookies",
+    "privacyPolicyLink": "Politique de confidentialité",
+    "essentialNote": "Les cookies essentiels sont toujours utilisés pour le fonctionnement de base du site et vos choix.",
+    "cookiePreferences": "Préférences des cookies"
+  },
+  "common": {
+    "brand": {
+      "name": "SocialCaution™",
+      "tagline": "par ERMITS",
+      "line1": "Vos Données Comptent",
+      "line2": "non réduites au silence"
+    },
+    "navigation": {
+      "home": "Accueil",
+      "persona": "Persona",
+      "howItWorks": "Comment ça marche",
+      "features": "Fonctionnalités",
+      "toolkit": "Boîte à outils",
+      "alerts": "Alertes",
+      "dashboard": "Tableau de bord",
+      "startNow": "Commencer",
+      "start": "Démarrer",
+      "account": "Compte",
+      "serviceCatalog": "Catalogue de Services",
+      "privacyRadar": "Radar de Confidentialité",
+      "trendsTracker": "Suivi des Tendances",
+      "privacyToolkit": "Boîte à Outils de Confidentialité",
+      "pricing": "Tarification",
+      "help": "Aide",
+      "contact": "Contact",
+      "support": "Support",
+      "faq": "FAQ",
+      "tutorial": "Tutoriel"
+    },
+    "privacy": {
+      "zeroData": "Aucune collecte de données",
+      "localProcessing": "Traitement local uniquement",
+      "gdprCompliant": "Conforme RGPD"
+    },
+    "actions": {
+      "start": "Démarrer",
+      "continue": "Continuer",
+      "back": "Retour",
+      "next": "Suivant",
+      "skip": "Passer",
+      "close": "Fermer",
+      "refresh": "Actualiser la page",
+      "goBack": "Retour",
+      "goHome": "Accueil",
+      "backToHome": "Retour à l'accueil"
+    },
+    "loading": {
+      "text": "Chargement..."
+    },
+    "assessmentLimit": {
+      "title": "Limite d'Évaluation Atteinte",
+      "description": "Vous avez utilisé toutes vos {limit} évaluation{plural} gratuite{plural} ce mois-ci. Passez à Premium pour des évaluations illimitées.",
+      "upgradeToPremium": "Passer à Premium",
+      "viewDashboard": "Voir le Tableau de Bord",
+      "remainingWarning": "Il vous reste {remaining} évaluation{plural} gratuite{plural} ce mois-ci. {upgradeLink} pour des évaluations illimitées.",
+      "upgradeLink": "Passer à Premium"
+    },
+    "errorBoundary": {
+      "title": "Une erreur s'est produite",
+      "description": {
+        "production": "Nous avons rencontré une erreur inattendue. Notre équipe a été automatiquement notifiée.",
+        "development": "Une erreur technique s'est produite lors du chargement de cette page."
+      },
+      "errorId": "ID d'erreur :",
+      "feedbackLabel": "Aidez-nous à nous améliorer (optionnel) :",
+      "feedbackPlaceholder": "Que faisiez-vous lorsque cette erreur s'est produite ?",
+      "sendFeedback": "Envoyer les commentaires",
+      "feedbackThankYou": "Merci pour vos commentaires ! Cela nous aide à améliorer l'application.",
+      "tryAgain": "Réessayer",
+      "reload": "Recharger",
+      "home": "Accueil",
+      "needHelp": "Besoin d'aide ? Contactez",
+      "support": "le support",
+      "developerDetails": "Détails de l'erreur pour les développeurs",
+      "error": "Erreur :",
+      "componentStack": "Pile des composants :"
+    },
+    "rating": {
+      "howHelpful": "À quel point est-ce utile ?",
+      "rateFeature": "Évaluer {{featureName}}",
+      "thankYou": "Merci !",
+      "dismiss": "Fermer le widget d'évaluation"
+    },
+    "workflow": {
+      "account": "Compte",
+      "accountDesc": "Gérez vos préférences et préoccupations de confidentialité",
+      "findPersona": "Préoccupations de Confidentialité",
+      "findPersonaDesc": "Définissez vos préoccupations de confidentialité",
+      "privacyConcerns": "Préoccupations de confidentialité",
+      "privacyConcernsDesc": "Sélectionnez vos préoccupations de confidentialité",
+      "takeAssessment": "Passer l'évaluation",
+      "takeAssessmentDesc": "Compléter l'évaluation de confidentialité",
+      "serviceCatalog": "Catalogue de confidentialité des services",
+      "serviceCatalogDesc": "Sélectionnez les services de confidentialité",
+      "viewDashboard": "Voir le tableau de bord",
+      "viewDashboardDesc": "Accéder à votre tableau de bord",
+      "exploreResources": "Explorer les ressources",
+      "exploreResourcesDesc": "Parcourir les ressources de confidentialité",
+      "progress": "Progression :",
+      "currentStep": "Étape actuelle",
+      "steps": "étapes",
+      "completionGuide": {
+        "title": "Votre parcours de confidentialité personnalisé",
+        "personaSubtitle": "En tant que {persona}, voici votre chemin recommandé vers une meilleure protection de la confidentialité.",
+        "progressLabel": "Progression : {completed}/{total} étapes",
+        "whyCompleteTitle": "Pourquoi compléter le workflow ?",
+        "whyCompleteDescription": "Une fois que vous aurez terminé toutes les étapes requises, vous débloquerez :",
+        "unlock1": "Profil de risque de confidentialité personnalisé combinant l'évaluation et l'empreinte numérique",
+        "unlock2": "Feuille de route de confidentialité personnalisée avec des conseils étape par étape",
+        "unlock3": "Plan d'action avec des recommandations prioritaires",
+        "unlock4": "Tableau de bord intégré affichant toutes vos métriques de confidentialité en un seul endroit",
+        "note": "Note :",
+        "noteText": "D'autres fonctionnalités (Ressources de confidentialité, Boîte à outils de confidentialité, Alertes) restent accessibles sans compléter le workflow, mais ne seront pas intégrées dans votre tableau de bord personnalisé.",
+        "steps": {
+          "browseServiceCatalog": {
+            "title": "Parcourir le catalogue de services",
+            "description": "Sélectionnez les services que vous utilisez dans notre catalogue de plus de 200 services"
+          },
+          "selectPersona": {
+            "title": "Sélectionnez votre persona",
+            "description": "Choisissez votre persona de confidentialité (optionnel mais recommandé)"
+          },
+          "setPrivacyConcerns": {
+            "title": "Définir les préoccupations de confidentialité",
+            "description": "Personnalisez vos domaines d'intérêt en matière de confidentialité (optionnel)"
+          },
+          "completeAssessment": {
+            "title": "Compléter l'évaluation",
+            "description": "Évaluez votre exposition aux risques de confidentialité"
+          },
+          "accessDashboard": {
+            "title": "Accéder au tableau de bord personnalisé",
+            "description": "Consultez votre profil de risque, votre feuille de route et votre plan d'action"
+          }
+        },
+        "actions": {
+          "view": "Voir",
+          "start": "Commencer",
+          "locked": "Verrouillé"
+        }
+      },
+      "whyCompleteShort": "Complétez pour débloquer votre profil de risque et plan d'action."
+    },
+    "breadcrumbs": {
+      "home": "Accueil",
+      "homeDesc": "Page d'accueil SocialCaution",
+      "assessment": "Évaluation",
+      "assessmentDesc": "Options d'évaluation de confidentialité",
+      "digitalPrivacyRisk": "Évaluation des risques de confidentialité numérique",
+      "digitalPrivacyRiskDesc": "Évaluez vos risques de confidentialité numérique et votre empreinte sociale",
+      "privacyRights": "Évaluation des droits de confidentialité",
+      "privacyRightsDesc": "Évaluez votre compréhension du RGPD, CCPA et autres droits de confidentialité",
+      "securityAwareness": "Évaluation de la sensibilisation à la sécurité",
+      "securityAwarenessDesc": "Évaluation éducative de la sécurité incluant la sensibilisation au rançongiciel",
+      "completePrivacy": "Évaluation complète de la confidentialité",
+      "completePrivacyDesc": "Évaluation complète des risques et droits de confidentialité",
+      "assessmentOptions": "Options d'évaluation",
+      "assessmentOptionsDesc": "Choisissez votre type d'évaluation de confidentialité",
+      "exposureDashboard": "Tableau de bord d'exposition",
+      "exposureDashboardDesc": "Analyses et insights de l'index d'exposition à la confidentialité",
+      "myServices": "Mes Services",
+      "myServicesDesc": "Gérer vos services sélectionnés",
+      "digitalFootprintAnalysis": "Analyse de l'empreinte numérique",
+      "privacyTrends": "Tendances de confidentialité",
+      "externalTools": "Outils externes",
+      "exposureReport": "Rapport d'exposition",
+      "imageMetadataAnalyzer": "Analyseur de métadonnées d'image",
+      "emailHeaderAnalyzer": "Analyseur d'en-têtes d'e-mail",
+      "socialProfileVerifier": "Vérificateur de profil social",
+      "exposureIndexMethodology": "Méthodologie de l'Indice d'Exposition",
+      "dataBrokerRemoval": "Guide de suppression des courtiers de données",
+      "personalDataInventory": "Inventaire des données personnelles",
+      "messageChecker": "Vérificateur de messages IA",
+      "privacyAssistant": "Assistant de confidentialité",
+      "actionPlanner": "Planificateur d'actions",
+      "privacySettings": "Compte",
+      "toolkitDesc": "Outils de confidentialité et utilitaires de sécurité pour votre protection",
+      "servicesMonitoring": "Surveillance des services",
+      "servicesMonitoringDesc": "Évaluations des risques de confidentialité pour les services en ligne"
+    },
+    "toolkit": {
+      "privacyResources": "Ressources de confidentialité",
+      "privacyToolkit": "Boîte à outils de confidentialité",
+      "heroDescription": "Agissez sur votre empreinte numérique avec le Radar, les Tendances et d'autres outils—le tout sur votre appareil. Utilisez-les après avoir consulté vos services.",
+      "whenToUse": "Utilisez-les après avoir vérifié vos services—pour agir sur ce que vous avez trouvé.",
+      "subtitle": "Passez à l'action sur votre empreinte numérique. Ces outils vous aident à voir ce que vous avez partagé et à supprimer vos infos des courtiers de données—le tout sur votre appareil.",
+      "loadingTitle": "Chargement de la boîte à outils de confidentialité...",
+      "redirectMessage": "Redirection vers vos outils de confidentialité",
+      "toolsExpanding": "Les outils s'étendent",
+      "toolsExpandingDesc": "Les recommandations du Radar s'améliorent lorsque vous ajoutez des services, des résultats d'évaluation et des éléments d'inventaire.",
+      "sectionIntelligence": "Intelligence",
+      "sectionIntelligenceDesc": "Surveillez les risques de confidentialité et suivez les tendances qui affectent vos services",
+      "privacyRadarTitle": "Radar de confidentialité",
+      "readyToUse": "Prêt à l'emploi",
+      "selectServicesToActivate": "Sélectionnez des services pour activer",
+      "privacyTrendsTitle": "Tendances de confidentialité",
+      "privacyTrendsDesc": "Consultez les tendances de confidentialité qui affectent vos services. Suivez le RGPD, le CCPA et les réglementations mondiales.",
+      "personalDataExposureCheckTitle": "Vérification d'exposition des données personnelles",
+      "personalDataExposureCheckDesc": "Vérifiez où vos données personnelles sont exposées en ligne et obtenez un résumé clair.",
+      "servicesReady": "{{count}} service{{plural}} prêt(s)",
+      "selectServicesToAnalyze": "Sélectionnez des services à analyser",
+      "sectionActions": "Actions",
+      "sectionActionsDesc": "Prenez des mesures directes pour protéger votre vie privée et gérer vos données",
+      "personalDataInventoryTitle": "Inventaire des données personnelles",
+      "personalDataInventoryDesc": "Ajoutez des éléments manquants à l'inventaire. Obtenez une vue claire de ce que vous avez partagé avec les applications et les sites.",
+      "itemsInInventory": "{{count}} éléments dans votre inventaire",
+      "addFirstItem": "Ajoutez votre premier élément pour commencer",
+      "dataBrokerRemovalTitle": "Suppression des courtiers de données",
+      "dataBrokerRemovalDesc": "Lancez les demandes de suppression. Guides de désinscription étape par étape pour les principaux courtiers.",
+      "directLinksOnDevice": "Liens directs et instructions—le tout sur l'appareil",
+      "privacyFirstTitle": "Outils axés sur la confidentialité",
+      "privacyFirstDesc": "Vos données restent sur votre appareil. Nous ne suivons jamais votre utilisation ni ne partageons d'informations. Les rapports sont générés à la demande avec vos données actuelles."
+    }
+  },
+  "privacyToolsPage": {
+    "title": "Outils et ressources de confidentialité",
+    "subtitle": "Guides, ressources et outils externes de confidentialité",
+    "seoTitle": "Outils et ressources de confidentialité - SocialCaution",
+    "seoDescription": "Guides, ressources et outils externes de confidentialité",
+    "toolsAvailableTitle": "Outils disponibles dans la version Standard",
+    "toolsAvailableDesc": "Des outils et ressources de confidentialité complets sont disponibles dans notre version Standard. Dans la version Basic, vous pouvez explorer notre Surveillance des services pour comprendre les risques de confidentialité pour plus de 200 services en ligne.",
+    "exploreServices": "Explorer la surveillance des services",
+    "backHome": "Accueil"
+  },
+  "header": {
+    "ariaLabels": {
+      "homepage": "Aller à la page d'accueil",
+      "persona": "Sélectionner votre persona de confidentialité",
+      "howItWorks": "Découvrir comment fonctionne l'évaluation de confidentialité de SocialCaution",
+      "features": "Voir les fonctionnalités de la plateforme SocialCaution",
+      "toolkit": "Accéder à la boîte à outils et aux ressources de confidentialité",
+      "alerts": "Voir les alertes de prudence et les menaces à la confidentialité",
+      "dashboard": "Voir votre tableau de bord de confidentialité personnalisé",
+      "account": "Compte",
+      "startAssessment": "Commencer votre évaluation de confidentialité maintenant",
+      "toggleMenu": "Basculer le menu mobile",
+      "selectPersona": "Sélectionner votre persona de confidentialité pour activer les conseils personnalisés",
+      "startPrivacyAssessment": "Commencer votre évaluation de confidentialité"
+    },
+    "titles": {
+      "alerts": "Alertes",
+      "dashboard": "Tableau de bord"
+    }
+  },
+  "footer": {
+    "description": "Plateforme innovante de confidentialité par personas. Comprenez et maîtrisez votre vie privée numérique grâce à l'intelligence artificielle, en toute confidentialité.",
+    "sections": {
+      "services": "Services",
+      "toolsFeatures": "Outils et fonctionnalités",
+      "legal": "Légal",
+      "resources": "Ressources",
+      "help": "Aide",
+      "privacyServices": "Services et outils",
+      "resourcesTools": "Ressources et outils",
+      "supportLegal": "Support et légal"
+    },
+    "links": {
+      "digitalPrivacyRiskAssessment": "Évaluation des risques de confidentialité numérique",
+      "privacyRightsAssessment": "Évaluation des droits de confidentialité",
+      "securityAwarenessAssessment": "Évaluation de la sensibilisation à la sécurité",
+      "completeAssessment": "Évaluation complète de la confidentialité",
+      "privacyDashboard": "Tableau de bord de confidentialité",
+      "privacyGuides": "Guides et ressources de confidentialité",
+      "privacyToolkit": "Boîte à outils de confidentialité",
+      "externalTools": "Outils de confidentialité externes",
+      "serviceCatalog": "Catalogue de confidentialité des services",
+      "privacyAssessments": "Évaluations de confidentialité",
+      "pricing": "Tarification",
+      "choosePersona": "Préoccupations de Confidentialité",
+      "exposureIndexMethodology": "Méthodologie de l'indice d'exposition",
+      "tutorial": "Tutoriel",
+      "faq": "FAQ",
+      "cautionAlerts": "Alertes de prudence",
+      "howItWorks": "Comment ça marche",
+      "features": "Fonctionnalités",
+      "contactUs": "Nous contacter",
+      "privacyPolicy": "Politique de confidentialité",
+      "termsOfService": "Conditions d'utilisation",
+      "cookiePolicy": "Politique des cookies",
+      "acceptableUsePolicy": "Politique d'utilisation acceptable",
+      "help": "Aide",
+      "settings": "Paramètres",
+      "downloadApp": "Télécharger l'app",
+      "privacyRadar": "Radar de confidentialité",
+      "privacySettings": "Paramètres",
+      "support": "Support"
+    },
+    "copyright": "© {{year}} ERMITS LLC. Ingénierie Privacy by Design."
+  },
+  "homePage": {
+    "hero": {
+      "title": "Connaissez les risques de confidentialité de chaque service que vous utilisez",
+      "titlePart1": "Connaissez les risques de confidentialité de",
+      "titlePart2": "chaque service que vous utilisez",
+      "subtitle": "Parcourez plus de 200 services—de Facebook à Gmail—et découvrez exactement comment ils collectent, partagent et protègent vos données",
+      "selectPersona": "Sélectionner votre persona de confidentialité",
+      "selectPersonaShort": "Sélectionner persona",
+      "startAssessment": "Commencer l'évaluation",
+      "startAssessmentShort": "Évaluation",
+      "exploreServices": "Explorer le catalogue de services",
+      "riskExposureTitle": "Analyse de l'exposition aux risques de confidentialité et de l'empreinte numérique",
+      "riskExposureDescription": "Découvrez votre score d'exposition à la confidentialité personnalisé et obtenez des informations exploitables sur votre empreinte numérique à travers tous vos services.",
+      "browseServiceCatalog": "Parcourir le catalogue de services",
+      "explorePrivacyRisks": "Comment ça marche",
+      "analyzeYourFootprint": "Analyser votre empreinte",
+      "completePrivacyAssessment": "Évaluation complète de la confidentialité",
+      "completePrivacyAssessmentDescription": "Obtenez des informations complètes sur la confidentialité avec détection de persona alimentée par l'IA et recommandations personnalisées adaptées à vos habitudes numériques.",
+      "takeCompleteAssessment": "Passer l'évaluation complète",
+      "noSignupRequired": "Aucune inscription requise",
+      "freeServices": "Services gratuits",
+      "fullyPrivate": "100% privé",
+      "seeHowItWorks": "Voir Comment Ça Marche",
+      "contextLine": "À l'ère de l'automatisation et de l'IA, les données visibles peuvent être réutilisées à grande échelle — la sensibilisation à la confidentialité est plus importante que jamais."
+    },
+    "serviceCatalog": {
+      "title": "Catalogue de confidentialité des services",
+      "subtitle": "Découvrez les risques de confidentialité et les indices d'exposition pour plus de 50 services en ligne populaires. Commencez à explorer maintenant pour comprendre votre exposition à la confidentialité numérique."
+    },
+    "cta": {
+      "title": "Explorez vos risques de confidentialité numérique",
+      "subtitle": "Parcourez notre catalogue complet de services pour découvrir les risques de confidentialité et les indices d'exposition pour plus de 50 services en ligne populaires. Comprenez votre empreinte numérique dès aujourd'hui.",
+      "analyzeYourFootprint": "Analyser votre empreinte",
+      "seeWhichServices": "Voir quels services affectent votre exposition"
+    },
+    "personas": {
+      "title": "Neuf personas de confidentialité distincts",
+      "subtitle": "Les besoins de confidentialité de chacun sont différents. Sélectionnez un persona pour activer des conseils personnalisés, ou explorez nos outils librement. La sélection de persona est facultative mais recommandée pour une expérience sur mesure.",
+      "currentPersona": "Persona actuel : {{name}}",
+      "howPersonasWork": "Comment fonctionnent les personas",
+      "selectYourPersona": "Sélectionner votre persona",
+      "selectYourPersonaDesc": "Choisissez le persona de confidentialité qui correspond le mieux à vos besoins et préoccupations",
+      "customizeYourFocus": "Personnaliser votre focus",
+      "customizeYourFocusDesc": "Définissez optionnellement vos préoccupations de confidentialité pour personnaliser davantage les recommandations",
+      "personalizedExperience": "Expérience personnalisée",
+      "personalizedExperienceDesc": "Obtenez des recommandations, ressources et outils adaptés basés sur votre persona sélectionné",
+      "exploreAllPersonas": "Explorer tous les personas",
+      "discoverYourPersona": "Découvrir votre persona",
+      "personaOptional": "La sélection de persona est facultative. Vous pouvez changer votre persona à tout moment dans vos paramètres de confidentialité."
+    },
+    "assessments": {
+      "title": "Choisissez votre parcours d'évaluation",
+      "subtitle": "Commencez par n'importe quelle évaluation qui correspond à vos besoins actuels et à votre disponibilité",
+      "exposure": {
+        "title": "Évaluation de l'exposition aux risques de confidentialité",
+        "description": "Évaluez vos vulnérabilités de confidentialité numérique et votre empreinte sociale",
+        "duration": "5-7 minutes",
+        "focus": "Évaluation des risques"
+      },
+      "rights": {
+        "title": "Vérification des connaissances sur les droits de confidentialité",
+        "description": "Testez vos connaissances des lois et droits de confidentialité",
+        "duration": "8-12 minutes",
+        "focus": "Connaissances juridiques"
+      },
+      "full": {
+        "title": "Évaluation complète de la confidentialité",
+        "description": "Évaluation complète de la confidentialité et détection de persona",
+        "duration": "13-19 minutes",
+        "focus": "Analyse complète"
+      }
+    },
+    "features": {
+      "title": "Protection de la confidentialité qui s'adapte à vous",
+      "subtitle": "Contrairement aux outils de confidentialité universels, SocialCaution crée une expérience unique basée sur vos besoins spécifiques, risques et niveau de confort technique"
+    },
+    "journey": {
+      "title": "Votre parcours de confidentialité personnalisé",
+      "subtitle": "En tant que {{personaName}}, voici votre chemin recommandé vers une meilleure protection de la confidentialité.",
+      "selectPersona": "Sélectionner votre persona",
+      "selectPersonaDesc": "Choisissez votre persona de confidentialité (terminé)",
+      "setConcerns": "Définir les préoccupations de confidentialité (facultatif)",
+      "setConcernsDesc": "Personnalisez vos domaines de focus de confidentialité",
+      "completeAssessment": "Compléter l'évaluation",
+      "completeAssessmentDesc": "Évaluez votre exposition aux risques de confidentialité",
+      "selectServices": "Sélectionner les services à surveiller",
+      "selectServicesDesc": "Choisissez les services dans la surveillance de la confidentialité des services",
+      "accessDashboard": "Accéder au tableau de bord personnalisé",
+      "accessDashboardDesc": "Consultez votre profil de risque, feuille de route et plan d'action",
+      "recommendedTools": "Outils recommandés :",
+      "status": {
+        "completed": "Terminé",
+        "required": "Requis",
+        "optional": "Optionnel",
+        "locked": "Verrouillé"
+      },
+      "actions": {
+        "unlockMessage": "Complétez les étapes requises précédentes pour déverrouiller"
+      }
+    },
+    "digitalFootprint": {
+      "badge": "Analyse approfondie de la confidentialité",
+      "title": "Analyse de l'empreinte numérique",
+      "subtitle": "Combinez vos services, évaluations et pratiques de confidentialité pour obtenir des informations et recommandations",
+      "services": "Services",
+      "servicesDescription": "Indices d'exposition à la confidentialité",
+      "assessments": "Évaluations",
+      "assessmentsDescription": "Risque de confidentialité et droits",
+      "weight": "Poids",
+      "analysis": "Analyse",
+      "analysisDescription": "Obtenez des informations approfondies sur les modèles, les contradictions, l'amplification des risques et les recommandations d'outils personnalisés",
+      "patterns": "Modèles",
+      "detected": "Détectés",
+      "risks": "Risques",
+      "amplified": "Amplifiés",
+      "tools": "Outils",
+      "recommended": "Recommandés",
+      "actions": "Actions",
+      "prioritized": "Priorisées",
+      "analyzeMyFootprint": "Analyser mon empreinte numérique",
+      "youHaveServices": "Vous avez {{count}} service{{plural}} et données d'évaluation prêts",
+      "getStarted": "Commencer",
+      "unlockAnalysis": "Ajoutez des services et complétez les évaluations pour déverrouiller votre analyse",
+      "addServicesFromCatalog": "Ajouter des services du catalogue",
+      "completePrivacyAssessment": "Compléter l'évaluation de confidentialité",
+      "getComprehensiveAnalysis": "Obtenir une analyse complète",
+      "patternDetection": "Détection de modèles",
+      "patternDetectionDescription": "Identifie les groupes à haut risque et les lacunes de sécurité",
+      "contradictionAnalysis": "Analyse des contradictions",
+      "contradictionAnalysisDescription": "Trouve les décalages entre les pratiques et les choix de services",
+      "riskAmplification": "Amplification des risques",
+      "riskAmplificationDescription": "Détecte les risques composés et les scénarios critiques",
+      "toolRecommendations": "Recommandations d'outils",
+      "toolRecommendationsDescription": "Outils personnalisés basés sur votre analyse"
+    },
+    "servicePreview": {
+      "title": "Ce que nous surveillons",
+      "subtitle": "Obtenez des informations sur la confidentialité pour les services que vous utilisez chaque jour",
+      "moreServicesPrefix": "...et",
+      "moreServicesCount": "{{count}}+ services supplémentaires",
+      "moreServices": "...et {{count}}+ services supplémentaires",
+      "seeAllServices": "Voir tous les services"
+    },
+    "valueProposition": {
+      "title": "Ce que vous découvrirez",
+      "subtitle": "Informations sur la confidentialité pour les services que vous utilisez",
+      "dataCollection": "Collecte de données",
+      "dataCollectionDescription": "Découvrez ce que chaque service collecte sur vous",
+      "securityTrackRecord": "Historique de sécurité",
+      "securityTrackRecordDescription": "Examinez l'historique des violations et les pratiques de sécurité",
+      "privacyRatings": "Notes de confidentialité",
+      "privacyRatingsDescription": "Obtenez des scores et informations instantanés sur la confidentialité",
+      "policyUpdates": "Mises à jour des politiques",
+      "policyUpdatesDescription": "Restez informé des changements de politique",
+      "viewInCatalog": "Voir dans le catalogue",
+      "viewAlerts": "Voir les alertes"
+    },
+    "featuresSection": {
+      "title": "Caractéristiques principales",
+      "subtitle": "Découvrez ce qui rend SocialCaution unique",
+      "personaBased": {
+        "title": "Personnalisation basée sur les personas",
+        "subtitle": "Choisissez votre profil de confidentialité",
+        "description": "Sélectionnez parmi 9 personas de confidentialité distincts conçus pour différents besoins, niveaux de compétence technique et tolérances au risque. Chaque persona débloque des recommandations personnalisées, du contenu éducatif et des suggestions d'outils adaptés à votre profil de confidentialité spécifique.",
+        "benefit1": "9 personas de confidentialité distincts à choisir",
+        "benefit2": "Recommandations adaptées à votre profil",
+        "benefit3": "Suggestions d'outils appropriées au risque",
+        "benefit4": "Parcours d'apprentissage adaptatifs",
+        "detailedDescription": "Choisissez le persona de confidentialité qui correspond le mieux à vos besoins, préoccupations et niveau de confort technique. Chacun des 9 personas fournit une expérience personnalisée avec des recommandations, ressources et outils adaptés à votre profil de confidentialité spécifique, niveau de compétence technique et tolérance au risque.",
+        "howToAccess": "Sélectionnez votre persona depuis la page de sélection de personas pour débloquer des recommandations et du contenu personnalisés",
+        "actionLabel": "Sélectionner persona"
+      },
+      "zeroData": {
+        "title": "Aucune collecte de données",
+        "subtitle": "Architecture de confidentialité par conception",
+        "description": "Tout reste sur votre appareil - nous ne voyons jamais vos informations personnelles",
+        "benefit1": "Aucun stockage de données côté serveur",
+        "benefit2": "Traitement local uniquement",
+        "benefit3": "Analytique d'utilisation anonyme",
+        "benefit4": "Conforme RGPD par conception",
+        "detailedDescription": "Notre architecture de confidentialité par conception garantit que vos informations personnelles ne quittent jamais votre appareil. Toutes les évaluations, résultats et recommandations sont traités localement dans votre navigateur à l'aide d'algorithmes côté client.",
+        "howToAccess": "Automatique - toutes les fonctionnalités respectent votre confidentialité",
+        "actionLabel": "En savoir plus"
+      },
+      "instantPersonalization": {
+        "title": "Accès instantané",
+        "subtitle": "Commencez à explorer immédiatement",
+        "description": "Obtenez une valeur immédiate de notre Catalogue de services - parcourez les outils et services de confidentialité dès maintenant sans aucune configuration. La personnalisation améliore votre expérience, mais vous pouvez commencer à explorer instantanément.",
+        "benefit1": "Aucune inscription ni configuration requise",
+        "benefit2": "Accès instantané au Catalogue de services",
+        "benefit3": "Parcourez les outils immédiatement",
+        "benefit4": "Personnalisation disponible à tout moment",
+        "detailedDescription": "Commencez à explorer les outils et services de confidentialité immédiatement grâce à notre Catalogue de services complet. Sans comptes, sans attente - obtenez un accès instantané aux ressources. La personnalisation via la sélection de persona ou les évaluations améliore votre expérience, mais n'est pas nécessaire pour commencer.",
+        "howToAccess": "Visitez le Catalogue de services pour commencer à parcourir les outils et services de confidentialité dès maintenant",
+        "actionLabel": "Parcourir les services"
+      },
+      "learnMore": "En savoir plus"
+    },
+    "trustIndicators": {
+      "title": "Approuvé par les personnes soucieuses de la confidentialité",
+      "dataBreaches": "Violations de données",
+      "dataBreachesSubLabel": "Aucune collecte de données personnelles ; aucun risque de fuite lié à notre plateforme",
+      "privacyLaws": "Lois sur la confidentialité",
+      "privacyLawsSubLabel": "Méthodologie alignée sur les cadres majeurs (RGPD, CCPA, PIPEDA, etc.)",
+      "clientSide": "Côté client",
+      "clientSideSubLabel": "Calcul et analyse effectués localement sur votre appareil",
+      "privacyPersonas": "Personas de confidentialité",
+      "privacyPersonasSubLabel": "Conseils personnalisés",
+      "privacyResources": "Ressources de confidentialité",
+      "privacyResourcesSubLabel": "Guides et tutoriels",
+      "privacyToolkit": "Boîte à outils de confidentialité",
+      "privacyToolkitSubLabel": "Outils intégrés",
+      "servicesMonitored": "Services surveillés",
+      "servicesMonitoredSubLabel": "Surveillance de l'exposition à la confidentialité pour 200+ services en ligne"
+    },
+    "exploreToolkit": "Explorez notre boîte à outils de confidentialité",
+    "toolkit": {
+      "title": "Explorez notre boîte à outils de confidentialité",
+      "subtitle": "Accédez à des fonctionnalités de confidentialité puissantes conçues pour protéger votre vie numérique. Toutes les fonctionnalités sont disponibles à utiliser. Sélectionnez un persona pour voir des recommandations personnalisées.",
+      "categories": {
+        "assessments": "Évaluations",
+        "monitoring": "Surveillance",
+        "resourcesTools": "Ressources et outils"
+      },
+      "status": {
+        "completed": "Terminé",
+        "recommended": "Recommandé",
+        "alwaysAvailable": "✓ Toujours disponible"
+      },
+      "actions": {
+        "startNow": "Commencer maintenant",
+        "retakeAssessment": "Reprendre l'évaluation",
+        "browseServices": "Parcourir les services",
+        "viewAlerts": "Voir les alertes",
+        "duration": "Durée :",
+        "view": "Voir",
+        "completeStep": "Compléter l'étape",
+        "setConcerns": "Définir les préoccupations",
+        "explore": "Explorer"
+      },
+      "services": {
+        "servicePrivacyMonitoring": "Surveillance de la confidentialité des services",
+        "servicePrivacyMonitoringDesc": "Surveillez les risques de confidentialité pour les services en ligne que vous utilisez. Sélectionnez les services pour recevoir des informations sur les risques personnalisés et des notifications.",
+        "cautionAlerts": "Alertes de prudence",
+        "cautionAlertsDesc": "Restez informé des menaces à la confidentialité, des violations de données et des alertes de sécurité. Personnalisé lorsque vous sélectionnez des services."
+      }
+    },
+    "alerts": {
+      "intro": "Ajoutez les services que vous utilisez pour recevoir des alertes lorsque leurs politiques ou risques changent.",
+      "addYourServices": "Ajouter vos services"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Découvrez comment notre Personnalisation Préservant la Confidentialité alimentée par l'IA crée une expérience unique adaptée à vos besoins spécifiques, risques et niveau de confort technique",
+    "steps": {
+      "step1": {
+        "title": "Choisissez votre évaluation",
+        "description": "Sélectionnez parmi trois types d'évaluation en fonction de votre temps et de votre focus de confidentialité",
+        "details": [
+          "Évaluation de l'exposition aux risques de confidentialité (5-7 minutes) - Évaluez vos vulnérabilités de confidentialité numérique et votre empreinte sociale",
+          "Vérification des connaissances sur les droits de confidentialité (8-12 minutes) - Testez vos connaissances des lois et droits de confidentialité",
+          "Évaluation complète de la confidentialité (13-19 minutes) - Évaluation complète de la confidentialité et détection de persona"
+        ]
+      },
+      "step2": {
+        "title": "L'IA analyse vos réponses",
+        "description": "Notre IA axée sur la confidentialité traite vos réponses localement pour détecter votre persona de confidentialité",
+        "details": [
+          "Analyse des modèles comportementaux",
+          "Évaluation de la tolérance au risque",
+          "Évaluation des compétences techniques",
+          "Priorisation des préoccupations de confidentialité"
+        ]
+      },
+      "step3": {
+        "title": "Détection de persona",
+        "description": "Découvrez lequel des 9 personas de confidentialité correspond le mieux à votre profil et à vos besoins",
+        "details": [
+          "Parent prudent - Protection de la confidentialité et de la sécurité numériques de la famille",
+          "Novice numérique - Apprendre les bases de la confidentialité numérique",
+          "Défenseur de la confidentialité - Focus maximum sur la confidentialité et les droits numériques",
+          "Acheteur en ligne - Focus sur les achats en ligne sûrs et sécurisés",
+          "Influenceur social - Gestion de la présence publique et protection du contenu",
+          "Individu privé - Anonymat maximum et minimisation des données",
+          "Employé préoccupé - Protection de la confidentialité au travail et sécurité des données professionnelles"
+        ]
+      },
+      "step4": {
+        "title": "Personnalisation instantanée",
+        "description": "Obtenez des recommandations, ressources et outils adaptés dès que vous terminez une évaluation",
+        "details": [
+          "Tableau de bord de confidentialité personnalisé",
+          "Ressources éducatives sélectionnées",
+          "Outils de confidentialité recommandés",
+          "Feuille de route d'amélioration personnalisée"
+        ]
+      }
+    },
+    "principles": {
+      "title": "Nos principes fondamentaux",
+      "subtitle": "Les principes fondamentaux qui guident chaque aspect de notre plateforme",
+      "privacyByDesign": {
+        "title": "Confidentialité dès la conception",
+        "description": "Construit dès le départ avec la confidentialité comme principe architectural central"
+      },
+      "localProcessing": {
+        "title": "Traitement local",
+        "description": "Tout reste sur votre appareil - nous ne voyons jamais vos informations personnelles"
+      },
+      "noRegistration": {
+        "title": "Aucune inscription requise",
+        "description": "Utilisez notre plateforme sans créer de comptes ou fournir d'informations personnelles"
+      },
+      "continuousImprovement": {
+        "title": "Amélioration continue",
+        "description": "Repassez les évaluations pour suivre votre amélioration de la confidentialité au fil du temps"
+      }
+    },
+    "cta": {
+      "title": "Prêt à agir pour votre confidentialité ?",
+      "subtitle": "Commencez votre parcours de confidentialité en quelques minutes. Aucune inscription requise.",
+      "explorePrivacyRisks": "Comment ça marche →",
+      "startBrowseServiceCatalog": "Parcourir le Catalogue de Services",
+      "subtitleUpdated": "Commencez par vérifier un service — aucun compte requis. Ou passez une courte évaluation pour un plan personnalisé.",
+      "titleCompleted": "Découvrez votre profil de confidentialité",
+      "subtitleCompleted": "Consultez votre tableau de bord personnalisé, explorez les notations de confidentialité des services ou poursuivez votre parcours.",
+      "startAssessment": "Commencer l'évaluation",
+      "viewDashboard": "Voir le tableau de bord",
+      "browseCatalog": "Parcourir la surveillance des services",
+      "downloadApp": "Télécharger l'app",
+      "selectServices": "Sélectionner les services →",
+      "orTakeAssessment": "Ou passez une courte évaluation pour un plan personnalisé"
+    },
+    "roadmap": {
+      "title": "Feuille de Route de Votre Parcours de Confidentialité",
+      "description": "Suivez ce workflow en 3 étapes pour obtenir des informations personnalisées sur la confidentialité. Commencez par le Catalogue de Services, définissez vos préoccupations de confidentialité (requis), puis passez l'évaluation pour débloquer votre tableau de bord personnalisé."
+    },
+    "navigation": {
+      "workflow": "Workflow",
+      "assessments": "Évaluations",
+      "principles": "Principes"
+    },
+    "workflowSteps": {
+      "step1": {
+        "title": "Parcourir le Catalogue de Services",
+        "description": "Explorez notre catalogue de plus de 200 services. Consultez les indices d'exposition à la confidentialité, les niveaux de risque et les profils de confidentialité détaillés pour chaque service que vous utilisez.",
+        "details": [
+          "Rechercher et filtrer les services par catégorie ou nom",
+          "Voir les indices d'exposition à la confidentialité (échelle 0-100)",
+          "Voir les niveaux de risque : Faible, Moyen, Élevé, Critique",
+          "Lire les profils de confidentialité détaillés et les pratiques de collecte de données",
+          "Sélectionner les services à suivre et surveiller",
+          "Aucune inscription requise - commencez à parcourir immédiatement"
+        ],
+        "timeEstimate": "1-2 minutes",
+        "buttonText": "Parcourir le Catalogue de Services"
+      },
+      "step2": {
+        "title": "Définir les Préoccupations de Confidentialité",
+        "description": "Sélectionnez vos préoccupations de confidentialité parmi 4 domaines d'intérêt (Famille et enfants, Financier et shopping, Travail et professionnel, Général). Ceci est REQUIS et est la méthode PRINCIPALE de personnalisation.",
+        "details": [
+          "Sélectionnez au moins une préoccupation de confidentialité (REQUIS)",
+          "Choisissez parmi 4 domaines d'intérêt : Famille et enfants, Financier et shopping, Travail et professionnel, Général",
+          "Vos préoccupations déterminent la personnalisation - cela remplace la sélection de persona",
+          "Vos préoccupations déterminent ce que vous voyez dans votre tableau de bord personnalisé",
+          "Tout le traitement se fait localement - vos données ne quittent jamais votre appareil"
+        ],
+        "timeEstimate": "1-2 minutes",
+        "buttonText": "Définir les Préoccupations de Confidentialité"
+      },
+      "step3": {
+        "title": "Passer l'Évaluation de Confidentialité",
+        "description": "Complétez notre évaluation de confidentialité pour obtenir des informations complètes, accéder à votre tableau de bord personnalisé et recevoir des recommandations actionnables.",
+        "details": [
+          "Évaluation des Risques de Confidentialité Numérique (10-15 min) - Découvrez votre empreinte numérique",
+          "Évaluation des Droits de Confidentialité (5-10 min) - Comprenez vos droits de confidentialité",
+          "Évaluation de la Sensibilisation à la Sécurité (15-20 min) - Évaluation éducative de la sécurité",
+          "Évaluation Complète - Évaluation complète combinant les trois",
+          "Obtenez un tableau de bord personnalisé avec des informations actionnables",
+          "Accédez aux analyses avancées et au suivi historique (plan Standard)"
+        ],
+        "timeEstimate": "10-15 minutes",
+        "buttonText": "Passer l'Évaluation"
+      },
+      "moreItems": "+{count} autres éléments"
+    },
+    "assessmentTypes": {
+      "title": "Types d'Évaluation",
+      "subtitle": "Choisissez l'évaluation qui correspond le mieux à vos besoins et à votre engagement temporel",
+      "digitalPrivacyRisk": {
+        "title": "Évaluation des Risques de Confidentialité Numérique",
+        "duration": "10-15 min",
+        "description": "Découvrez votre empreinte numérique et identifiez les risques de confidentialité grâce à une évaluation éducative",
+        "features": [
+          "Sensibilisation éducative aux vulnérabilités",
+          "Éducation aux risques de confidentialité",
+          "Recommandations d'apprentissage"
+        ],
+        "buttonText": "Commencer l'Évaluation"
+      },
+      "privacyRights": {
+        "title": "Évaluation des Droits de Confidentialité",
+        "duration": "5-10 min",
+        "description": "Découvrez et comprenez vos droits de confidentialité grâce à une évaluation éducative",
+        "features": [
+          "Éducation à la sensibilisation aux droits",
+          "Apprentissage du cadre juridique",
+          "Stratégies éducatives"
+        ],
+        "buttonText": "Commencer l'Évaluation"
+      },
+      "securityAwareness": {
+        "title": "Évaluation de la Sensibilisation à la Sécurité",
+        "duration": "15-20 min",
+        "description": "Évaluation éducative de la sécurité incluant la sensibilisation au rançongiciel, la reconnaissance des menaces et les recommandations d'apprentissage",
+        "features": [
+          "Éducation à la sensibilisation à la sécurité",
+          "Prévention et réponse au rançongiciel",
+          "Apprentissage de la sensibilisation aux menaces",
+          "Plan d'action éducatif"
+        ],
+        "buttonText": "Commencer l'Évaluation"
+      }
+    },
+    "startNoAccount": "Vous pouvez commencer en moins d'une minute en vérifiant n'importe quel service — aucun compte requis."
+  },
+  "features": {
+    "title": "Fonctionnalités de la plateforme",
+    "subtitle": "Découvrez comment la plateforme de confidentialité pionnière basée sur les personas de SocialCaution fonctionne ensemble pour fournir une Personnalisation Préservant la Confidentialité alimentée par l'IA",
+    "aiPersona": {
+      "title": "Détection de persona alimentée par l'IA",
+      "subtitle": "Profilage de confidentialité intelligent",
+      "description": "Des algorithmes d'apprentissage automatique avancés analysent vos réponses pour identifier votre persona de confidentialité unique parmi 9 profils distincts",
+      "benefits": [
+        "Identifie votre type de personnalité de confidentialité",
+        "Détecte la tolérance au risque et les niveaux de confort",
+        "Analyse les modèles et préférences comportementaux",
+        "Fournit un score de confiance pour la précision"
+      ],
+      "learnMore": "En savoir plus"
+    },
+    "personalized": {
+      "title": "Recommandations personnalisées",
+      "subtitle": "Conseils de confidentialité adaptés",
+      "description": "Chaque recommandation est personnalisée en fonction de votre persona, niveau de risque et résultats d'évaluation",
+      "benefits": [
+        "Priorités d'action appropriées au risque",
+        "Tutoriels adaptés au niveau de compétence",
+        "Recommandations d'outils spécifiques au persona",
+        "Parcours d'apprentissage adaptatifs"
+      ]
+    },
+    "privacyByDesign": {
+      "title": "Architecture Confidentialité dès la conception",
+      "subtitle": "Garantie d'aucune collecte de données",
+      "description": "Vos informations personnelles ne quittent jamais votre appareil. Tout est traité localement sans stockage de données côté serveur",
+      "benefits": [
+        "Tout le traitement se fait dans votre navigateur",
+        "Aucun compte utilisateur ou inscription requis",
+        "Stockage local sous votre contrôle complet",
+        "Analyses anonymes uniquement (aucun suivi personnel)"
+      ]
+    },
+    "instantDashboard": {
+      "title": "Tableau de bord adaptatif instantané",
+      "subtitle": "Personnalisation en temps réel",
+      "description": "Votre tableau de bord s'adapte instantanément à votre persona avec des métriques, priorités et plans d'action personnalisés",
+      "benefits": [
+        "Actions prioritaires spécifiques au persona",
+        "Suivi des progrès personnalisé",
+        "Recommandations de ressources adaptatives",
+        "Feuilles de route d'amélioration dynamiques"
+      ]
+    },
+    "sevenPersonas": {
+      "title": "Neuf personas de confidentialité distincts",
+      "subtitle": "Cartographie complète de la personnalité",
+      "description": "Des parents prudents aux défenseurs de la confidentialité, nous reconnaissons et nous adaptons à votre personnalité de confidentialité unique",
+      "benefits": [
+        "Parent prudent - Focus sur la protection de la famille",
+        "Novice numérique - Conseils orientés apprentissage",
+        "Défenseur de la confidentialité - Stratégies de protection maximales",
+        "Acheteur en ligne - Focus sur la sécurité des transactions",
+        "Influenceur social - Gestion de la réputation",
+        "Individu privé - Maximisation de l'anonymat",
+        "Employé préoccupé - Protection de la confidentialité au travail",
+        "Contrôleur de données - Gouvernance et conformité des données",
+        "Étudiant - Protection de la confidentialité académique"
+      ]
+    },
+    "resourceLibrary": {
+      "title": "Bibliothèque de ressources sélectionnées",
+      "subtitle": "Contenu adapté au persona",
+      "description": "Ressources éducatives automatiquement filtrées et priorisées en fonction de votre persona et niveau de compétence",
+      "benefits": [
+        "Niveaux de difficulté appropriés aux compétences",
+        "Filtrage de contenu pertinent au persona",
+        "Recommandations classées par priorité",
+        "Suggestions de contenu basées sur les progrès"
+      ]
+    },
+    "technical": {
+      "title": "Protection technique de la confidentialité",
+      "subtitle": "Construit avec les dernières technologies préservant la confidentialité et les meilleures pratiques de sécurité",
+      "anonymousAnalytics": {
+        "title": "Analyses anonymes",
+        "description": "Nous suivons les modèles d'utilisation pour améliorer la plateforme sans collecter d'informations personnelles"
+      },
+      "internationalCompliance": {
+        "title": "Conformité internationale",
+        "description": "Conforme RGPD, CCPA, PIPEDA et LGPD par conception"
+      },
+      "securityHeaders": {
+        "title": "En-têtes de sécurité",
+        "description": "CSP, HSTS et autres mesures de sécurité protègent contre les attaques"
+      },
+      "localFirstStorage": {
+        "title": "Stockage local en premier",
+        "description": "Toutes vos données restent dans le stockage local de votre navigateur sous votre contrôle"
+      }
+    },
+    "learnMore": "En savoir plus"
+  },
+  "personaSelection": {
+    "title": "Choisissez votre persona de confidentialité",
+    "subtitle": "Sélectionnez le persona qui correspond le mieux à vos besoins pour recevoir des alertes de confidentialité adaptées et des informations de risque personnalisées",
+    "current": "Actuel : {{name}}",
+    "whyMatters": {
+      "title": "Pourquoi choisir un profil de confidentialité ?",
+      "personalized": {
+        "title": "Recommandations personnalisées",
+        "description": "Obtenez des conseils de confidentialité qui s'appliquent réellement à votre situation et préoccupations spécifiques."
+      },
+      "saveTime": {
+        "title": "Gagner du temps",
+        "description": "Ignorez les fonctionnalités non pertinentes et concentrez-vous sur ce qui compte le plus pour vos objectifs de confidentialité."
+      },
+      "relevantLearning": {
+        "title": "Apprentissage pertinent",
+        "description": "Apprenez les concepts et techniques de confidentialité qui sont pertinents pour votre style de vie numérique."
+      }
+    },
+    "preview": {
+      "title": "Votre focus de confidentialité en tant que {{personaName}}",
+      "primaryConcerns": "Vos préoccupations principales :",
+      "whatYoullGet": "Ce que vous obtiendrez :",
+      "personalizedDashboard": "Tableau de bord personnalisé adapté à vos besoins",
+      "relevantResources": "Ressources et guides de confidentialité pertinents",
+      "targetedTools": "Outils et recommandations de confidentialité ciblés",
+      "customizedPlans": "Plans d'action et prochaines étapes personnalisés"
+    },
+    "actions": {
+      "continue": "Continuer vers le tableau de bord",
+      "update": "Mettre à jour le persona",
+      "settingUp": "Configuration de votre profil...",
+      "skip": "Passer pour l'instant"
+    },
+    "helpText": "Ne vous inquiétez pas - vous pouvez toujours changer votre profil de confidentialité plus tard dans les paramètres de votre tableau de bord."
+  },
+  "notFound": {
+    "title": "404",
+    "heading": "Page non trouvée",
+    "message": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "goBack": "Retour",
+    "goHome": "Accueil"
+  },
+  "assessment": {
+    "exposure": {
+      "title": "Évaluation des risques de confidentialité numérique",
+      "subtitle": "Découvrez vos vulnérabilités de confidentialité numérique",
+      "description": "Évalue vos vulnérabilités de confidentialité numérique et votre exposition aux risques dans les domaines clés de votre vie en ligne",
+      "duration": "10-15 minutes"
+    },
+    "rights": {
+      "title": "Évaluation des droits de confidentialité",
+      "subtitle": "Évaluez votre sensibilisation aux droits de confidentialité",
+      "description": "Mesure votre compréhension des droits fondamentaux de confidentialité et l'efficacité avec laquelle vous les exercez",
+      "duration": "5-10 minutes"
+    },
+    "full": {
+      "title": "Évaluation complète de la confidentialité",
+      "subtitle": "Évaluation basée sur des scénarios avec plan d'action personnalisé",
+      "description": "Évaluation basée sur des scénarios combinant la prise de décision en situation réelle, des sujets avancés de confidentialité et une planification d'action personnalisée",
+      "duration": "15-20 minutes"
+    },
+    "startScreen": {
+      "whatYoullDiscover": "Ce que vous découvrirez",
+      "privacyLawsCovered": "Lois et réglementations de confidentialité couvertes",
+      "specificCoverageAreas": "Domaines de couverture spécifiques :",
+      "assessmentDetails": "Détails de l'évaluation",
+      "duration": "Durée :",
+      "questions": "Questions :",
+      "difficulty": "Difficulté :",
+      "languages": "Langues :",
+      "beginnerFriendly": "Adapté aux débutants",
+      "english": "Anglais",
+      "yourPrivacy": "Votre confidentialité",
+      "noDataCollected": "Aucune donnée personnelle n'est collectée",
+      "resultsStoredLocally": "Résultats stockés localement sur votre appareil",
+      "anonymousAnalytics": "Analyses d'utilisation anonymes uniquement",
+      "gdprCompliant": "Conforme RGPD et CCPA",
+      "startAssessment": "Commencer l'évaluation",
+      "beginAssessment": "Commencer votre évaluation de confidentialité",
+      "helpText": "Les questions sont conçues pour être faciles à comprendre. Aucune connaissance juridique ou technique requise.",
+      "readyToDiscover": "Prêt à découvrir votre persona de confidentialité unique et à expérimenter la Personnalisation Préservant la Confidentialité alimentée par l'IA ?",
+      "businessValue": "Valeur commerciale :"
+    },
+    "coverage": {
+      "exposure": {
+        "outcomes": [
+          "Score de risque de confidentialité personnel (0-100)",
+          "Évaluation du niveau de risque par catégorie de comportement",
+          "Plan d'action immédiat pour les vulnérabilités",
+          "Recommandations personnalisées de protection de la confidentialité"
+        ],
+        "businessValue": "Identifie les risques immédiats de confidentialité qui pourraient conduire à des violations de données, vol d'identité ou surveillance non autorisée",
+        "coverageAreas": [
+          "Analyse des risques de comportement numérique",
+          "Évaluation de l'exposition des données personnelles",
+          "Article 32 RGPD - Sécurité du traitement",
+          "Vulnérabilités de confidentialité des réseaux sociaux",
+          "Risques d'achat en ligne et financiers",
+          "Lacunes de sécurité des appareils et du réseau"
+        ]
+      },
+      "rights": {
+        "outcomes": [
+          "Score de sensibilisation aux droits de confidentialité (0-100)",
+          "Analyse de l'efficacité de l'exercice des droits",
+          "Plan d'éducation personnalisé sur les droits",
+          "Guide étape par étape pour l'application des droits"
+        ],
+        "businessValue": "Vous permet d'exercer efficacement vos droits légaux de confidentialité et de prendre le contrôle de vos données personnelles",
+        "coverageAreas": [
+          "Article 13-14 RGPD - Droit d'être informé",
+          "Article 15 RGPD - Droit d'accès aux données personnelles",
+          "Article 16 RGPD - Droit de rectification",
+          "Article 17 RGPD - Droit à l'effacement (Droit à l'oubli)",
+          "Article 18 RGPD - Droit de limiter le traitement",
+          "Article 20 RGPD - Droit à la portabilité des données",
+          "Article 21 RGPD - Droit d'opposition au traitement",
+          "Droits des consommateurs CCPA et mécanismes d'application"
+        ]
+      },
+      "full": {
+        "outcomes": [
+          "Plan d'action de confidentialité personnalisé",
+          "Recommandations basées sur les priorités (urgent, élevé, moyen, faible)",
+          "Gains rapides pour une amélioration immédiate",
+          "Stratégie de confidentialité à long terme",
+          "Score de préparation à l'action",
+          "Feuille de route de confidentialité orientée objectifs"
+        ],
+        "businessValue": "Fournit un plan d'action complet et personnalisé basé sur vos réponses à des scénarios réels et des sujets avancés de confidentialité",
+        "coverageAreas": [
+          "Scénarios de confidentialité réels",
+          "Sensibilisation au hameçonnage et à la sécurité",
+          "Autorisations d'applications et minimisation des données",
+          "Réponse aux violations de données",
+          "Contrôles de confidentialité des réseaux sociaux",
+          "Confidentialité de l'IA et de l'apprentissage automatique",
+          "Gestion des données biométriques",
+          "Transferts transfrontaliers de données",
+          "Principes de confidentialité dès la conception",
+          "Planification d'action personnalisée"
+        ]
+      }
+    }
+  },
+  "completeAssessment": {
+    "title": "Évaluation complète de la confidentialité",
+    "subtitle": "Évaluation basée sur des scénarios avec génération de plan d'action personnalisé",
+    "sections": {
+      "scenarios": "Scénarios",
+      "advanced": "Avancé",
+      "actionPlan": "Plan d'action"
+    },
+    "sectionTitles": {
+      "scenarios": "Évaluation basée sur des scénarios",
+      "advanced": "Sujets avancés de confidentialité",
+      "action": "Votre plan d'action de confidentialité"
+    },
+    "ui": {
+      "previous": "Précédent",
+      "prev": "Préc",
+      "nextQuestion": "Question suivante",
+      "next": "Suivant",
+      "generateActionPlan": "Générer le plan d'action",
+      "complete": "Terminer",
+      "completePercent": "{{percent}}% Terminé",
+      "actionReadiness": "Préparation à l'action : {{score}}%",
+      "thisWillBeIncluded": "Ceci sera inclus dans votre plan d'action :"
+    },
+    "risk": {
+      "critical": "risque critique",
+      "high": "risque élevé",
+      "medium": "risque moyen",
+      "low": "risque faible"
+    },
+    "priority": {
+      "urgent": "priorité urgente",
+      "high": "priorité élevée",
+      "medium": "priorité moyenne",
+      "low": "priorité faible"
+    },
+    "questions": {
+      "phishingScenario": {
+        "question": "Vous recevez un e-mail de votre banque vous demandant de vérifier votre compte. L'e-mail semble officiel et inclut le logo de votre banque. Il vous demande de cliquer sur un lien et de fournir votre numéro de sécurité sociale, date de naissance et nom de jeune fille de votre mère. Que faites-vous ?",
+        "explanation": "Ce scénario teste votre capacité à identifier les tentatives de hameçonnage et à protéger les informations sensibles. Les banques légitimes ne demandent jamais d'informations sensibles par e-mail.",
+        "options": {
+          "clickAndProvide": {
+            "label": "Cliquer sur le lien et fournir les informations - cela semble officiel",
+            "actionItems": [
+              "Apprendre à identifier les e-mails de hameçonnage",
+              "Ne jamais partager le NSS par e-mail",
+              "Contacter la banque directement pour vérifier"
+            ]
+          },
+          "clickButVerify": {
+            "label": "Cliquer sur le lien mais vérifier que le site Web semble légitime avant d'entrer les informations",
+            "actionItems": [
+              "Apprendre sur l'usurpation d'URL",
+              "Toujours vérifier l'expéditeur indépendamment",
+              "Utiliser les applications officielles au lieu des liens e-mail"
+            ]
+          },
+          "verifyFirst": {
+            "label": "Contacter la banque directement en utilisant son numéro de téléphone officiel pour vérifier la demande",
+            "actionItems": [
+              "Continuer à vérifier les demandes indépendamment",
+              "Envisager d'activer les alertes de compte"
+            ]
+          },
+          "ignoreAndReport": {
+            "label": "Ignorer l'e-mail et le signaler comme hameçonnage à la banque et aux autorités",
+            "actionItems": [
+              "Excellente sensibilisation à la sécurité",
+              "Aider les autres à reconnaître le hameçonnage"
+            ]
+          }
+        }
+      },
+      "appPermissionScenario": {
+        "question": "Une nouvelle application de fitness que vous souhaitez utiliser demande l'accès à vos contacts, localisation (toujours), caméra, microphone et bibliothèque de photos. La politique de confidentialité fait 50 pages. Comment procédez-vous ?",
+        "explanation": "Ce scénario teste votre compréhension des principes de minimisation des données et de consentement. Les applications demandent souvent plus d'autorisations que nécessaire.",
+        "options": {
+          "acceptAll": {
+            "label": "Accepter toutes les autorisations - l'application en a besoin pour fonctionner correctement",
+            "actionItems": [
+              "Examiner les meilleures pratiques d'autorisation d'application",
+              "Apprendre sur la minimisation des données",
+              "Auditer les autorisations d'application existantes"
+            ]
+          },
+          "readPolicy": {
+            "label": "Lire d'abord la politique de confidentialité complète, puis décider",
+            "actionItems": [
+              "Apprendre à identifier les sections clés des politiques de confidentialité",
+              "Utiliser les résumés de politiques de confidentialité",
+              "Envisager des applications alternatives avec une meilleure confidentialité"
+            ]
+          },
+          "selectivePermissions": {
+            "label": "Accorder uniquement les autorisations essentielles (localisation lors de l'utilisation de l'app, caméra pour les photos)",
+            "actionItems": [
+              "Continuer à être sélectif",
+              "Examiner régulièrement les autorisations d'application",
+              "Envisager des alternatives axées sur la confidentialité"
+            ]
+          },
+          "declineAndFindAlternative": {
+            "label": "Refuser et chercher une alternative axée sur la confidentialité qui demande des données minimales",
+            "actionItems": [
+              "Excellente approche axée sur la confidentialité",
+              "Partager des recommandations d'applications axées sur la confidentialité"
+            ]
+          }
+        }
+      },
+      "dataBreachScenario": {
+        "question": "Vous recevez une notification qu'une entreprise avec laquelle vous avez un compte a subi une violation de données. Votre e-mail, hachage de mot de passe et historique d'achats ont été exposés. Quelles sont vos actions immédiates ?",
+        "explanation": "Ce scénario teste vos connaissances sur la réponse aux violations et les droits de confidentialité, y compris votre droit d'être informé et de prendre des mesures de protection.",
+        "options": {
+          "ignore": {
+            "label": "L'ignorer - les entreprises gèrent ces choses",
+            "actionItems": [
+              "Apprendre sur les risques de violation de données",
+              "Comprendre vos droits après les violations",
+              "Configurer la surveillance des violations"
+            ]
+          },
+          "changePassword": {
+            "label": "Changer le mot de passe pour ce compte uniquement",
+            "actionItems": [
+              "Utiliser des mots de passe uniques pour tous les comptes",
+              "Activer l'authentification à deux facteurs partout",
+              "Vérifier si le mot de passe a été réutilisé"
+            ]
+          },
+          "comprehensiveResponse": {
+            "label": "Changer le mot de passe, activer l'authentification à deux facteurs, vérifier la réutilisation du mot de passe, surveiller les comptes et demander la suppression des données si possible",
+            "actionItems": [
+              "Continuer la réponse complète aux violations",
+              "Configurer la surveillance du crédit",
+              "Documenter la violation pour les dossiers"
+            ]
+          },
+          "fullRightsExercise": {
+            "label": "Tout ce qui précède, plus déposer une plainte auprès des régulateurs, demander une copie complète des données et exercer les droits de suppression",
+            "actionItems": [
+              "Excellent exercice des droits de confidentialité",
+              "Aider les autres à comprendre leurs droits en cas de violation"
+            ]
+          }
+        }
+      },
+      "socialMediaPrivacyScenario": {
+        "question": "Vous découvrez qu'une plateforme de réseaux sociaux a modifié ses paramètres de confidentialité et que vos publications sont maintenant publiques par défaut, exposant des informations personnelles que vous pensiez privées. Que faites-vous ?",
+        "explanation": "Ce scénario teste votre sensibilisation à la gestion des paramètres de confidentialité et vos droits à contrôler le partage de données.",
+        "options": {
+          "acceptChange": {
+            "label": "Accepter le changement - c'est le droit de la plateforme de mettre à jour les paramètres",
+            "actionItems": [
+              "Apprendre sur les paramètres de confidentialité",
+              "Comprendre les politiques de confidentialité des plateformes",
+              "Auditer régulièrement la confidentialité des réseaux sociaux"
+            ]
+          },
+          "adjustSettings": {
+            "label": "Ajuster rapidement vos paramètres de confidentialité pour revenir en privé",
+            "actionItems": [
+              "Configurer des alertes de paramètres de confidentialité",
+              "Examiner tous les paramètres de plateforme trimestriellement",
+              "Envisager de réduire le partage public"
+            ]
+          },
+          "comprehensiveAudit": {
+            "label": "Auditer tous les paramètres de confidentialité, examiner les publications passées, supprimer le contenu sensible et configurer les notifications de changement",
+            "actionItems": [
+              "Continuer les audits réguliers de confidentialité",
+              "Utiliser des plateformes axées sur la confidentialité",
+              "Éduquer les autres sur les changements de paramètres"
+            ]
+          },
+          "exerciseRights": {
+            "label": "Tout ce qui précède, plus déposer une plainte concernant le changement, demander la suppression des données et envisager de changer de plateforme",
+            "actionItems": [
+              "Excellent plaidoyer pour la confidentialité",
+              "Soutenir les plateformes respectueuses de la confidentialité"
+            ]
+          }
+        }
+      },
+      "aiPrivacyAwareness": {
+        "question": "À quel point êtes-vous préoccupé par les systèmes d'IA utilisant vos données personnelles pour la formation, le profilage ou la prise de décision automatisée ?",
+        "explanation": "L'IA et l'apprentissage automatique soulèvent de nouvelles préoccupations de confidentialité, notamment le biais algorithmique, la prise de décision automatisée et le scraping de données pour la formation de modèles.",
+        "options": {
+          "notConcerned": {
+            "label": "Pas préoccupé - l'IA est utile et je fais confiance aux entreprises pour utiliser mes données de manière responsable",
+            "actionItems": [
+              "Apprendre sur les risques de confidentialité de l'IA",
+              "Comprendre les droits de prise de décision automatisée",
+              "Examiner les politiques de confidentialité de l'IA"
+            ]
+          },
+          "somewhatConcerned": {
+            "label": "Un peu préoccupé, mais pas sûr de ce que je peux faire",
+            "actionItems": [
+              "Apprendre sur l'article 22 du RGPD (décisions automatisées)",
+              "Se désinscrire de la formation IA lorsque possible",
+              "Utiliser des alternatives IA axées sur la confidentialité"
+            ]
+          },
+          "veryConcerned": {
+            "label": "Très préoccupé - j'évite activement les services IA qui utilisent mes données pour la formation",
+            "actionItems": [
+              "Continuer à éviter les services IA problématiques",
+              "Soutenir l'IA respectueuse de la confidentialité",
+              "Défendre les réglementations sur la confidentialité de l'IA"
+            ]
+          },
+          "activelyManaging": {
+            "label": "Gestion active - je me désinscris de la formation IA, demande un examen humain des décisions automatisées et utilise des outils IA axés sur la confidentialité",
+            "actionItems": [
+              "Excellente gestion de la confidentialité de l'IA",
+              "Partager des outils IA respectueux de la confidentialité",
+              "Surveiller les développements de la confidentialité de l'IA"
+            ]
+          }
+        }
+      },
+      "biometricDataAwareness": {
+        "question": "Comment gérez-vous les données biométriques (empreintes digitales, scans faciaux, empreintes vocales) collectées par les appareils et services ?",
+        "explanation": "Les données biométriques sont considérées comme hautement sensibles selon les lois sur la confidentialité et nécessitent une protection spéciale. Une fois compromises, les biométries ne peuvent pas être changées comme les mots de passe.",
+        "options": {
+          "notAware": {
+            "label": "Je ne sais pas que les services collectent ou utilisent mes données biométriques",
+            "actionItems": [
+              "Apprendre sur la collecte de données biométriques",
+              "Identifier les services utilisant les biométries",
+              "Comprendre les droits de confidentialité biométrique"
+            ]
+          },
+          "acceptAll": {
+            "label": "J'accepte l'authentification biométrique lorsqu'elle est offerte - c'est pratique",
+            "actionItems": [
+              "Apprendre sur les risques des données biométriques",
+              "Examiner les politiques de données biométriques",
+              "Envisager des alternatives pour les services sensibles"
+            ]
+          },
+          "selectiveUse": {
+            "label": "J'utilise les biométries de manière sélective - uniquement pour le déverrouillage de l'appareil, pas pour les comptes sensibles",
+            "actionItems": [
+              "Continuer l'utilisation sélective des biométries",
+              "Examiner régulièrement les paramètres biométriques",
+              "Surveiller les violations de données biométriques"
+            ]
+          },
+          "minimizeBiometrics": {
+            "label": "Je minimise la collecte de données biométriques et préfère les alternatives mot de passe/PIN pour les services sensibles",
+            "actionItems": [
+              "Excellente approche de la confidentialité biométrique",
+              "Défendre les droits de confidentialité biométrique",
+              "Soutenir l'authentification axée sur la confidentialité"
+            ]
+          }
+        }
+      },
+      "crossBorderDataTransfers": {
+        "question": "À quel point êtes-vous conscient de l'endroit où vos données personnelles sont stockées et traitées lorsque vous utilisez des services en ligne ?",
+        "explanation": "Les transferts transfrontaliers de données sont réglementés par le RGPD et d'autres lois. Les données stockées dans différents pays peuvent avoir des protections de confidentialité différentes.",
+        "options": {
+          "notAware": {
+            "label": "Je ne sais pas ou ne me soucie pas de l'endroit où mes données sont stockées - c'est la responsabilité de l'entreprise",
+            "actionItems": [
+              "Apprendre sur la résidence des données",
+              "Comprendre les risques de transfert transfrontalier",
+              "Vérifier où les services stockent les données"
+            ]
+          },
+          "somewhatAware": {
+            "label": "Je sais que certains services stockent des données dans différents pays, mais je ne suis pas sûr des implications",
+            "actionItems": [
+              "Apprendre sur les mécanismes de transfert du RGPD",
+              "Comprendre les exigences de résidence des données",
+              "Préférer les services avec stockage de données local"
+            ]
+          },
+          "awareAndSelective": {
+            "label": "Je préfère les services qui stockent les données dans mon pays/région et vérifient les politiques d'emplacement des données",
+            "actionItems": [
+              "Continuer à sélectionner les services par emplacement des données",
+              "Soutenir les options de stockage de données locales",
+              "Défendre la souveraineté des données"
+            ]
+          },
+          "activelyManaging": {
+            "label": "Je choisis activement les services en fonction de l'emplacement des données, comprends les mécanismes de transfert et exerce mes droits concernant les transferts transfrontaliers",
+            "actionItems": [
+              "Excellente gestion de l'emplacement des données",
+              "Soutenir les pratiques de données respectueuses de la confidentialité",
+              "Surveiller les réglementations sur les transferts de données"
+            ]
+          }
+        }
+      },
+      "privacyByDesignAwareness": {
+        "question": "Lors du choix de nouveaux services ou produits, dans quelle mesure considérez-vous leur approche de confidentialité dès la conception ?",
+        "explanation": "La confidentialité dès la conception signifie que la confidentialité est intégrée aux produits dès le départ, et non ajoutée après coup. C'est un principe clé de la loi moderne sur la confidentialité.",
+        "options": {
+          "notConsidered": {
+            "label": "Je ne considère pas l'architecture de confidentialité - je choisis en fonction des fonctionnalités et du prix",
+            "actionItems": [
+              "Apprendre sur la confidentialité dès la conception",
+              "Rechercher les pratiques de confidentialité avant de choisir des services",
+              "Considérer la confidentialité comme une fonctionnalité clé"
+            ]
+          },
+          "sometimesConsidered": {
+            "label": "Je vérifie parfois les politiques de confidentialité, mais les fonctionnalités sont plus importantes",
+            "actionItems": [
+              "Faire de la confidentialité une priorité dans les décisions",
+              "Apprendre à identifier les fonctionnalités de confidentialité dès la conception",
+              "Soutenir les entreprises axées sur la confidentialité"
+            ]
+          },
+          "oftenConsidered": {
+            "label": "Je recherche souvent les pratiques de confidentialité et préfère les entreprises avec de forts engagements de confidentialité",
+            "actionItems": [
+              "Continuer à prioriser la confidentialité",
+              "Partager les services respectueux de la confidentialité",
+              "Défendre la confidentialité dès la conception"
+            ]
+          },
+          "primaryFactor": {
+            "label": "L'architecture de confidentialité est un facteur principal - je recherche et soutiens activement les produits de confidentialité dès la conception",
+            "actionItems": [
+              "Excellente approche axée sur la confidentialité",
+              "Soutenir l'innovation en matière de confidentialité",
+              "Aider les autres à choisir des services respectueux de la confidentialité"
+            ]
+          }
+        }
+      },
+      "privacyGoals": {
+        "question": "Quel est votre objectif principal de confidentialité en ce moment ?",
+        "explanation": "Comprendre vos objectifs nous aide à créer un plan d'action personnalisé avec les bonnes priorités pour vous.",
+        "options": {
+          "reduceRisk": {
+            "label": "Réduire mon exposition aux risques de confidentialité et me protéger contre le vol d'identité",
+            "actionItems": [
+              "Se concentrer sur les fondamentaux de la sécurité",
+              "Configurer un gestionnaire de mots de passe",
+              "Activer l'authentification à deux facteurs",
+              "Examiner la sécurité du compte"
+            ]
+          },
+          "learnRights": {
+            "label": "Apprendre et exercer efficacement mes droits de confidentialité",
+            "actionItems": [
+              "Apprendre sur les droits RGPD et CCPA",
+              "Demander des données aux grandes entreprises",
+              "Pratiquer l'exercice des droits"
+            ]
+          },
+          "minimizeFootprint": {
+            "label": "Minimiser mon empreinte numérique et la collecte de données",
+            "actionItems": [
+              "Auditer les comptes en ligne",
+              "Supprimer les comptes inutilisés",
+              "Réduire le partage de données",
+              "Utiliser des alternatives axées sur la confidentialité"
+            ]
+          },
+          "comprehensive": {
+            "label": "Amélioration complète de la confidentialité dans tous les domaines",
+            "actionItems": [
+              "Créer un plan de confidentialité complet",
+              "Aborder tous les domaines de confidentialité systématiquement",
+              "Configurer la maintenance continue de la confidentialité"
+            ]
+          }
+        }
+      },
+      "timeCommitment": {
+        "question": "Combien de temps pouvez-vous consacrer à l'amélioration de votre confidentialité chaque semaine ?",
+        "explanation": "Les engagements de temps réalistes aident à créer des plans d'action réalisables que vous pouvez réellement compléter.",
+        "options": {
+          "minimal": {
+            "label": "Minimal (15-30 minutes) - Gains rapides et améliorations essentielles uniquement",
+            "actionItems": [
+              "Se concentrer sur les gains rapides à fort impact",
+              "Configurer des outils de confidentialité automatisés",
+              "Améliorations de sécurité ponctuelles"
+            ]
+          },
+          "moderate": {
+            "label": "Modéré (1-2 heures) - Améliorations régulières et apprentissage",
+            "actionItems": [
+              "Mélange de gains rapides et d'apprentissage",
+              "Audits réguliers de confidentialité",
+              "Nettoyage progressif des comptes"
+            ]
+          },
+          "substantial": {
+            "label": "Substantiel (3-5 heures) - Refonte complète de la confidentialité",
+            "actionItems": [
+              "Audit complet de la confidentialité",
+              "Plongée approfondie dans les droits de confidentialité",
+              "Migration complète des comptes vers des outils de confidentialité"
+            ]
+          },
+          "extensive": {
+            "label": "Extensif (5+ heures) - La confidentialité comme priorité de style de vie",
+            "actionItems": [
+              "Transformation complète de la confidentialité",
+              "Configuration d'outils de confidentialité avancés",
+              "Plaidoyer et éducation sur la confidentialité"
+            ]
+          }
+        }
+      },
+      "biggestConcern": {
+        "question": "Quelle est votre plus grande préoccupation de confidentialité en ce moment ?",
+        "explanation": "Identifier votre préoccupation principale aide à prioriser les actions les plus pertinentes dans votre plan personnalisé.",
+        "options": {
+          "identityTheft": {
+            "label": "Vol d'identité et fraude financière",
+            "actionItems": [
+              "Renforcer la sécurité du compte",
+              "Configurer la surveillance de la fraude",
+              "Sécuriser les comptes financiers",
+              "Activer les gels de crédit"
+            ]
+          },
+          "dataCollection": {
+            "label": "Collecte excessive de données par les entreprises",
+            "actionItems": [
+              "Réduire le partage de données",
+              "Se désinscrire de la vente de données",
+              "Utiliser des alternatives axées sur la confidentialité",
+              "Exercer les droits de suppression"
+            ]
+          },
+          "surveillance": {
+            "label": "Surveillance gouvernementale ou d'entreprise",
+            "actionItems": [
+              "Utiliser des communications cryptées",
+              "Navigateurs et outils axés sur la confidentialité",
+              "Minimiser le suivi",
+              "Soutenir la législation sur la confidentialité"
+            ]
+          },
+          "reputation": {
+            "label": "Réputation et confidentialité sociale",
+            "actionItems": [
+              "Auditer la confidentialité des réseaux sociaux",
+              "Examiner les informations publiques",
+              "Contrôler la présence en ligne",
+              "Gérer la réputation numérique"
+            ]
+          },
+          "futureRisks": {
+            "label": "Risques futurs de confidentialité (IA, technologies émergentes)",
+            "actionItems": [
+              "Rester informé des menaces émergentes",
+              "Se préparer aux défis futurs de la confidentialité",
+              "Soutenir l'innovation en matière de confidentialité"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dashboard": {
+    "welcomeMessage": "Bienvenue sur votre tableau de bord de confidentialité",
+    "welcomeBack": "Bon retour, {{name}} !",
+    "sections": {
+      "priorityActions": "Actions prioritaires",
+      "privacyFocus": "Votre focus confidentialité",
+      "privacyFocusCount": "{{count}} préoccupation(s) sélectionnée(s)",
+      "editInAccount": "Modifier dans Compte",
+      "recommendedResources": "Ressources recommandées",
+      "relevantTools": "Outils pertinents",
+      "progressMetrics": "Suivez votre progression",
+      "insights": "Aperçus de confidentialité",
+      "roadmap": "Feuille de route de confidentialité",
+      "notifications": "Notifications de services",
+      "continueImproving": "Continuez à améliorer votre confidentialité"
+    },
+    "actions": {
+      "passwordManager": "Configurer un gestionnaire de mots de passe",
+      "twoFactor": "Activer l'authentification à deux facteurs",
+      "privacySettings": "Mettre à jour les paramètres de confidentialité",
+      "dataBrokerRemoval": "Supprimer les données des courtiers",
+      "privacyAssessment": "Compléter l'évaluation de confidentialité",
+      "privacyAssistant": "Discuter avec l'assistant de confidentialité",
+      "actionPlanner": "Créer un plan d'action",
+      "parentalControls": "Configurer les contrôles parentaux",
+      "familySharing": "Sécuriser les paramètres de partage familial",
+      "childAccounts": "Examiner les comptes des enfants",
+      "privacyBasics": "Apprendre les fondamentaux de la confidentialité",
+      "simpleTools": "Installer des outils de confidentialité de base",
+      "safeBrowsing": "Activer la navigation sécurisée",
+      "shoppingSecurity": "Sécuriser les comptes d'achat",
+      "financialMonitoring": "Configurer la surveillance financière",
+      "dealVerification": "Apprendre la vérification des offres",
+      "reputationMonitoring": "Configurer la surveillance de la réputation",
+      "contentProtection": "Protéger votre contenu",
+      "audiencePrivacy": "Gérer la confidentialité de l'audience",
+      "advancedAnonymity": "Mettre en œuvre l'anonymat avancé",
+      "rightsEnforcement": "Exercer les droits de confidentialité",
+      "policyTracking": "Suivre les changements de politique",
+      "dataMinimization": "Minimiser l'empreinte de données",
+      "anonymousBrowsing": "Configurer la navigation anonyme",
+      "secureCommunication": "Utiliser la communication chiffrée"
+    },
+    "resources": {
+      "privacyBasics": "Guide des bases de la confidentialité",
+      "passwordSecurity": "Meilleures pratiques de sécurité des mots de passe",
+      "twoFactorSetup": "Configuration de l'authentification à deux facteurs",
+      "passwordSecurityGuide": "Guide de sécurité des mots de passe",
+      "passwordSecurityGuideDesc": "Apprenez à créer des mots de passe forts",
+      "socialMediaPrivacy": "Confidentialité des réseaux sociaux",
+      "socialMediaPrivacyDesc": "Protégez votre présence sociale",
+      "familyPrivacyProtection": "Protection de la confidentialité familiale",
+      "familyPrivacyProtectionDesc": "Protégez votre famille en ligne",
+      "advancedAnonymityTechniques": "Techniques d'anonymat avancées",
+      "advancedAnonymityTechniquesDesc": "Maîtrisez l'invisibilité numérique"
+    },
+    "tools": {
+      "passwordChecker": "Vérificateur de force des mots de passe",
+      "privacyScanner": "Scanner des paramètres de confidentialité",
+      "dataBrokerRemovalService": "Service de suppression des courtiers de données"
+    },
+    "metrics": {
+      "privacyProtection": "Protection de la confidentialité",
+      "rightsExercise": "Exercice des droits",
+      "actionCompletion": "Achèvement des actions",
+      "securitySetup": "Configuration de la sécurité",
+      "combinedRiskScore": "Score de risque combiné",
+      "digitalFootprint": "Empreinte numérique"
+    },
+    "insights": {
+      "getStarted": {
+        "title": "Commencer avec la protection de la confidentialité",
+        "description": "Complétez une évaluation pour recevoir des recommandations personnalisées basées sur votre profil de confidentialité et votre niveau de risque.",
+        "actionLabel": "Commencer l'évaluation"
+      },
+      "highPrivacyRisk": {
+        "title": "Risque de confidentialité élevé détecté",
+        "description": "Votre évaluation montre des risques de confidentialité élevés. Concentrez-vous sur les actions prioritaires pour améliorer votre protection."
+      },
+      "highDigitalFootprint": {
+        "title": "Empreinte numérique élevée",
+        "description": "Vous avez une présence en ligne significative. Envisagez de réduire votre empreinte numérique pour une meilleure confidentialité."
+      },
+      "underutilizedRights": {
+        "title": "Droits de confidentialité sous-utilisés",
+        "description": "Vous n'exercez pas pleinement vos droits de confidentialité. Apprenez à demander la suppression des données et à exercer vos droits."
+      }
+    },
+    "roadmap": {
+      "currentPhase": "Configuration",
+      "phases": {
+        "foundation": {
+          "name": "Fondation",
+          "description": "Bases essentielles de la confidentialité",
+          "tasks": {
+            "completeAssessment": "Compléter l'évaluation",
+            "passwordManager": "Configurer un gestionnaire de mots de passe",
+            "enable2FA": "Activer l'authentification à deux facteurs",
+            "basicSettings": "Paramètres de confidentialité de base",
+            "serviceReview": "Examen de la confidentialité des services"
+          },
+          "timeframe": "Semaine 1-2"
+        },
+        "protection": {
+          "name": "Protection",
+          "description": "Renforcer votre confidentialité",
+          "tasks": {
+            "updateSettings": "Mettre à jour les paramètres de confidentialité",
+            "reviewServicePrivacy": "Examiner la confidentialité des services",
+            "advancedTools": "Outils avancés",
+            "dataCleanup": "Nettoyage des données",
+            "rightsExercise": "Exercice des droits",
+            "monitorUpdates": "Surveiller les mises à jour des services"
+          },
+          "timeframe": "Semaine 3-6"
+        },
+        "optimization": {
+          "name": "Optimisation",
+          "description": "Techniques avancées de confidentialité",
+          "tasks": {
+            "removeDataBrokers": "Supprimer les données des courtiers",
+            "implementTools": "Mettre en œuvre des outils avancés",
+            "expertTools": "Outils d'expert",
+            "ongoingMonitoring": "Surveillance continue",
+            "serviceOptimization": "Optimisation des services",
+            "teachingOthers": "Enseigner aux autres"
+          },
+          "timeframe": "Mois 2-3"
+        }
+      }
+    },
+    "tips": {
+      "priorityActions": "Concentrez-vous d'abord sur les actions \"priorité élevée\" en rouge - elles vous donnent le plus grand boost de confidentialité."
+    },
+    "notifications": {
+      "enable": "Activer les notifications",
+      "disable": "Désactiver les notifications"
+    },
+    "pageTitle": "Votre tableau de bord de confidentialité",
+    "whatYouCanDo": "Ici vous pouvez voir votre score de risque, les services sélectionnés et les prochaines étapes.",
+    "moreInApp": "Plus de fonctionnalités dans l'application."
+  },
+  "export": {
+    "button": "Exporter le rapport",
+    "options": {
+      "pdf": {
+        "label": "Exporter en PDF",
+        "description": "Télécharger en tant que rapport PDF"
+      },
+      "csv": {
+        "label": "Exporter en CSV",
+        "description": "Télécharger en tant que feuille de calcul CSV"
+      },
+      "json": {
+        "label": "Exporter en JSON",
+        "description": "Télécharger les données brutes en JSON"
+      }
+    }
+  },
+  "alerts": {
+    "validation": {
+      "upvote": "Voter pour cette alerte",
+      "downvote": "Voter contre cette alerte",
+      "verified": "Vérifié"
+    }
+  },
+  "assessments": {
+    "results": "Résultats de l'évaluation",
+    "security": {
+      "nistFramework": "Cadre de cybersécurité NIST",
+      "internationalStandards": "Normes internationales de sécurité de l'information",
+      "networkSecurity": "Sécurité réseau et des communications",
+      "accessControl": "Contrôle d'accès et authentification",
+      "dataProtection": "Protection des données et confidentialité",
+      "monitoring": "Surveillance de la sécurité et réponse aux incidents",
+      "wirelessSecurity": "Sécurité des réseaux sans fil",
+      "communicationEncryption": "Chiffrement des communications",
+      "userAuthentication": "Authentification utilisateur",
+      "accessMonitoring": "Surveillance de l'accès",
+      "improperUsage": "Utilisation incorrecte de la plateforme",
+      "insecureStorage": "Stockage de données non sécurisé",
+      "insecureCommunication": "Communication non sécurisée",
+      "brokenAuthentication": "Authentification compromise",
+      "cisControls": "Contrôles CIS",
+      "essentialControls": "Contrôles de sécurité essentiels",
+      "secureConfiguration": "Gestion de la configuration sécurisée",
+      "identityManagement": "Contrôle d'accès et gestion de l'identité",
+      "monitoringAnalysis": "Surveillance et analyse",
+      "cookieRules": "Règles sur les cookies et le suivi en ligne",
+      "cookieConsent": "Consentement aux cookies",
+      "trackingTransparency": "Transparence du suivi",
+      "userRights": "Droits des utilisateurs",
+      "privacyProtection": "Protection de la confidentialité",
+      "securityAnalysis": "Analyse de sécurité",
+      "evaluateSecurity": "Évaluez vos pratiques de sécurité en ligne actuelles",
+      "riskAssessment": "Évaluation des risques",
+      "actionPlan": "Plan d'action",
+      "personalizedRecommendations": "Obtenez des recommandations personnalisées pour améliorer votre sécurité",
+      "startCybersecurity": "Commencer l'évaluation de l'exposition à la cybersécurité",
+      "standardsRegulationsCoverage": "Couverture des normes et réglementations",
+      "additionalRegulations": "Réglementations supplémentaires",
+      "top10MobileRisks": "Top 10 des risques de sécurité mobile",
+      "secureWiFiConfig": "Configuration sécurisée du réseau Wi-Fi"
+    },
+    "rights": {
+      "rightOfAccess": "Droit d'accès aux données",
+      "rightToRectification": "Droit de rectification",
+      "rightToErasure": "Droit à l'effacement",
+      "rightToPortability": "Droit à la portabilité des données",
+      "ccpa": "Loi californienne sur la protection de la vie privée des consommateurs",
+      "rightToKnow": "Droit de savoir quelles informations sont collectées",
+      "rightToDelete": "Droit de suppression",
+      "pipa": "Loi sur la protection des renseignements personnels",
+      "consent": "Consentement pour la collecte et l'utilisation",
+      "rightsAnalysis": "Analyse des droits",
+      "rightsAnalysisDesc": "Évaluez votre compréhension et l'exercice de vos droits à la confidentialité",
+      "complianceCheck": "Vérification de conformité",
+      "complianceCheckDesc": "Vérifiez votre niveau de conformité aux réglementations",
+      "improvementPlan": "Plan d'amélioration",
+      "improvementPlanDesc": "Obtenez des recommandations pour renforcer vos droits",
+      "startAssessment": "Commencer l'évaluation des droits à la confidentialité"
+    },
+    "exposure": {
+      "identifyVulnerabilities": "Identifier les vulnérabilités potentielles de confidentialité",
+      "gdpr": "Règlement général sur la protection des données",
+      "trackingConsent": "Consentement au suivi et droits des utilisateurs",
+      "dataMinimization": "Minimisation des données",
+      "securityOfProcessing": "Sécurité du traitement",
+      "breachNotification": "Notification de violation de données"
+    }
+  },
+  "errors": {
+    "failedToLoad": {
+      "title": "Échec du chargement du catalogue de services",
+      "message": "Une erreur s'est produite lors du chargement du catalogue de services. Veuillez essayer d'actualiser la page."
+    },
+    "export": {
+      "setupInProgress": "La fonctionnalité d'exportation est en cours de configuration. Veuillez revenir bientôt.",
+      "reportCopied": "Rapport copié dans le presse-papiers. Service de messagerie indisponible."
+    }
+  },
+  "dataBrokerRemoval": {
+    "title": "Outil de suppression des courtiers de données",
+    "subtitle": "Trouvez et supprimez vos données personnelles des sites Web des courtiers de données",
+    "description": "Trouvez et supprimez vos données personnelles des sites Web des courtiers de données. Outil complet pour rechercher vos données sur les principaux courtiers de données et gérer le processus de suppression.",
+    "realTool": {
+      "title": "Outil réel",
+      "description": "Cet outil fournit de vraies instructions et des liens directs pour supprimer vos données des courtiers de données. Vous pouvez suivre les étapes pour faire de vraies demandes de suppression."
+    },
+    "tabs": {
+      "search": "Rechercher des données",
+      "brokers": "Courtiers de données",
+      "progress": "Progrès"
+    },
+    "search": {
+      "title": "Rechercher vos données",
+      "subtitle": "Entrez vos informations pour rechercher sur les sites Web des courtiers de données",
+      "fullName": "Nom complet *",
+      "fullNamePlaceholder": "Entrez votre nom complet",
+      "email": "E-mail",
+      "emailPlaceholder": "Entrez votre e-mail",
+      "phone": "Numéro de téléphone",
+      "phonePlaceholder": "Entrez votre numéro de téléphone",
+      "address": "Adresse",
+      "addressPlaceholder": "Entrez votre adresse",
+      "searchButton": "Rechercher des courtiers de données",
+      "searching": "Recherche en cours...",
+      "error": "Erreur lors de la recherche de courtiers de données. Veuillez réessayer."
+    },
+    "brokers": {
+      "title": "Courtiers de données",
+      "notStarted": "Commencer la suppression",
+      "manage": "Gérer",
+      "openOptOut": "Ouvrir la page de désinscription",
+      "verifyRemoval": "Vérifier la suppression",
+      "verifyConfirm": "Avez-vous vérifié que vos données ont été supprimées de ce courtier ?",
+      "verifySuccess": "Suppression vérifiée ! Vos données devraient être supprimées de ce courtier."
+    },
+    "progress": {
+      "title": "Progrès de la suppression",
+      "completed": "Terminé",
+      "total": "Total"
+    },
+    "breadcrumbs": {
+      "tools": "Outils",
+      "dataBrokerRemoval": "Suppression des courtiers de données"
+    },
+    "guideInfo": {
+      "title": "Fonctionnement de ce guide",
+      "description": "Ce guide fournit des instructions pas à pas et des liens directs pour supprimer vos données des courtiers en données. Toutes les suppressions sont effectuées manuellement par vous sur le site de chaque courtier. Nous fournissons les instructions et les liens, vous effectuez les demandes de suppression."
+    }
+  },
+  "contactUs": {
+    "title": "Contactez-nous",
+    "subtitle": "Des questions sur la confidentialité ? Besoin d'aide avec notre plateforme ? Nous sommes là pour vous aider.",
+    "description": "Contactez l'équipe SocialCaution. Contactez-nous pour le support, les commentaires, les demandes commerciales ou les questions de confidentialité.",
+    "privacyNotice": {
+      "title": "Avis de confidentialité",
+      "description": "Vos informations de contact ne seront utilisées que pour répondre à votre demande. Nous ne vous ajoutons pas à des listes de diffusion et ne partageons pas vos informations avec des tiers."
+    },
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom *",
+      "namePlaceholder": "Votre nom complet",
+      "email": "E-mail *",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "subject": "Sujet",
+      "priority": "Priorité",
+      "message": "Message *",
+      "messagePlaceholder": "Veuillez décrire votre question ou préoccupation en détail...",
+      "sending": "Envoi en cours...",
+      "sendMessage": "Envoyer le message",
+      "sendAnother": "Envoyer un autre message"
+    },
+    "subjects": {
+      "general": "Question générale",
+      "bug": "Rapport de bug",
+      "feature": "Demande de fonctionnalité",
+      "privacy": "Préoccupation de confidentialité",
+      "business": "Demande commerciale",
+      "partnership": "Partenariat",
+      "media": "Demande médiatique",
+      "security": "Problème de sécurité"
+    },
+    "priorities": {
+      "low": "Faible",
+      "normal": "Normal",
+      "high": "Élevé",
+      "urgent": "Urgent"
+    },
+    "validation": {
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide",
+      "messageRequired": "Le message est requis",
+      "messageMinLength": "Le message doit contenir au moins 10 caractères"
+    },
+    "success": {
+      "title": "Message envoyé avec succès !",
+      "message": "Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais."
+    },
+    "errors": {
+      "failedToSend": "Échec de l'envoi du message. Veuillez réessayer.",
+      "networkError": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
+      "serverError": "Erreur serveur. Veuillez réessayer dans quelques instants."
+    }
+  },
+  "personalDataInventory": {
+    "title": "Inventaire des données personnelles",
+    "subtitle": "Inventorier et gérer vos données personnelles sur différents services et plateformes. Suivez les données que vous partagez, où elles sont stockées et qui y a accès.",
+    "description": "Inventorier et gérer vos données personnelles sur différents services et plateformes. Suivez les données que vous partagez, où elles sont stockées et qui y a accès.",
+    "realTool": {
+      "title": "Outil réel",
+      "description": "Cet outil vous permet de créer et gérer un véritable inventaire de vos données personnelles. Vos informations sont stockées localement et ne sont pas partagées."
+    },
+    "categories": {
+      "personal_info": {
+        "name": "Informations personnelles",
+        "description": "Nom, âge, adresse, numéro de téléphone"
+      },
+      "financial": {
+        "name": "Données financières",
+        "description": "Comptes bancaires, cartes de crédit, revenus"
+      },
+      "health": {
+        "name": "Données de santé",
+        "description": "Dossiers médicaux, ordonnances, conditions"
+      },
+      "social": {
+        "name": "Réseaux sociaux",
+        "description": "Profils, publications, amis, photos"
+      },
+      "location": {
+        "name": "Données de localisation",
+        "description": "GPS, adresses, historique des déplacements"
+      },
+      "biometric": {
+        "name": "Données biométriques",
+        "description": "Empreintes digitales, reconnaissance faciale"
+      }
+    },
+    "breadcrumbs": {
+      "tools": "Outils",
+      "personalDataInventory": "Inventaire des données personnelles"
+    },
+    "actions": {
+      "addItem": "Ajouter un élément de données",
+      "addData": "Ajouter des données",
+      "editItem": "Modifier l'élément de données",
+      "delete": "Supprimer",
+      "import": "Importer",
+      "importJSON": "Importer JSON",
+      "export": "Exporter",
+      "exportPDF": "Exporter PDF",
+      "exportCSV": "Exporter CSV",
+      "exportJSON": "Exporter JSON",
+      "all": "Tout",
+      "cancel": "Annuler",
+      "update": "Mettre à jour",
+      "updateData": "Mettre à jour les données"
+    },
+    "form": {
+      "name": "Nom *",
+      "description": "Description *",
+      "category": "Catégorie *",
+      "sensitivity": "Sensibilité *",
+      "storedBy": "Stocké par (séparé par des virgules)",
+      "storedByPlaceholder": "ex. : Facebook, Google, LinkedIn",
+      "purpose": "Objectif *",
+      "retention": "Rétention *",
+      "retentionPlaceholder": "ex. : Indéfinie, 7 ans, 18 mois",
+      "sharedWith": "Partagé avec (séparé par des virgules)",
+      "sharedWithPlaceholder": "ex. : Entreprises de marketing, courtiers en données"
+    },
+    "labels": {
+      "storedBy": "Stocké par :",
+      "purpose": "Objectif :",
+      "retention": "Rétention :",
+      "sharedWith": "Partagé avec :",
+      "lastUpdated": "Dernière mise à jour :",
+      "sensitiveData": "données sensibles"
+    },
+    "stats": {
+      "inventorySummary": "Résumé de l'inventaire",
+      "totalItems": "Total des éléments",
+      "sensitiveData": "Données sensibles",
+      "mediumData": "Données moyennes",
+      "lowData": "Données faibles"
+    },
+    "empty": {
+      "title": "Aucune donnée trouvée",
+      "message": "Commencez par ajouter vos données personnelles à l'inventaire."
+    },
+    "messages": {
+      "importSuccess": "Données importées avec succès !",
+      "importError": "Format de fichier invalide. JSON attendu avec un tableau d'éléments.",
+      "importFileError": "Erreur lors de l'importation du fichier. Veuillez vérifier le format du fichier."
+    },
+    "sensitivity": {
+      "low": "Faible",
+      "medium": "Moyen",
+      "high": "Élevé"
+    }
+  },
+  "interactiveActionPlanner": {
+    "categories": {
+      "immediate": {
+        "name": "Actions immédiates",
+        "timeframe": "1-3 jours"
+      },
+      "short-term": {
+        "name": "Objectifs à court terme",
+        "timeframe": "1-2 semaines"
+      },
+      "medium-term": {
+        "name": "Objectifs à moyen terme",
+        "timeframe": "1-3 mois"
+      },
+      "long-term": {
+        "name": "Vision à long terme",
+        "timeframe": "3-12 mois"
+      }
+    },
+    "actions": {
+      "passwordAudit": {
+        "title": "Audit de sécurité des mots de passe",
+        "description": "Examiner et mettre à jour les mots de passe faibles sur tous les comptes",
+        "steps": [
+          "Installer un gestionnaire de mots de passe",
+          "Auditer les mots de passe existants",
+          "Mettre à jour les mots de passe faibles",
+          "Activer l'authentification à deux facteurs"
+        ]
+      },
+      "privacySettings": {
+        "title": "Révision rapide des paramètres de confidentialité",
+        "description": "Examiner les paramètres de confidentialité sur les principales plateformes",
+        "steps": [
+          "Vérifier les paramètres du compte Google",
+          "Examiner les paramètres de confidentialité Facebook",
+          "Mettre à jour les options de confidentialité Instagram",
+          "Examiner les paramètres de confidentialité Twitter/X"
+        ]
+      },
+      "dataBrokerScan": {
+        "title": "Scan de présence des courtiers de données",
+        "description": "Rechercher des informations personnelles sur les sites des courtiers de données",
+        "steps": [
+          "Exécuter un scan automatisé des courtiers",
+          "Examiner les listes trouvées",
+          "Initier des demandes de suppression",
+          "Surveiller le progrès de la suppression"
+        ]
+      },
+      "deviceSecurity": {
+        "title": "Renforcement de la sécurité des appareils",
+        "description": "Sécuriser tous les appareils avec des mesures de sécurité complètes",
+        "steps": [
+          "Mettre à jour tous les systèmes d'exploitation",
+          "Installer un logiciel de sécurité",
+          "Configurer le chiffrement des appareils",
+          "Configurer des sauvegardes sécurisées",
+          "Activer le suivi des appareils"
+        ]
+      },
+      "networkSecurity": {
+        "title": "Sécurité du réseau domestique",
+        "description": "Sécuriser votre réseau domestique et les paramètres du routeur",
+        "steps": [
+          "Changer le mot de passe par défaut du routeur",
+          "Activer le chiffrement WPA3",
+          "Désactiver le WPS",
+          "Configurer un réseau invité",
+          "Activer le pare-feu"
+        ]
+      },
+      "socialMediaCleanup": {
+        "title": "Nettoyage de la confidentialité des réseaux sociaux",
+        "description": "Nettoyer les profils des réseaux sociaux et supprimer les informations sensibles",
+        "steps": [
+          "Examiner et supprimer les anciennes publications",
+          "Supprimer les informations personnelles",
+          "Ajuster les paramètres de confidentialité",
+          "Examiner les photos taguées",
+          "Nettoyer les listes d'amis"
+        ]
+      },
+      "industryCompliance": {
+        "title": "Évaluation de la conformité sectorielle",
+        "description": "Compléter l'évaluation spécialisée pour votre secteur",
+        "steps": [
+          "Sélectionner votre secteur",
+          "Compléter les questions spécialisées",
+          "Examiner les écarts de conformité",
+          "Créer un plan d'action",
+          "Planifier des évaluations de suivi"
+        ]
+      },
+      "dataMinimization": {
+        "title": "Stratégie de minimisation des données",
+        "description": "Mettre en œuvre des pratiques de minimisation des données sur toutes les plateformes",
+        "steps": [
+          "Auditer les pratiques de collecte de données",
+          "Mettre en œuvre des politiques de conservation des données",
+          "Supprimer les données inutiles",
+          "Mettre à jour les politiques de confidentialité",
+          "Former les membres de l'équipe"
+        ]
+      },
+      "privacyMonitoring": {
+        "title": "Configuration de la surveillance de la confidentialité",
+        "description": "Configurer une surveillance continue de la confidentialité et des alertes",
+        "steps": [
+          "Choisir les outils de surveillance",
+          "Configurer les alertes de confidentialité",
+          "Configurer les notifications de violation",
+          "Créer un tableau de bord de surveillance",
+          "Tester les systèmes d'alerte"
+        ]
+      },
+      "privacyCulture": {
+        "title": "Développement d'une culture axée sur la confidentialité",
+        "description": "Développer une culture de la confidentialité à l'échelle de l'organisation et une formation",
+        "steps": [
+          "Développer un programme de formation à la confidentialité",
+          "Créer des politiques de confidentialité",
+          "Conduire une formation d'équipe",
+          "Mettre en œuvre des champions de la confidentialité",
+          "Examens réguliers de la confidentialité"
+        ]
+      },
+      "vendorManagement": {
+        "title": "Gestion de la confidentialité des fournisseurs",
+        "description": "Mettre en œuvre une gestion complète de la confidentialité des fournisseurs",
+        "steps": [
+          "Auditer les fournisseurs actuels",
+          "Évaluer les pratiques de confidentialité des fournisseurs",
+          "Mettre à jour les contrats des fournisseurs",
+          "Mettre en œuvre la surveillance des fournisseurs",
+          "Examens réguliers des fournisseurs"
+        ]
+      },
+      "incidentResponse": {
+        "title": "Plan de réponse aux incidents de confidentialité",
+        "description": "Développer et tester les procédures de réponse aux incidents de confidentialité",
+        "steps": [
+          "Développer un plan de réponse aux incidents",
+          "Créer une équipe de réponse",
+          "Conduire des exercices sur table",
+          "Mettre à jour les listes de contacts",
+          "Examens réguliers du plan"
+        ]
+      }
+    },
+    "completionCriteria": {
+      "passwordSecurity": [
+        "Tous les mots de passe sont uniques et forts",
+        "Authentification à deux facteurs activée sur les comptes critiques",
+        "Gestionnaire de mots de passe installé et configuré"
+      ],
+      "privacySettings": [
+        "Paramètres de confidentialité examinés sur toutes les principales plateformes",
+        "Partage de localisation désactivé là où ce n'est pas nécessaire",
+        "Personnalisation des publicités désactivée"
+      ],
+      "deviceSecurity": [
+        "Tous les appareils mis à jour vers le dernier OS",
+        "Logiciel de sécurité installé et configuré",
+        "Chiffrement des appareils activé"
+      ],
+      "compliance": [
+        "Évaluation sectorielle complétée",
+        "Écarts de conformité identifiés",
+        "Plan de remédiation créé"
+      ]
+    },
+    "completionStatus": {
+      "completed": "Action complétée avec succès",
+      "allSteps": "Toutes les étapes suivies",
+      "documentationUpdated": "Documentation mise à jour"
+    },
+    "ui": {
+      "generatePlan": "Générer le plan d'action",
+      "generating": "Génération du plan..."
+    }
+  },
+  "privacyAssistant": {
+    "modes": {
+      "general": {
+        "name": "Assistant général",
+        "description": "Questions générales sur la confidentialité et conseils",
+        "capabilities": [
+          "Conseils de base sur la confidentialité",
+          "Recommandations d'outils",
+          "Questions générales"
+        ]
+      },
+      "expert": {
+        "name": "Mode expert",
+        "description": "Expertise avancée en confidentialité et conseils détaillés",
+        "capabilities": [
+          "Stratégies avancées de confidentialité",
+          "Conseils de conformité",
+          "Solutions techniques"
+        ]
+      },
+      "emergency": {
+        "name": "Réponse d'urgence",
+        "description": "Réponse immédiate aux menaces de confidentialité",
+        "capabilities": [
+          "Réponse aux violations de données",
+          "Aide en cas de vol d'identité",
+          "Verrouillage d'urgence de la confidentialité"
+        ]
+      }
+    },
+    "quickActions": {
+      "dataBreach": {
+        "title": "Réponse aux violations de données",
+        "description": "Étapes immédiates pour une violation de données",
+        "actions": [
+          "Changer les mots de passe",
+          "Activer l'authentification à deux facteurs",
+          "Surveiller les comptes",
+          "Contacter les agences de crédit"
+        ]
+      },
+      "privacyAudit": {
+        "title": "Audit rapide de la confidentialité",
+        "description": "Examiner les paramètres de confidentialité actuels",
+        "actions": [
+          "Vérifier la confidentialité des réseaux sociaux",
+          "Examiner les permissions des applications",
+          "Mettre à jour les paramètres du navigateur"
+        ]
+      },
+      "secureCommunication": {
+        "title": "Communication sécurisée",
+        "description": "Configurer la messagerie chiffrée",
+        "actions": [
+          "Installer Signal",
+          "Configurer ProtonMail",
+          "Utiliser le partage de fichiers chiffré"
+        ]
+      }
+    },
+    "welcome": "Bonjour ! Je suis votre Assistant de Confidentialité. Je suis là pour vous aider avec les questions de confidentialité, vous guider dans les améliorations de sécurité et fournir des conseils d'expert. Comment puis-je vous aider aujourd'hui ?",
+    "expertKnowledge": {
+      "gdpr": {
+        "title": "Conformité RGPD",
+        "description": "Conseils sur la réglementation européenne sur la confidentialité",
+        "topics": [
+          "Droits des personnes concernées",
+          "Base légale",
+          "Confidentialité dès la conception",
+          "Évaluations d'impact sur la protection des données"
+        ]
+      },
+      "ccpa": {
+        "title": "Conformité CCPA",
+        "description": "Conseils sur la loi californienne sur la confidentialité",
+        "topics": [
+          "Droits des consommateurs",
+          "Suppression des données",
+          "Exigences de désinscription",
+          "Exigences de la politique de confidentialité"
+        ]
+      },
+      "hipaa": {
+        "title": "Conformité HIPAA",
+        "description": "Protection de la confidentialité des soins de santé",
+        "topics": [
+          "Protection des informations de santé protégées",
+          "Accords avec les associés commerciaux",
+          "Safeguards de sécurité",
+          "Notification de violation"
+        ]
+      },
+      "coppa": {
+        "title": "Conformité COPPA",
+        "description": "Protection de la vie privée en ligne des enfants",
+        "topics": [
+          "Consentement parental",
+          "Collecte de données d'enfants",
+          "Exigences de la politique de confidentialité",
+          "Consentement parental vérifiable"
+        ]
+      },
+      "pipeda": {
+        "title": "Conformité PIPEDA",
+        "description": "Guide de la loi canadienne sur la protection de la vie privée",
+        "topics": [
+          "Exigences de consentement",
+          "Droits d'accès aux données",
+          "Commissaire à la protection de la vie privée",
+          "Transferts transfrontaliers de données"
+        ]
+      },
+      "lgpd": {
+        "title": "Conformité LGPD",
+        "description": "Guide de la loi brésilienne sur la protection de la vie privée",
+        "topics": [
+          "Droits des personnes concernées",
+          "Base légale du traitement",
+          "Délégué à la protection des données",
+          "Supervision de l'ANPD"
+        ]
+      },
+      "ferpa": {
+        "title": "Conformité FERPA",
+        "description": "Protection de la vie privée des étudiants",
+        "topics": [
+          "Dossiers éducatifs",
+          "Informations du répertoire",
+          "Droits d'accès des parents",
+          "Politiques de confidentialité des écoles"
+        ]
+      },
+      "glba": {
+        "title": "Conformité GLBA",
+        "description": "Protection de la vie privée financière",
+        "topics": [
+          "Confidentialité des informations financières",
+          "Droits de désinscription",
+          "Règle de sauvegarde",
+          "Confidentialité bancaire"
+        ]
+      }
+    }
+  },
+  "personas": {
+    "cautiousParent": {
+      "name": "Parent Prudent",
+      "description": "Protection de la confidentialité numérique et de la sécurité familiale",
+      "primaryConcerns": {
+        "child-safety": "Sécurité des enfants",
+        "family-privacy": "Confidentialité familiale",
+        "parental-controls": "Contrôles parentaux"
+      }
+    },
+    "digitalNovice": {
+      "name": "Novice Numérique",
+      "description": "Apprendre les bases de la confidentialité numérique",
+      "primaryConcerns": {
+        "basic-security": "Sécurité de base",
+        "learning": "Apprentissage",
+        "simple-protection": "Protection simple"
+      }
+    },
+    "privacyAdvocate": {
+      "name": "Défenseur de la Confidentialité",
+      "description": "Concentration maximale sur la confidentialité et les droits numériques",
+      "primaryConcerns": {
+        "advanced-privacy": "Confidentialité avancée",
+        "anonymity": "Anonymat",
+        "data-rights": "Droits sur les données"
+      }
+    },
+    "onlineShopper": {
+      "name": "Acheteur en Ligne",
+      "description": "Concentration sur les achats en ligne sûrs et sécurisés",
+      "primaryConcerns": {
+        "financial-security": "Sécurité financière",
+        "shopping-privacy": "Confidentialité des achats",
+        "data-brokers": "Courtiers en données"
+      }
+    },
+    "socialInfluencer": {
+      "name": "Influenceur Social",
+      "description": "Gestion de la présence publique et protection du contenu",
+      "primaryConcerns": {
+        "reputation-management": "Gestion de la réputation",
+        "public-privacy": "Confidentialité publique",
+        "content-protection": "Protection du contenu"
+      }
+    },
+    "privateIndividual": {
+      "name": "Individu Privé",
+      "description": "Anonymat maximum et minimisation des données",
+      "primaryConcerns": {
+        "maximum-privacy": "Confidentialité maximale",
+        "anonymity": "Anonymat",
+        "data-minimization": "Minimisation des données"
+      }
+    },
+    "concernedEmployee": {
+      "name": "Employé Préoccupé",
+      "description": "Protection de la confidentialité au travail et sécurité des données professionnelles",
+      "primaryConcerns": {
+        "workplace-privacy": "Confidentialité au travail",
+        "professional-data": "Données professionnelles",
+        "employee-rights": "Droits des employés"
+      }
+    },
+    "dataController": {
+      "name": "Responsable du Traitement des Données",
+      "description": "Gestion du contrôle des données et des exigences de transparence",
+      "primaryConcerns": {
+        "data-control": "Contrôle des données",
+        "transparency": "Transparence",
+        "compliance": "Conformité"
+      }
+    },
+    "student": {
+      "name": "Étudiant",
+      "description": "Protection de la confidentialité académique et des données éducatives",
+      "primaryConcerns": {
+        "academic-privacy": "Confidentialité académique",
+        "educational-data": "Données éducatives",
+        "student-rights": "Droits des étudiants"
+      }
+    }
+  },
+  "toolkitLandingPage": {
+    "seo": {
+      "title": "Accès à la Boîte à Outils de Confidentialité - SocialCaution",
+      "description": "Accédez à votre boîte à outils de confidentialité personnalisée avec des outils et utilitaires avancés. Évaluation complète requise pour des recommandations d'outils personnalisées.",
+      "keywords": "accès à la boîte à outils de confidentialité, outils de confidentialité personnalisés, utilitaires de sécurité avancés"
+    },
+    "loading": {
+      "checkingAccess": "Vérification de l'accès à la boîte à outils..."
+    },
+    "redirecting": {
+      "title": "Redirection vers la Boîte à Outils",
+      "message": "Vous redirige vers votre boîte à outils de confidentialité personnalisée..."
+    },
+    "header": {
+      "title": "Accès à la Boîte à Outils de Confidentialité",
+      "subtitle": "Outils et utilitaires de confidentialité avancés personnalisés pour vos besoins de protection"
+    },
+    "accessRequired": {
+      "title": "Évaluation Requise pour l'Accès à la Boîte à Outils",
+      "description": "Pour vous fournir les outils de confidentialité les plus pertinents et efficaces, nous devons d'abord comprendre votre persona de confidentialité et votre profil de risque.",
+      "whyRequired": {
+        "title": "Pourquoi l'Évaluation est Requise",
+        "reasons": {
+          "matchNeeds": "Assure que les outils correspondent à vos besoins spécifiques de confidentialité",
+          "preventOverwhelm": "Évite de vous submerger avec des options non pertinentes",
+          "properGuidance": "Fournit des conseils appropriés pour une utilisation sûre des outils",
+          "progressTracking": "Permet le suivi des progrès et les suggestions d'amélioration"
+        }
+      },
+      "actions": {
+        "completeAssessment": "Compléter l'Évaluation d'Abord",
+        "quickRiskCheck": "Vérification Rapide des Risques (5 min)"
+      }
+    },
+    "whatYoullGet": {
+      "title": "Ce Que Vous Obtiendrez avec l'Accès à la Boîte à Outils",
+      "features": {
+        "personalizedTools": {
+          "title": "Sélection d'Outils Personnalisés",
+          "description": "Outils sélectionnés spécifiquement pour votre persona de confidentialité et votre niveau de risque"
+        },
+        "stepByStepGuidance": {
+          "title": "Conseils Étape par Étape",
+          "description": "Instructions de configuration détaillées adaptées à votre niveau de confort technique"
+        },
+        "progressTracking": {
+          "title": "Suivi des Progrès",
+          "description": "Surveillez vos améliorations de confidentialité et le succès de la mise en œuvre des outils"
+        },
+        "advancedToolsPortal": {
+          "title": "Portail d'Outils Avancés",
+          "description": "Accès à des utilitaires de confidentialité et de sécurité de niveau professionnel"
+        }
+      }
+    }
+  },
+  "privacyRadar": {
+    "title": "Radar de Confidentialité",
+    "subtitle": "Surveillance des menaces en temps réel • Fenêtre tactique de 48 heures",
+    "criticalRisks": "Risques Critiques",
+    "immediateActionRequired": "Action immédiate requise",
+    "threatsAffectingServices": "Menaces affectant les services que vous utilisez",
+    "highRisks": "Risques Élevés",
+    "urgentAttentionNeeded": "Attention urgente nécessaire",
+    "mediumRisks": "Risques Moyens",
+    "plannedRemediation": "Remédiation planifiée",
+    "lowRisks": "Risques Faibles",
+    "monitoringStatus": "Statut de surveillance",
+    "viewFullRadar": "Voir le Radar Complet",
+    "privacyHealthMetrics": "Métriques de Santé de la Confidentialité",
+    "basedOnYourProfile": "Basé sur votre profil",
+    "dataMinimization": "Minimisation des Données",
+    "dataMinimizationDesc": "Mesure des pratiques de collecte de données inutiles",
+    "consentCoverage": "Couverture du Consentement",
+    "consentCoverageDesc": "Consentement valide pour les activités de traitement des données",
+    "securityAwareness": "Sensibilisation à la Sécurité",
+    "securityAwarenessDesc": "Compréhension des meilleures pratiques de sécurité et des menaces",
+    "excellent": "Excellent",
+    "good": "Bon",
+    "fair": "Moyen",
+    "basedOnYourServices": "Basé sur vos services.",
+    "estimated": "Estimé.",
+    "takeAssessmentForScore": "Passer l'évaluation pour un score personnalisé",
+    "basedOnPrivacyExposure": "Basé sur votre évaluation d'exposition à la confidentialité",
+    "basedOnSelectedServices": "Basé sur vos services sélectionnés",
+    "estimatedIndustryAverage": "Moyenne estimée de l'industrie",
+    "basedOnPersonaProfile": "Basé sur votre profil de persona",
+    "estimatedAverage": "Moyenne estimée",
+    "allCategories": "Toutes les Catégories",
+    "basedOnPrivacyRights": "Basé sur votre évaluation des droits de confidentialité",
+    "encryptionRate": "Taux de Chiffrement",
+    "encryptionRateDesc": "Données chiffrées au repos et en transit",
+    "accessControl": "Contrôle d'Accès",
+    "accessControlDesc": "Accès basé sur les rôles et mise en œuvre du moindre privilège",
+    "searchPlaceholder": "Rechercher des alertes...",
+    "filters": "Filtres",
+    "refresh": "Actualiser",
+    "refreshing": "Actualisation...",
+    "severity": "Gravité",
+    "allSeverities": "Toutes les Gravités",
+    "critical": "Critique",
+    "high": "Élevé",
+    "medium": "Moyen",
+    "low": "Faible",
+    "noThreatsDetected": "Aucune menace détectée",
+    "loadingAlerts": "Chargement des alertes de confidentialité...",
+    "categories": {
+      "dataBreaches": "Violations de Données",
+      "phishing": "Hameçonnage",
+      "scams": "Arnaques",
+      "deviceSecurity": "Sécurité des Appareils",
+      "generalSecurity": "Sécurité Générale"
+    },
+    "showing": "Affichage :",
+    "clearFilter": "Effacer le filtre",
+    "readMore": "Lire la Suite",
+    "markAsRead": "Marquer comme Lu",
+    "relevant": "Pertinent",
+    "new": "Nouveau",
+    "recent": "Récent",
+    "timeAgo": {
+      "justNow": "À l'instant",
+      "minuteAgo": "Il y a {{count}} minute",
+      "minutesAgo": "Il y a {{count}} minutes",
+      "hourAgo": "Il y a {{count}} heure",
+      "hoursAgo": "Il y a {{count}} heures",
+      "dayAgo": "Il y a {{count}} jour",
+      "daysAgo": "Il y a {{count}} jours"
+    },
+    "noAlertsFound": "Aucune Alerte Trouvée",
+    "tryAdjustingFilters": "Essayez d'ajuster vos filtres",
+    "allClear": "Tout est clair ! Aucune menace de confidentialité détectée au cours des 48 dernières heures.",
+    "clearFilters": "Effacer les Filtres",
+    "recommendedActions": "Actions Recommandées",
+    "threatsAffecting": "Menaces affectant les services que vous utilisez",
+    "howPrivacyRadarWorks": "Comment le Radar de Confidentialité fonctionne avec le Catalogue de Services",
+    "privacyRadarDescription": "Le Radar de Confidentialité surveille les menaces de sécurité en temps réel et vous montre les alertes pertinentes pour les services que vous avez sélectionnés dans le Catalogue de Services.",
+    "selectYourServices": "Sélectionner Vos Services",
+    "noServicesSelected": "Aucun service sélectionné pour le moment",
+    "manageServices": "Gérer {{count}} Service{{plural}}",
+    "alertsFilteredForServices": "Alertes filtrées pour vos services",
+    "wantPersonalizedAlerts": "💡 Vous voulez des alertes plus personnalisées ?",
+    "seeingAlertsFor": "Vous voyez des alertes pour {{count}} services présélectionnés. Ajoutez les services que vous utilisez réellement pour recevoir des alertes de menaces spécifiques à votre empreinte numérique.",
+    "customizeMyServices": "Personnaliser Mes Services",
+    "privacyExposureScore": "Score d'Exposition à la Confidentialité",
+    "thisWeek": "cette semaine",
+    "highRisk": "Risque Élevé",
+    "needsAttention": "Nécessite une attention",
+    "mediumRisk": "Risque Moyen",
+    "reviewRecommended": "Révision recommandée",
+    "lowRisk": "Risque Faible",
+    "wellProtected": "Bien protégé",
+    "knownBreachesInServices": "{{count}} Violation{{plural}} Connue{{plural}} dans Vos Services",
+    "reviewServices": "Réviser les Services",
+    "category": "Catégorie",
+    "tipSelectServices": "Astuce : Sélectionnez des services dans le Catalogue de Services pour voir les alertes pertinentes pour vos comptes.",
+    "goToServiceCatalog": "Aller au Catalogue de Services",
+    "filterByCategory": "Filtrer par Catégorie",
+    "initializingFeedProcessor": "Initialisation du processeur de flux...",
+    "processingFeeds": "Traitement des flux : {{completed}} / {{total}}",
+    "retry": "Réessayer",
+    "refreshingAlerts": "Actualisation des alertes..."
+  },
+  "serviceCatalog": {
+    "title": "Catalogue de Confidentialité des Services",
+    "subtitle": "Découvrez et gérez les paramètres de confidentialité de vos services numériques",
+    "servicePrivacyMonitoring": "Surveillance de la Confidentialité des Services",
+    "catalogDescription": "Notre catalogue de services complet fournit des évaluations indépendantes des risques de confidentialité pour {{count}}+ services en ligne populaires. Chaque service est évalué selon les réglementations de confidentialité établies, notamment le RGPD, le CCPA, le CPRA, le COPPA, le PIPEDA, le LGPD, le HIPAA, le FERPA, le GLBA et le VCDPA.",
+    "realTimeDescription": "Observez vos informations de confidentialité se mettre à jour en temps réel lorsque vous sélectionnez des services, appliquez des filtres et affinez votre recherche—avec des recommandations instantanées et des notifications sur les changements de politique de confidentialité.",
+    "forPersonalizedRecommendations": "pour des recommandations personnalisées",
+    "servicesSelected": "{{count}} service{{plural}} sélectionné{{plural}}",
+    "of": "de",
+    "services": "services",
+    "servicesSelectedOfTotal": "{{selected}} sur {{total}} services sélectionnés",
+    "viewDetailedExposureAnalysis": "Voir l'Analyse Détaillée de l'Exposition",
+    "exposureAnalysisDescription": "Voir une répartition complète de votre exposition à la confidentialité sur tous les {{count}} service{{plural}} sélectionné{{plural}}",
+    "viewDashboard": "Voir l'empreinte numérique",
+    "filtersAndSearch": "Filtres et Recherche",
+    "sortServicesBy": "Trier les services par",
+    "sortByExposureIndex": "Indice d'Exposition du Service",
+    "sortByName": "Nom",
+    "sortByRiskLevel": "Niveau de Risque",
+    "sortByCategory": "Catégorie",
+    "exposure": "Exposition",
+    "exposureAll": "Tous",
+    "exposureVeryHigh": "Très Élevé",
+    "exposureHigh": "Élevé",
+    "exposureMedium": "Moyen",
+    "exposureLow": "Faible",
+    "serviceExposureIndex": "Indice d'Exposition à la Vie Privée",
+    "thisServiceOnly": "(Ce service uniquement)",
+    "priorityForProfile": "Priorité pour votre profil",
+    "basic": "BASIQUE",
+    "advanced": "AVANCÉ",
+    "exposureScaleMin": "0 - Aucune Exposition",
+    "exposureScaleMax": "100 - Maximum",
+    "exposedPercentage": "{{percent}}% exposé",
+    "riskMeanings": {
+      "veryHigh": "Risque Très Élevé - Attention immédiate recommandée",
+      "high": "Risque Élevé - Examiner les paramètres de confidentialité",
+      "medium": "Risque Moyen - Surveiller régulièrement",
+      "low": "Risque Faible - Généralement sûr",
+      "notAvailable": "Analyse en attente - Indice d'exposition en cours de calcul"
+    },
+    "privacyConcerns": {
+      "high": "⚠️ Collecte élevée de données et contrôle utilisateur limité",
+      "moderate": "⚠️ Préoccupations modérées de confidentialité",
+      "someControls": "✓ Certains contrôles de confidentialité disponibles",
+      "betterPractices": "✓ Meilleures pratiques de confidentialité"
+    },
+    "analysisFactors": "Facteurs d'Analyse",
+    "breachHistory": "Historique des Violations",
+    "privacyIssues": "Problèmes de Confidentialité",
+    "yourServicesPrivacyAnalysis": "Analyse de Confidentialité de Vos Services",
+    "yourServicesPrivacyAnalysisDescription": "Indices d'exposition des services individuels - Consultez votre analyse complète de l'empreinte numérique de confidentialité",
+    "viewDigitalFootprintAnalysis": "Voir l'Analyse de l'Empreinte Numérique",
+    "dataBreachHistory": "Historique des Violations de Données",
+    "actionMarkedCompleted": "Action marquée comme terminée",
+    "enableNotifications": "Activer les notifications",
+    "disableNotifications": "Désactiver les notifications",
+    "learnScoreCalculation": "Découvrez comment nous calculons ce score",
+    "continuePrivacyJourney": "Continuez Votre Parcours de Confidentialité",
+    "noServicesSelected": "Aucun service sélectionné",
+    "selectServices": "Sélectionnez des services pour voir votre exposition à la confidentialité",
+    "searchPlaceholder": "Rechercher des services...",
+    "filterByCategory": "Filtrer par catégorie",
+    "filterByExposure": "Filtrer par niveau d'exposition",
+    "sortBy": "Trier par",
+    "sortByRisk": "Risque",
+    "bulkSelect": "Sélection en masse",
+    "selectAll": "Tout sélectionner",
+    "deselectAll": "Tout désélectionner",
+    "addSelected": "Ajouter les Services Sélectionnés",
+    "selectPersona": "Sélectionner votre persona",
+    "selectPersonaButton": "Sélectionner Votre Persona",
+    "howToUse": {
+      "title": "Comment Utiliser le Catalogue de Services",
+      "clickToExpand": "Cliquer pour développer",
+      "clickToCollapse": "Cliquer pour réduire",
+      "description": "Notre catalogue de services fournit des évaluations de confidentialité transparentes et basées sur la réglementation pour les services en ligne. Chaque service est évalué à l'aide d'une méthodologie complète qui prend en compte les risques de confidentialité, la conformité réglementaire (RGPD, CCPA, CPRA, COPPA, PIPEDA, LGPD, HIPAA, FERPA, GLBA, VCDPA), les pratiques de collecte de données, l'historique des violations et les mécanismes de contrôle utilisateur. Suivez ces étapes simples pour découvrir et surveiller les risques de confidentialité—tout se met à jour instantanément lorsque vous interagissez avec le catalogue.",
+      "methodologyNote": "Les évaluations de confidentialité sont basées sur des informations publiquement disponibles, des politiques de confidentialité, des déclarations réglementaires et des cadres de confidentialité établis, notamment l'article 13 du RGPD (transparence), la section 1798.100 du CCPA (droit de savoir), le principe 4 du PIPEDA (limitation de la collecte), l'article 18 du LGPD (droits des personnes concernées), les règles de confidentialité et de sécurité HIPAA, les protections de confidentialité des étudiants FERPA, les exigences de confidentialité financière GLBA et les droits des consommateurs VCDPA."
+    },
+    "personalizationPrompt": {
+      "title": "Débloquer le Contenu et les Informations Personnalisés",
+      "description": "Sélectionnez votre persona pour accéder à des ressources personnalisées, des outils de confidentialité et des recommandations qui s'adaptent à vos besoins de confidentialité uniques. Votre tableau de bord se mettra à jour en temps réel avec du contenu sélectionné juste pour vous.",
+      "wantPersonalizedRecommendations": "Voulez-vous des Recommandations Personnalisées ?",
+      "servicesSelectedDescription": "Vous avez sélectionné {{count}} service{{plural}}. Sélectionnez votre persona de confidentialité pour obtenir des informations adaptées à vos habitudes numériques.",
+      "selectPersona": "Sélectionner une Persona",
+      "learnMore": "En Savoir Plus",
+      "wantDeeperAnalysis": "Voulez-vous une Analyse de Confidentialité Plus Approfondie ?",
+      "takeAssessmentDescription": "Passez notre évaluation de confidentialité pour obtenir des informations détaillées sur votre empreinte numérique et des recommandations d'action personnalisées.",
+      "takeAssessment": "Passer l'Évaluation"
+    },
+    "privacyExposureScore": {
+      "title": "Votre Score d'Exposition à la Confidentialité",
+      "aggregateScore": "Score agrégé de {{count}} service{{plural}} sélectionné{{plural}} (plus élevé = plus de risque)",
+      "clickToExpand": "Cliquer pour développer"
+    },
+    "aboutMonitoring": {
+      "title": "À Propos de la Surveillance de la Confidentialité des Services",
+      "description": "La Surveillance de la Confidentialité des Services fournit des évaluations indépendantes des risques de confidentialité basées sur la réglementation pour les services en ligne. Notre méthodologie évalue chaque service par rapport aux cadres de confidentialité établis, notamment :"
+    },
+    "limits": {
+      "serviceLimitReached": "Vous avez atteint votre limite de {{limit}} services suivis. Supprimez un service pour en suivre un autre, ou passez à Premium pour un suivi illimité.",
+      "serviceLimitReachedShort": "Limite atteinte : {{limit}} services. Supprimez-en un pour échanger, ou passez à Premium pour illimité.",
+      "canSwapServices": "Vous pouvez échanger des services en supprimant un et en ajoutant un autre. Votre limite est de {{limit}} services à la fois.",
+      "upgradeForUnlimited": "Passez à Premium pour un suivi illimité des services"
+    },
+    "exposureLevel": {
+      "veryHigh": "Très Élevé",
+      "high": "Élevé",
+      "medium": "Moyen",
+      "low": "Faible"
+    },
+    "categories": {
+      "all": "Toutes les Catégories",
+      "social": "Réseaux Sociaux",
+      "shopping": "Achats",
+      "finance": "Finance",
+      "entertainment": "Divertissement",
+      "productivity": "Productivité",
+      "communication": "Communication",
+      "health": "Santé et Fitness",
+      "education": "Éducation",
+      "travel": "Voyage",
+      "news": "Actualités et Médias"
+    },
+    "outcomeLine": "Choisissez les services que vous utilisez et consultez leur risque de confidentialité, collecte de données et historique de fuites — et recevez des alertes en cas de changement.",
+    "seeFullCatalog": "Voir le catalogue complet ({{count}} de plus)",
+    "notAvailable": "Non disponible",
+    "calculating": "Calcul en cours...",
+    "ratedServicesDescription": "Services avec analyse de l'indice d'exposition à la confidentialité",
+    "nonRatedServicesDescription": "Ces services sont dans notre catalogue mais n'ont pas encore d'analyse d'indice d'exposition. Les notations sont ajoutées au fur et à mesure.",
+    "notYetRated": "Analyse de confidentialité en attente",
+    "ratingComingSoon": "Ce service sera bientôt noté"
+  },
+  "pricing": {
+    "title": "Choisissez Votre Plan",
+    "subtitle": "Commencez gratuitement, ou passez à la version supérieure pour des évaluations illimitées et plus de fonctionnalités",
+    "billing": {
+      "monthly": "Mensuel",
+      "annual": "Annuel",
+      "save": "Économisez {{percent}}%",
+      "perYear": "par an",
+      "perMonth": "par mois",
+      "monthlyEquivalent": "(~2,08 $/mois)",
+      "lessThanDaily": "Moins de 0,10 $ par jour"
+    },
+    "plans": {
+      "basic": {
+        "name": "Basic (Gratuit)",
+        "price": "0 $",
+        "description": "Tout ce dont vous avez besoin pour commencer à protéger votre vie privée. Tout gratuit, tout stocké sur votre appareil.",
+        "features": {
+          "serviceCatalog": "Catalogue de Services - Parcourez les informations de confidentialité de 200+ services, suivez jusqu'à 5",
+          "privacyConcerns": "Domaines d'Intérêt de Confidentialité - Choisissez ce qui compte le plus pour vous (famille, finances, travail ou général)",
+          "assessments": "Évaluations de Confidentialité - Effectuez 3 évaluations par mois pour en apprendre sur votre confidentialité",
+          "privacyIndex": "Scores de Risque de Confidentialité - Voyez les scores de risque (0-100) pour les services basés sur les informations disponibles",
+          "dashboard": "Votre Tableau de Bord de Confidentialité - Voyez votre profil de confidentialité et scores de risque en un seul endroit",
+          "adaptiveResources": "Guides de Confidentialité - Obtenez des conseils et guides de confidentialité basés sur votre profil",
+          "privacyTools": "Outils de Confidentialité - Parcourez notre collection d'outils de confidentialité",
+          "exportReports": "Exporter les Rapports - Téléchargez 1 rapport PDF par mois",
+          "localStorage": "Stockage Local - Toutes vos données restent sur votre appareil",
+          "noAccount": "Aucune Inscription Requise - Commencez à l'utiliser immédiatement"
+        },
+        "cta": "Commencer Gratuitement"
+      },
+      "standard": {
+        "name": "Standard (Premium)",
+        "description": "Évaluations illimitées, analyse détaillée et toutes les fonctionnalités gratuites. Seulement 2,99 $/mois.",
+        "everythingInBasic": "Tout ce qui est dans Basic, plus :",
+        "features": {
+          "cloudSync": "Exportation de Données - Exportez vos données de confidentialité en format chiffré si vous voulez faire une sauvegarde",
+          "fullAnalysis": "Analyse Détaillée de Confidentialité - Obtenez l'évaluation complète de 8 facteurs au lieu de la version de base de 4 facteurs",
+          "advancedAnalytics": "Historique de Confidentialité - Voyez vos évaluations passées et comment vos scores changent avec le temps",
+          "unlimitedExports": "Exports Illimités - Téléchargez autant de rapports que vous voulez en PDF, Excel, CSV ou JSON",
+          "unlimitedAssessments": "Évaluations Illimitées - Effectuez autant d'évaluations de confidentialité que vous voulez",
+          "unlimitedTracking": "Suivi Illimité de Services - Suivez autant de services que vous voulez de notre catalogue",
+          "expandedToolkit": "Tous les Outils de Confidentialité - Accédez à tous nos outils et guides de confidentialité",
+          "prioritySupport": "Support par Email - Contactez-nous par email si vous avez besoin d'aide. Nous répondrons aussi rapidement que possible",
+          "earlyAccess": "Accès Anticipé - Essayez de nouvelles fonctionnalités avant qu'elles ne soient disponibles pour tout le monde",
+          "assessmentHistory": "Historique des Évaluations - Voyez et téléchargez vos résultats d'évaluations passées",
+          "professionalManagement": "Catalogue Mis à Jour - Notre catalogue de services est régulièrement mis à jour avec les dernières informations de confidentialité",
+          "removeBranding": "Supprimer la Marque - Supprimez notre marque des rapports si vous voulez"
+        },
+        "cta": "Passer à Standard",
+        "loading": "Chargement..."
+      }
+    },
+    "comparison": {
+      "title": "Comparer les Plans Côte à Côte",
+      "feature": "Fonctionnalité",
+      "basic": "Basic (Gratuit)",
+      "standard": "Standard",
+      "unlimited": "Illimité",
+      "features": {
+        "privacyAssessments": "Évaluations de Confidentialité",
+        "servicesTracked": "Services Suivis",
+        "pdfReports": "Rapports PDF",
+        "excelJsonExports": "Exports Excel/JSON",
+        "cloudSync": "Exportation de Données Chiffrées",
+        "multiDeviceAccess": "Exportation de Données Chiffrées",
+        "privacyScoreTracking": "Suivi du Score de Confidentialité",
+        "advancedAnalytics": "Analyses Avancées",
+        "professionalManagement": "Catalogue Mis à Jour"
+      },
+      "limits": {
+        "threePerMonth": "3 par mois",
+        "fiveServices": "5 services",
+        "onePerMonth": "1 par mois",
+        "encrypted": "Exportation chiffrée pour sauvegarde",
+        "overTime": "Au Fil du Temps"
+      }
+    },
+    "useCases": {
+      "title": "Quel Plan Vous Convient ?",
+      "individual": {
+        "title": "Débutant",
+        "description": "Vous voulez apprendre sur votre confidentialité et protéger votre empreinte numérique sans dépenser d'argent.",
+        "bestFor": "Bon pour :",
+        "items": {
+          "quarterlyCheckups": "Effectuer des évaluations de confidentialité quand vous voulez",
+          "trackingServices": "Suivre jusqu'à 5 services que vous utilisez",
+          "basicImprovements": "Outils et conseils de base pour la confidentialité",
+          "singleDevice": "Garder tout sur un seul appareil"
+        },
+        "recommendation": "Plan Basic (Gratuit)"
+      },
+      "enthusiast": {
+        "title": "Passionné de Confidentialité",
+        "description": "Vous voulez gérer activement votre confidentialité avec des évaluations illimitées et un suivi détaillé.",
+        "bestFor": "Bon pour :",
+        "items": {
+          "monthlyAssessments": "Effectuer des évaluations de confidentialité illimitées",
+          "trackingManyServices": "Suivre autant de services que vous voulez",
+          "fullAnalysis": "Obtenir une analyse détaillée de confidentialité de 8 facteurs",
+          "multiDevice": "Exporter vos données pour faire une sauvegarde",
+          "progressTracking": "Voir comment vos scores de confidentialité changent avec le temps",
+          "advancedAnalytics": "Télécharger des rapports détaillés",
+          "earlyAccess": "Essayer de nouvelles fonctionnalités en premier",
+          "prioritySupport": "Obtenir de l'aide par email quand vous en avez besoin"
+        },
+        "recommendation": "Plan Standard"
+      }
+    },
+    "faq": {
+      "title": "Questions Fréquemment Posées",
+      "needToPay": {
+        "question": "Dois-je payer pour utiliser SocialCaution ?",
+        "answer": "Non ! SocialCaution a un plan <strong>Basic (Gratuit)</strong> qui inclut tout ce dont vous avez besoin pour commencer. Vous pouvez parcourir 200+ services, effectuer 3 évaluations de confidentialité par mois, voir les scores de risque de confidentialité, utiliser des outils de confidentialité et exporter 1 rapport PDF par mois - tout gratuit. Toutes vos données restent sur votre appareil. Le plan <strong>Standard (2,99 $/mois)</strong> supprime les limites et ajoute une analyse détaillée, des évaluations illimitées, des exports illimités et un support par email."
+      },
+      "difference": {
+        "question": "Quelle est la différence entre les plans Basic et Standard ?",
+        "answer": "<strong>Basic (Gratuit) :</strong> Tout ce dont vous avez besoin pour commencer à protéger votre confidentialité. Comprend 3 évaluations par mois, suivre jusqu'à 5 services, analyse de base de confidentialité à 4 facteurs, outils de confidentialité et 1 export PDF par mois. Tout gratuit, tout stocké sur votre appareil. <strong>Standard (2,99 $/mois) :</strong> Tout ce qui est dans Basic, plus des évaluations illimitées, une analyse détaillée à 8 facteurs, un suivi illimité de services, des exports illimités (PDF/Excel/CSV/JSON), un suivi de l'historique de confidentialité, une option d'export de données et un support par email. Tout pour 2,99 $/mois."
+      },
+      "cancel": {
+        "question": "Puis-je annuler à tout moment ?",
+        "answer": "Oui ! Vous pouvez annuler votre abonnement à tout moment. Vos données resteront sur votre appareil et vous aurez toujours accès à toutes les fonctionnalités gratuites."
+      },
+      "support": {
+        "question": "Comment fonctionne le support par email ?",
+        "answer": "Si vous avez des questions ou besoin d'aide, envoyez-nous simplement un email. Nous ferons de notre mieux pour répondre rapidement, surtout pour les problèmes de sécurité. Il n'y a pas d'équipe de support dédiée - c'est juste nous qui répondons aux emails, donc les temps de réponse peuvent varier."
+      },
+      "catalog": {
+        "question": "Comment le catalogue de services est-il mis à jour ?",
+        "answer": "Notre catalogue de services comprend des informations de confidentialité pour 200+ services. Nous le mettons régulièrement à jour avec les dernières informations de confidentialité que nous pouvons trouver à partir de sources publiques comme les politiques de confidentialité, les rapports d'actualités et les bases de données de violations de données. Il n'est pas géré activement par des experts en temps réel - ce sont des données sélectionnées que nous mettons à jour lorsque nous trouvons de nouvelles informations."
+      }
+    },
+    "errors": {
+      "checkoutFailed": "Échec du démarrage du paiement. Veuillez réessayer."
+    }
+  },
+  "toolkit": {
+    "title": "Boîte à Outils de Confidentialité SocialCaution",
+    "titleWithPersona": "Boîte à Outils de Confidentialité SocialCaution pour {{personaName}}",
+    "subtitle": "Outils de confidentialité intégrés dans SocialCaution, personnalisés pour votre persona de confidentialité unique",
+    "subtitleNoPersona": "Outils de confidentialité intégrés dans SocialCaution. Complétez une évaluation pour obtenir des recommandations personnalisées.",
+    "loading": "Chargement de la Boîte à Outils de Confidentialité...",
+    "continueLearning": "Continuez à Apprendre et à Vous Améliorer",
+    "getPersonalizedRecommendations": "Obtenir des recommandations personnalisées",
+    "browseExternalPrivacyTools": "Parcourir les outils de confidentialité externes",
+    "getServiceSpecificToolRecommendations": "Obtenir des recommandations d'outils spécifiques aux services",
+    "getServiceSpecificToolRecommendationsDesc": "Ajoutez les services que vous utilisez à votre Catalogue de Confidentialité des Services pour obtenir des recommandations d'outils personnalisées basées sur les risques réels d'exposition de vos services.",
+    "goToServicePrivacyCatalog": "Aller au Catalogue de Confidentialité des Services",
+    "personalDataInventory": "Inventaire des Données Personnelles",
+    "new": "NOUVEAU",
+    "personalDataInventoryDesc": "Suivez les données personnelles que vous partagez sur vos {count} service{plural} sélectionné{plural}. Remplissez automatiquement votre inventaire en fonction des types de données couramment collectés pour vos services.",
+    "personalDataInventoryDescBold": "Remplissez automatiquement votre inventaire",
+    "openDataInventory": "Ouvrir l'Inventaire des Données",
+    "manageServices": "Gérer les Services",
+    "personalDataInventoryTip": "💡 Astuce : Utilisez le bouton \"Remplissage automatique\" dans l'Inventaire des Données pour ajouter automatiquement les types de données en fonction de vos services sélectionnés. Tous les éléments sont modifiables et peuvent être personnalisés pour correspondre à votre utilisation réelle.",
+    "recommendedToolsForYourServices": "Outils Recommandés pour Vos Services",
+    "recommendedToolsForYourServicesDesc": "Basé sur {count} service{plural} que vous surveillez dans le Catalogue de Confidentialité des Services",
+    "viewServicePrivacyCatalog": "Voir le Catalogue de Confidentialité des Services",
+    "categories": {
+      "all": "Tous les Outils",
+      "security": "Sécurité",
+      "privacy": "Confidentialité",
+      "family": "Famille",
+      "socialMedia": "Réseaux Sociaux",
+      "shopping": "Achats",
+      "cleanup": "Nettoyage des Données",
+      "advancedPrivacy": "Confidentialité Avancée",
+      "legal": "Outils Juridiques",
+      "reputation": "Réputation"
+    }
+  },
+  "privacyToolsDirectory": {
+    "title": "Outils et Ressources de Confidentialité",
+    "subtitle": "Collection organisée d'outils de confidentialité externes et de ressources éducatives de fournisseurs de confiance",
+    "viewSocialCautionTools": "Voir les Outils SocialCaution",
+    "externalTools": "Outils Externes",
+    "privacyGuidesResources": "Guides et Ressources de Confidentialité",
+    "recommendedExternalToolsForYourServices": "Outils Externes Recommandés pour Vos Services",
+    "recommendedExternalToolsForYourServicesDesc": "Basé sur {{count}} service{{plural}} que vous surveillez dans la Surveillance des services",
+    "allTools": "Tous les outils",
+    "visitSite": "Visiter le site",
+    "viewAllRecommendedTools": "Voir les {{count}} outils recommandés",
+    "showingToolsCount": "Affichage de {{count}} outils externes de confidentialité et de sécurité de fournisseurs de confiance.",
+    "lookingForIntegrated": "Vous cherchez les outils SocialCaution intégrés ?",
+    "visitPrivacyToolkit": "Visiter la boîte à outils de confidentialité",
+    "noExternalToolsFound": "Aucun outil externe trouvé",
+    "noExternalToolsMessage": "Essayez de sélectionner une autre catégorie pour voir les outils de confidentialité pertinents.",
+    "showAllTools": "Afficher tous les outils",
+    "aboutExternalTools": "À propos des outils externes",
+    "aboutExternalToolsDesc": "Ces outils sont fournis par des organisations tierces et ne sont pas affiliés à SocialCaution. Nous vous recommandons de consulter la politique de confidentialité et les conditions d'utilisation de chaque outil avant utilisation. SocialCaution n'est pas responsable du fonctionnement, de la sécurité ou des pratiques de confidentialité des outils externes.",
+    "categories": {
+      "all": "Tous les outils",
+      "security": "Sécurité",
+      "privacy": "Confidentialité",
+      "family": "Famille",
+      "socialMedia": "Réseaux sociaux",
+      "social-media": "Réseaux sociaux",
+      "shopping": "Achats",
+      "cleanup": "Nettoyage des données",
+      "advancedPrivacy": "Confidentialité avancée",
+      "advanced-privacy": "Confidentialité avancée",
+      "legal": "Outils juridiques",
+      "reputation": "Réputation"
+    }
+  },
+  "contextualLinks": {
+    "recommendedNextStep": "Étape suivante recommandée",
+    "suggestedNextSteps": "Étapes suivantes suggérées :",
+    "priority": "Priorité",
+    "seeWhichServicesNeedTheseTools": "Voir quels services ont besoin de ces outils",
+    "learnMoreAboutTools": "En savoir plus sur les outils avec des ressources éducatives"
+  },
+  "privacyRegulations": {
+    "title": "Suivi des Tendances",
+    "subtitle": "Surveillez les réglementations sur la confidentialité et les mises à jour de conformité affectant les services que vous utilisez",
+    "description": "Suivez les tendances de confidentialité à long terme et les changements réglementaires affectant les services de votre Catalogue de Services. Pour les menaces de sécurité immédiates à vos services, consultez le Radar de Confidentialité.",
+    "criticalImpact": "Impact Critique",
+    "criticalImpactDesc": "Changements réglementaires majeurs affectant les services que vous utilisez",
+    "highImpact": "Impact Élevé",
+    "highImpactDesc": "Actions d'application affectant vos services",
+    "mediumImpact": "Impact Moyen",
+    "mediumImpactDesc": "Tendances du secteur affectant vos services",
+    "lowImpact": "Impact Faible",
+    "lowImpactDesc": "Mises à jour générales sur vos services",
+    "unknownFeed": "Flux Inconnu",
+    "failedToLoadFeeds": "Échec du chargement des flux",
+    "unknownDate": "Date inconnue",
+    "invalidDate": "Date invalide",
+    "noItemsToday": "Aucun élément aujourd'hui",
+    "latestToday": "Dernier : {{count}} aujourd'hui",
+    "requiresAttention": "Nécessite une attention",
+    "allClear": "Tout est clair",
+    "newItemsToReview": "Nouveaux éléments à examiner",
+    "upToDate": "À jour",
+    "showCriticalOnly": "Afficher Seulement les Critiques",
+    "showingCriticalOnly": "✓ Affichage Seulement les Critiques",
+    "noItemsMatchSearch": "Aucun élément ne correspond à votre recherche",
+    "noItemsAvailable": "Aucun élément disponible",
+    "error": "Erreur",
+    "searchPlaceholder": "Rechercher des tendances et réglementations...",
+    "filters": {
+      "category": "Catégorie",
+      "region": "Région"
+    },
+    "refresh": "Actualiser Tous les Flux",
+    "refreshing": "Actualisation...",
+    "refreshingRegulations": "Actualisation des réglementations...",
+    "lastUpdated": "Dernière mise à jour :",
+    "critical": "Critique",
+    "loading": "Chargement des tendances...",
+    "allCategories": "Toutes les Catégories",
+    "allRegions": "Toutes les Régions",
+    "allIndustries": "Toutes les Industries",
+    "showAll": "Tout Afficher",
+    "totalItems": "Total des Éléments",
+    "criticalAlerts": "Alertes Critiques",
+    "newSinceLastVisit": "Nouveau Depuis la Dernière Visite",
+    "categories": {
+      "regulation": "Réglementation",
+      "enforcement": "Application",
+      "breach": "Violation",
+      "dataBreach": "Violations de Données",
+      "news": "Actualités",
+      "standards": "Norme",
+      "privacyLaws": "Lois sur la Confidentialité",
+      "compliance": "Conformité",
+      "unknown": "Inconnu"
+    },
+    "regulation": "Réglementation",
+    "allRegulations": "Toutes les Réglementations",
+    "regulations": {
+      "gdpr": "RGPD",
+      "ccpa": "CCPA",
+      "hipaa": "HIPAA",
+      "coppa": "COPPA",
+      "pipeda": "PIPEDA",
+      "lgpd": "LGPD",
+      "ferpa": "FERPA",
+      "glba": "GLBA",
+      "vcdpa": "VCDPA",
+      "cpra": "CPRA"
+    },
+    "regions": {
+      "global": "Mondial",
+      "eu": "Union Européenne",
+      "us": "États-Unis",
+      "uk": "Royaume-Uni",
+      "canada": "Canada",
+      "apac": "Asie-Pacifique",
+      "americas": "Amériques",
+      "asia": "Asie-Pacifique",
+      "other": "Autre"
+    },
+    "strategicImpact": {
+      "critical": "Impact Critique",
+      "high": "Impact Élevé",
+      "medium": "Impact Moyen",
+      "low": "Impact Faible"
+    },
+    "timeframes": {
+      "last7Days": "7 Derniers Jours",
+      "last30Days": "30 Derniers Jours",
+      "last90Days": "90 Derniers Jours"
+    },
+    "empty": {
+      "title": "Aucune Tendance Trouvée",
+      "description": "Aucune réglementation sur la confidentialité ou mise à jour de conformité trouvée correspondant à vos filtres"
+    },
+    "trendInsights": "Aperçus des Tendances",
+    "regulatoryActivity": {
+      "title": "Activité Réglementaire par Type",
+      "newRegulations": "Nouvelles Réglementations",
+      "lawsPolicyChanges": "Lois et changements de politique",
+      "enforcementActions": "Actions d'Application",
+      "finesPenalties": "Amendes et pénalités",
+      "complianceUpdates": "Mises à Jour de Conformité",
+      "standardsGuidelines": "Normes et lignes directrices",
+      "industryTrends": "Tendances de l'Industrie",
+      "newsAnalysis": "Actualités et analyses"
+    },
+    "enforcementActions": "Actions d'Application",
+    "topRegion": "Région Principale",
+    "affectedServices": "Services Affectés",
+    "criticalAlertsBanner": {
+      "title": "{{count}} Alerte{{plural}} Critique{{plural}} Requièr{{plural}}ent une Attention",
+      "description": "Mises à jour importantes sur la confidentialité qui peuvent vous affecter"
+    },
+    "serviceImpact": {
+      "title": "Impact Réglementaire sur Vos Services",
+      "basedOn": "Basé sur {{count}} service{{plural}} dans votre catalogue",
+      "addServices": "Ajoutez des services à votre catalogue pour voir l'impact",
+      "servicesAffected": "Services Affectés",
+      "ofTracked": "sur {{count}} suivis",
+      "noServicesSelected": "Aucun service sélectionné",
+      "thisMonth": "Ce Mois",
+      "newRegulations": "Nouvelles réglementations",
+      "enforcement": "Application",
+      "recentActions": "Actions récentes",
+      "topRegion": "Région Principale",
+      "regulationsCount": "{{count}} réglementation{{plural}}"
+    },
+    "servicePrivacyOverview": {
+      "title": "Aperçu de la Confidentialité de Vos Services",
+      "manageServices": "Gérer {{count}} Service{{plural}}",
+      "privacyExposureScore": "Score d'Exposition à la Confidentialité",
+      "scoreDescription": "(0-100, plus élevé = plus de risque)",
+      "highRisk": "Risque Élevé",
+      "mediumRisk": "Risque Moyen",
+      "lowRisk": "Risque Faible",
+      "knownBreaches": "{{count}} violation{{plural}} connue{{plural}} dans vos services sélectionnés"
+    },
+    "badges": {
+      "enforcement": "Application",
+      "majorBreach": "Violation Majeure",
+      "breach": "Violation",
+      "newLaw": "Nouvelle Loi",
+      "breaking": "Urgent",
+      "recent": "Récent",
+      "deadline": "Échéance",
+      "global": "Mondial",
+      "regional": "Régional",
+      "official": "Officiel",
+      "actionable": "Actionnable",
+      "relevantToYou": "Pertinent pour Vous"
+    }
+  },
+  "assessmentsPage": {
+    "title": "Évaluations de Confidentialité - SocialCaution",
+    "description": "Passez des évaluations de confidentialité pour comprendre vos risques de confidentialité numérique et apprendre vos droits de confidentialité",
+    "headerTitle": "Évaluations de Confidentialité",
+    "headerSubtitle": "Comprenez vos risques de confidentialité et apprenez vos droits",
+    "yourProgress": "Votre Progression",
+    "complete": "Terminé",
+    "yourPrivacyJourney": "Votre Parcours de Confidentialité",
+    "recommendedWorkflow": "Workflow recommandé :",
+    "recommendedWorkflowText": "Commencez par parcourir le {serviceCatalog} pour voir les risques de confidentialité, puis sélectionnez optionnellement votre persona et définissez vos préoccupations avant de passer les évaluations.",
+    "serviceCatalog": "Catalogue de Services",
+    "browseServiceCatalog": "Parcourir le Catalogue de Services",
+    "browseServiceCatalogDesc": "Explorez plus de 200 services et consultez les indices d'exposition à la confidentialité",
+    "browseServices": "Parcourir les Services",
+    "selectYourPersona": "Sélectionnez votre Persona (Optionnel)",
+    "selectYourPersonaDesc": "Obtenez des recommandations basées sur les personas en fonction de vos besoins de confidentialité",
+    "selected": "Sélectionné",
+    "selectPersona": "Sélectionner le Persona",
+    "viewAllPersonas": "Voir tous les personas →",
+    "takePrivacyAssessments": "Passer les Évaluations de Confidentialité",
+    "viewYourDashboard": "Voir votre Tableau de Bord",
+    "viewYourDashboardDesc": "Consultez les informations et recommandations basées sur les personas",
+    "viewDashboard": "Voir le Tableau de Bord",
+    "whyTakeAssessments": "Pourquoi Passer des Évaluations ?",
+    "whyTakeAssessmentsText": "Complétez les évaluations de confidentialité pour débloquer des informations basées sur les personas, des recommandations et suivre votre progression en matière de confidentialité. {personaNote}",
+    "personaNote": "Votre persona {personaName} nous aidera à fournir des conseils adaptés.",
+    "privacyRiskExposureAssessment": {
+      "title": "Évaluation de l'Exposition aux Risques de Confidentialité",
+      "subtitle": "Évaluez vos vulnérabilités de confidentialité numérique",
+      "completed": "Terminé",
+      "duration": "5-7 minutes",
+      "description": "Cette évaluation évalue votre exposition à la confidentialité numérique en examinant vos comportements en ligne, vos pratiques de sécurité et vos modèles de partage de données. Découvrez votre niveau de risque de confidentialité et obtenez des recommandations basées sur les personas pour améliorer votre confidentialité numérique.",
+      "whatYoullLearn": "Ce que vous apprendrez :",
+      "learn1": "Votre score global d'exposition à la confidentialité",
+      "learn2": "Vulnérabilités spécifiques dans vos habitudes numériques",
+      "learn3": "Actions basées sur les personas pour réduire les risques",
+      "retakeAssessment": "Reprendre l'Évaluation",
+      "startAssessment": "Commencer l'Évaluation"
+    },
+    "privacyRightsKnowledgeCheckup": {
+      "title": "Vérification des Connaissances sur les Droits de Confidentialité",
+      "subtitle": "Découvrez vos droits de confidentialité et comment les exercer",
+      "completed": "Terminé",
+      "duration": "8-12 minutes",
+      "description": "Cette vérification teste vos connaissances des droits de confidentialité sous des réglementations comme le RGPD, le CCPA et la LPRPDE. Apprenez quels droits vous avez, comment les exercer et ce que les entreprises doivent faire pour protéger votre confidentialité.",
+      "whatYoullLearn": "Ce que vous apprendrez :",
+      "learn1": "Vos droits de confidentialité sous les principales réglementations",
+      "learn2": "Comment demander, accéder et supprimer vos données",
+      "learn3": "Étapes pratiques pour exercer vos droits de confidentialité",
+      "retakeCheckup": "Reprendre la Vérification",
+      "startCheckup": "Commencer la Vérification"
+    },
+    "yourPrivacyMatters": {
+      "title": "Votre Confidentialité Compte",
+      "description": "Tous les résultats d'évaluation sont stockés localement sur votre appareil. Nous ne suivons jamais vos réponses ni ne partageons vos résultats avec des tiers. Complétez les évaluations pour débloquer des informations basées sur les personas dans votre tableau de bord et obtenir des recommandations adaptées à vos besoins de confidentialité."
+    },
+    "bothCompleted": "Les deux évaluations sont terminées !",
+    "completeRemaining": "Complétez l'évaluation restante",
+    "evaluateRisks": "Évaluez vos risques de confidentialité et apprenez vos droits",
+    "nextStepsTitle": "Prochaines étapes",
+    "nextStepDashboard": "Tout voir en un seul endroit",
+    "nextStepServices": "Recevoir des alertes pour vos services",
+    "nextStepActionPlan": "Suivre votre plan personnalisé",
+    "whatYouGet": "Après l'évaluation vous obtenez : un score de risque et de droits, un persona et un plan d'action et tableau de bord personnalisés."
+  },
+  "assessmentPage": {
+    "educationalDisclaimer": {
+      "title": "Plateforme Éducative - Ce Que Nous Offrons",
+      "intro": "Social Caution fournit des évaluations éducatives de confidentialité qui vous aident à apprendre :",
+      "provides": [
+        "Sensibilisation et éducation aux risques de confidentialité",
+        "Comprendre votre empreinte numérique",
+        "Apprendre les droits et lois de confidentialité",
+        "Recommandations éducatives pour l'amélioration"
+      ],
+      "notProvides": "Nous N'OFFRONS PAS :",
+      "notProvidesList": [
+        "Services de surveillance en temps réel ou de protection active",
+        "Suppression automatisée des données ou modifications des paramètres de confidentialité",
+        "Protection garantie de la confidentialité ou sécurité",
+        "Conseils juridiques ou de sécurité professionnels"
+      ]
+    },
+    "assessments": {
+      "exposure": {
+        "title": "Évaluation de l'Exposition Numérique",
+        "description": "Apprenez-en sur votre empreinte numérique et identifiez les risques de confidentialité grâce à une évaluation éducative",
+        "duration": "10-15 min",
+        "features": [
+          "Sensibilisation éducative aux vulnérabilités",
+          "Éducation aux risques de confidentialité",
+          "Recommandations d'apprentissage"
+        ]
+      },
+      "rights": {
+        "title": "Évaluation des Droits de Confidentialité",
+        "description": "Apprenez et comprenez vos droits de confidentialité grâce à une évaluation éducative",
+        "duration": "5-10 min",
+        "features": [
+          "Éducation à la sensibilisation aux droits",
+          "Apprentissage du cadre juridique",
+          "Stratégies éducatives"
+        ]
+      },
+      "security": {
+        "title": "Évaluation de la Sensibilisation à la Sécurité",
+        "description": "Évaluation éducative de la sécurité et recommandations d'apprentissage",
+        "duration": "15-20 min",
+        "features": [
+          "Éducation à la sensibilisation à la sécurité",
+          "Apprentissage de la sensibilisation aux menaces",
+          "Plan d'action éducatif"
+        ]
+      }
+    },
+    "startAssessment": "Commencer l'Évaluation",
+    "aboutSection": {
+      "title": "À Propos de Nos Évaluations Éducatives",
+      "description": "Nos évaluations éducatives vous aident à apprendre votre statut de confidentialité et fournissent des recommandations d'apprentissage personnalisées pour l'amélioration. Ces outils sont conçus pour l'éducation et la sensibilisation, pas pour la protection active."
+    },
+    "whyChoose": {
+      "title": "Pourquoi Choisir Nos Évaluations Éducatives ?",
+      "subtitle": "Outils d'apprentissage de la confidentialité complets, éducatifs et accessibles",
+      "features": {
+        "quick": {
+          "title": "Rapide et Éducatif",
+          "description": "Apprenez la confidentialité en quelques minutes avec nos outils éducatifs"
+        },
+        "personalized": {
+          "title": "Apprentissage Personnalisé",
+          "description": "Obtenez des recommandations éducatives adaptées à vos besoins"
+        },
+        "educational": {
+          "title": "Focus Éducatif",
+          "description": "Conçu pour l'apprentissage et la sensibilisation, pas pour la protection active"
+        },
+        "expert": {
+          "title": "Soutenu par des Experts",
+          "description": "Basé sur la recherche en confidentialité et les meilleures pratiques éducatives"
+        }
+      }
+    }
+  },
+  "adaptiveResources": {
+    "redirecting": "Redirection vers le Répertoire des Outils de Confidentialité..."
+  },
+  "exposureIndexMethodology": {
+    "educationalDisclaimer": "Plateforme Éducative : Cette méthodologie est conçue à des fins éducatives pour vous aider à comprendre les risques de confidentialité. Ce n'est pas un audit de sécurité professionnel ou une évaluation de conformité juridique."
+  },
+  "checkout": {
+    "redirecting": "Redirection vers votre tableau de bord..."
+  },
+  "privacySettingsPage": {
+    "title": "Compte",
+    "subtitle": "Gérez vos préférences et préoccupations de confidentialité",
+    "description": "Gérez votre persona de confidentialité et personnalisez vos préoccupations en matière de confidentialité pour recevoir des recommandations personnalisées.",
+    "cookiePreferencesTitle": "Préférences des cookies",
+    "cookiePreferencesDesc": "Contrôlez l'utilisation des cookies et technologies similaires. Vous pouvez modifier votre choix à tout moment.",
+    "cookiePreferencesManage": "Gérer les préférences des cookies",
+    "cookieStatusAll": "Tous les cookies (y compris analytiques)",
+    "cookieStatusEssential": "Essentiels uniquement",
+    "cookieStatusNotSet": "Pas encore choisi",
+    "yourPrivacyPersona": "Votre Persona de Confidentialité",
+    "selectYourPersona": "Sélectionnez Votre Persona :",
+    "privacyConcerns": "Préoccupations de Confidentialité",
+    "concernsInstruction": "Sélectionnez au moins une catégorie de préoccupations en matière de confidentialité. Vous pouvez sélectionner des catégories entières ou des préoccupations spécifiques dans celles-ci.",
+    "concernsUsage": "Celles-ci seront utilisées pour personnaliser vos recommandations et ressources.",
+    "saveChanges": "Enregistrer les Modifications",
+    "saving": "Enregistrement...",
+    "saved": "Enregistré !",
+    "validationError": "Veuillez sélectionner au moins une préoccupation en matière de confidentialité",
+    "selectedConcerns": "Préoccupations Sélectionnées ({{count}}) :",
+    "editPrivacyFocus": "Modifier le focus confidentialité"
+  },
+  "privacyConcernCategories": {
+    "family-children": {
+      "name": "Protection de la Famille et des Enfants",
+      "description": "Protéger votre famille et vos enfants en ligne",
+      "concerns": {
+        "child-safety": "Sécurité des Enfants",
+        "family-privacy": "Confidentialité Familiale",
+        "parental-controls": "Contrôles Parentaux"
+      }
+    },
+    "financial-identity": {
+      "name": "Sécurité Financière et d'Identité",
+      "description": "Protéger les informations financières et prévenir le vol d'identité",
+      "concerns": {
+        "financial-security": "Sécurité Financière",
+        "identity-theft": "Prévention du Vol d'Identité",
+        "data-brokers": "Suppression des Courtiers de Données",
+        "shopping-privacy": "Confidentialité des Achats",
+        "data-rights": "Droits et Contrôle des Données",
+        "online-tracking": "Prévention du Suivi en Ligne"
+      }
+    },
+    "social-reputation": {
+      "name": "Gestion Sociale et de Réputation",
+      "description": "Gérer votre présence en ligne et protéger votre réputation",
+      "concerns": {
+        "social-media-privacy": "Confidentialité des Médias Sociaux",
+        "reputation-management": "Gestion de la Réputation",
+        "public-privacy": "Confidentialité Publique",
+        "content-protection": "Protection du Contenu",
+        "anonymity": "Anonymat",
+        "data-minimization": "Minimisation des Données"
+      }
+    }
+  },
+  "tutorials": {
+    "title": "Tutoriels",
+    "description": "Apprenez à utiliser SocialCaution avec nos tutoriels interactifs étape par étape. Chaque tutoriel vous guide à travers les fonctionnalités clés et vous aide à tirer le meilleur parti de votre protection de la confidentialité.",
+    "recommendedWorkflow": "Workflow Recommandé",
+    "step": "Étape {{step}}",
+    "completed": "Terminé",
+    "goToPage": "Aller à la page",
+    "stepsCountSingular": "{{count}} étape",
+    "stepsCountPlural": "{{count}} étapes",
+    "resetTutorial": "Réinitialiser le tutoriel",
+    "review": "Réviser",
+    "start": "Commencer",
+    "needHelp": "Besoin d'Aide?",
+    "helpDescription": "Si vous avez besoin d'une assistance supplémentaire, consultez notre page FAQ ou contactez notre équipe de support.",
+    "visitFAQ": "Visiter la FAQ",
+    "contactSupport": "Contacter le Support",
+    "welcomeTitle": "Bienvenue sur SocialCaution",
+    "alertsTitle": "Alertes et Notifications",
+    "seoTitle": "Tutoriels - Apprenez à Utiliser SocialCaution | SocialCaution",
+    "seoDescription": "Tutoriels interactifs pour vous aider à apprendre à utiliser les fonctionnalités de protection de la confidentialité de SocialCaution. Guides étape par étape pour toutes les fonctionnalités principales.",
+    "seoKeywords": "tutoriel, guide, comment utiliser, protection de la confidentialité, étape par étape",
+    "viewAll": "Voir tous les tutoriels",
+    "startTutorial": "Démarrer le tutoriel",
+    "tutorials": "Tutoriels",
+    "availableTutorials": "Tutoriels disponibles",
+    "searchPlaceholder": "Rechercher des tutoriels...",
+    "noResults": "Aucun tutoriel trouvé",
+    "noTutorials": "Aucun tutoriel trouvé",
+    "tryDifferentSearch": "Essayez un autre terme de recherche",
+    "noTutorialsAvailable": "Aucun tutoriel disponible pour le moment"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Tout ce que vous devez savoir sur la protection personnalisée de la vie privée",
+    "seoTitle": "FAQ - Plateforme de Confidentialité SocialCaution",
+    "seoDescription": "Questions fréquemment posées sur l'évaluation de la vie privée alimentée par l'IA de SocialCaution, la détection de persona et les recommandations personnalisées.",
+    "seoKeywords": "FAQ plateforme confidentialité, questions détection persona, aide évaluation confidentialité, support SocialCaution",
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "contactDescription": "Nos experts en confidentialité sont là pour vous aider à protéger votre vie numérique",
+    "contactSupport": "Contacter le Support",
+    "categories": {
+      "gettingStarted": "Pour Commencer",
+      "pricingPlans": "Tarifs et Forfaits",
+      "privacySecurity": "Confidentialité et Sécurité",
+      "howItWorks": "Comment Ça Marche",
+      "technicalQuestions": "Questions Techniques"
+    },
+    "gettingStarted": {
+      "personaQuestion": "Qu'est-ce qu'une persona de confidentialité et pourquoi est-ce important ?",
+      "personaAnswer": "Une persona de confidentialité est votre profil de personnalité unique en matière de confidentialité basé sur vos préoccupations, votre niveau de confort technique et vos besoins de protection. Nous identifions 9 personas distinctes : Parent Prudent, Novice Numérique, Défenseur de la Vie Privée, Acheteur en Ligne, Influenceur Social, Individu Privé, Employé Préoccupé, Responsable des Données et Étudiant. Connaître votre persona nous aide à fournir des recommandations pertinentes au lieu de conseils génériques qui ne correspondent pas à votre situation.",
+      "assessmentTimeQuestion": "Combien de temps prend l'évaluation ?",
+      "assessmentTimeAnswer": "Nous proposons trois options d'évaluation : Évaluation de l'Exposition aux Risques de Confidentialité (5-7 minutes), Vérification des Connaissances sur les Droits à la Vie Privée (8-12 minutes) et Évaluation Complète de la Confidentialité (13-19 minutes). Vous pouvez commencer par n'importe quelle évaluation en fonction de votre temps disponible et de votre focus actuel sur la confidentialité.",
+      "accountQuestion": "Dois-je créer un compte ?",
+      "accountAnswer": "Non ! SocialCaution fonctionne complètement sans inscription sur le plan gratuit. Vous pouvez passer des évaluations, obtenir des recommandations personnalisées et accéder à votre tableau de bord anonymement. Toutes vos données restent dans le stockage local de votre navigateur sous votre contrôle complet. Les forfaits Premium et Famille offrent une synchronisation cloud cryptée optionnelle si vous souhaitez accéder à vos données sur plusieurs appareils.",
+      "freePlanQuestion": "Y a-t-il un plan gratuit ?",
+      "freePlanAnswer": "Oui ! SocialCaution propose un plan gratuit avec des fonctionnalités limitées. Le plan gratuit comprend : 3 évaluations de confidentialité par mois (la limite se réinitialise mensuellement), Suivi jusqu'à 5 services maximum, 1 export PDF par mois, Toutes les données stockées localement sur votre appareil, Aucun compte requis. IMPORTANT : Le plan gratuit a des limites. Pour des évaluations illimitées, un suivi illimité des services, des exports illimités (PDF/Excel/JSON), la synchronisation cloud et des fonctionnalités avancées, vous avez besoin d'un plan payant : Premium (2,99 $/mois) ou Famille (7,99 $/mois). Vous pouvez utiliser le plan gratuit indéfiniment, mais devrez mettre à niveau si vous dépassez les limites mensuelles."
+    },
+    "pricingPlans": {
+      "freePlanQuestion": "Qu'est-ce qui est inclus dans le plan Gratuit ?",
+      "freePlanAnswer": "Le plan Gratuit comprend des fonctionnalités essentielles de confidentialité avec des limites spécifiques : Évaluations de confidentialité (limitées à 3 par mois), Détection de persona alimentée par l'IA, Indice d'Exposition à la Confidentialité Simplifié (analyse à 4 facteurs), accès au catalogue de services (parcourir 200+, suivre jusqu'à 5), tableau de bord personnalisé, ressources adaptatives et répertoire d'outils de confidentialité. Limites du plan gratuit : Suivre jusqu'à 5 services maximum, 1 export PDF par mois, Aucun export Excel ou JSON, Toutes les données stockées localement (pas de synchronisation cloud), Un seul appareil (pas d'accès multi-appareils), Aucune analyse avancée. Toutes les fonctionnalités fonctionnent sans compte - vos données restent sur votre appareil.",
+      "planDifferenceQuestion": "Quelle est la différence entre les plans Gratuit, Premium et Famille ?",
+      "planDifferenceAnswer": "PLAN GRATUIT (Aucun paiement requis) : Limité à 3 évaluations de confidentialité par mois, Suivre jusqu'à 5 services maximum, 1 export PDF par mois, Aucun export Excel ou JSON, Stockage local uniquement (pas de synchronisation cloud), Accès à un seul appareil, Analyses de base uniquement. PLAN PREMIUM (2,99 $/mois ou 24,99 $/an) : Tout ce qui est dans Gratuit, plus : Évaluations de confidentialité illimitées, Suivi illimité des services, Exports PDF/Excel/CSV/JSON illimités, Synchronisation cloud cryptée optionnelle, Accès multi-appareils, Tableau de bord d'analyses de confidentialité avec historique des évaluations, Voir l'historique des évaluations et les changements de scores, Guides de confidentialité et répertoire d'outils externes organisés, Support par email avec réponse plus rapide pour les problèmes de sécurité, Catalogue de services et évaluations des risques gérés par des professionnels de la cybersécurité et du droit, Accès anticipé aux nouvelles fonctionnalités. PLAN FAMILLE (7,99 $/mois ou 64,99 $/an) : Tout ce qui est dans Premium, plus : Jusqu'à 5 membres de la famille, Tableau de bord de confidentialité familial, Fonctionnalités de protection des enfants, Rapports de confidentialité familiaux, Objectifs de confidentialité partagés, Coaching de confidentialité familial.",
+      "cancelQuestion": "Puis-je annuler mon abonnement à tout moment ?",
+      "cancelAnswer": "Oui ! Vous pouvez annuler votre abonnement Premium ou Famille à tout moment. Vos données resteront accessibles et vous continuerez à avoir accès à toutes les fonctionnalités du plan gratuit. Il n'y a pas de frais d'annulation ou de pénalités.",
+      "oneTimePurchaseQuestion": "Quels sont les produits à achat unique ?",
+      "oneTimePurchaseAnswer": "En plus des plans d'abonnement, nous proposons des produits à achat unique (ceux-ci nécessitent un paiement) : Boîte à Outils d'Évaluation de la Confidentialité (49 $ une fois) - Outils de confidentialité hors ligne avancés avec accès à vie ; Alertes de Surveillance des Services (29 $ une fois) - Surveillance à vie et alertes pour les changements de politique de confidentialité ; Modèles de Rapports Premium (19 $ une fois) - Modèles de rapports PDF professionnels avec personnalisation ; Audit de Confidentialité Professionnel (299 $ une fois) - Consultation en tête-à-tête avec des experts en confidentialité incluant un rapport d'audit complet. Tous les achats uniques offrent un accès à vie sans frais récurrents. Ceux-ci sont séparés du plan gratuit et des plans d'abonnement.",
+      "annualBillingQuestion": "Offrez-vous des remises pour la facturation annuelle ?",
+      "annualBillingAnswer": "Oui ! Plan Premium : 24,99 $/an (économisez 30 % par rapport au mensuel, équivalent à 2,08 $/mois). Plan Famille : 64,99 $/an (économisez 32 % par rapport au mensuel, équivalent à 5,41 $/mois). La facturation annuelle vous fait économiser de l'argent et offre les mêmes fonctionnalités illimitées que la facturation mensuelle.",
+      "paymentRequiredQuestion": "Qu'est-ce qui nécessite un paiement et qu'est-ce qui est gratuit ?",
+      "paymentRequiredAnswer": "GRATUIT (Aucun paiement requis) : Évaluations de confidentialité de base (3 par mois), Accès au catalogue de services, Détection de persona, Indice d'Exposition à la Confidentialité, Tableau de bord de base, Suivre jusqu'à 5 services, 1 export PDF par mois, Toutes les données stockées localement. NÉCESSITE UN PAIEMENT : Abonnement Premium (2,99 $/mois) - Évaluations illimitées, services illimités, exports illimités, synchronisation cloud, analyses avancées. Abonnement Famille (7,99 $/mois) - Tout ce qui est dans Premium plus les fonctionnalités familiales. Achats uniques : Boîte à Outils de Confidentialité (49 $), Surveillance des Services (29 $), Modèles de Rapports (19 $), Audit Professionnel (299 $)."
+    },
+    "privacySecurity": {
+      "protectPrivacyQuestion": "Comment protégez-vous ma vie privée tout en fournissant une personnalisation ?",
+      "protectPrivacyAnswer": "Tout se passe localement dans votre navigateur. Nos algorithmes d'IA fonctionnent côté client pour analyser vos réponses et détecter votre persona sans envoyer de données personnelles à nos serveurs. Nous utilisons des analyses anonymes pour améliorer la plateforme, mais aucune réponse d'évaluation ou information personnelle n'est jamais transmise ou stockée par nous.",
+      "dataCollectionQuestion": "Quelles données collectez-vous réellement ?",
+      "dataCollectionAnswer": "Nous collectons zéro information personnelle. Nos analyses anonymes suivent uniquement : les vues de page (pas de contenu personnel), les taux d'achèvement des évaluations (pas vos réponses réelles), les modèles d'utilisation des fonctionnalités (agrégés) et les métriques de performance technique. Nous ne pouvons retracer aucune de ces informations à des utilisateurs individuels.",
+      "dataPrivateQuestion": "Comment puis-je savoir que mes données restent privées ?",
+      "dataPrivateAnswer": "Vous pouvez vérifier nos affirmations de confidentialité en : inspectant le trafic réseau (vous ne verrez aucune donnée personnelle transmise), vérifiant le stockage local de votre navigateur (toutes les données restent locales), utilisant les outils de développement du navigateur pour auditer nos pratiques et en examinant notre code open-source (à venir).",
+      "gdprCompliantQuestion": "Êtes-vous conformes au RGPD/CCPA ?",
+      "gdprCompliantAnswer": "Oui, mais de la meilleure façon possible - en ne collectant aucune donnée personnelle du tout. Comme nous ne traitons pas d'informations personnelles, la plupart des obligations légales en matière de confidentialité ne s'appliquent pas à nous. Cela signifie que vous bénéficiez de la protection de la vie privée la plus forte possible sans avoir besoin d'exercer des droits ou de déposer des demandes."
+    },
+    "howItWorks": {
+      "personaAccuracyQuestion": "Quelle est la précision de la détection de persona ?",
+      "personaAccuracyAnswer": "Notre détection de persona par IA a été affinée grâce à des tests approfondis et atteint une grande précision en analysant plusieurs modèles comportementaux. Le système fournit un score de confiance, et si vous n'êtes pas d'accord avec le résultat, vous pouvez sélectionner manuellement votre persona préférée pour vous assurer que les recommandations correspondent à vos besoins.",
+      "changePersonaQuestion": "Puis-je changer ma persona plus tard ?",
+      "changePersonaAnswer": "Absolument ! Vos besoins en matière de confidentialité peuvent évoluer avec le temps. Vous pouvez repasser des évaluations pour mettre à jour votre persona, sélectionner manuellement une persona différente si votre situation change, ou simplement passer une nouvelle évaluation pour voir comment vos pratiques de confidentialité se sont améliorées.",
+      "personalizedQuestion": "Qu'est-ce qui rend les recommandations personnalisées ?",
+      "personalizedAnswer": "Les recommandations sont adaptées en fonction de : votre persona de confidentialité détectée, les scores d'évaluation des risques actuels, le niveau de confort technique indiqué dans les réponses, les vulnérabilités spécifiques identifiées dans votre évaluation et les préoccupations prioritaires pertinentes pour votre type de persona.",
+      "retakeQuestion": "À quelle fréquence dois-je repasser les évaluations ?",
+      "retakeAnswer": "Nous recommandons de repasser les évaluations tous les 3-6 mois ou après avoir apporté des améliorations significatives à la confidentialité. Cela aide à suivre vos progrès, met à jour vos scores de risque et garantit que vos recommandations restent à jour avec vos pratiques de confidentialité en évolution. NOTE : Les utilisateurs du plan gratuit sont limités à 3 évaluations par mois, alors planifiez en conséquence. Les plans Premium et Famille ont des évaluations illimitées."
+    },
+    "technicalQuestions": {
+      "technologyQuestion": "Quelle technologie alimente la détection de persona par IA ?",
+      "technologyAnswer": "Notre détection de persona utilise des algorithmes d'apprentissage automatique côté client qui fonctionnent entièrement dans votre navigateur. Le système analyse les modèles de réponse, les indicateurs de risque et les préférences comportementales en utilisant des modèles de notation pondérés et la reconnaissance de modèles - le tout sans envoyer vos données nulle part.",
+      "offlineQuestion": "Cela fonctionnera-t-il hors ligne ?",
+      "offlineAnswer": "L'évaluation principale et la détection de persona fonctionnent hors ligne une fois la page chargée. Cependant, l'accès aux ressources externes, outils et contenu mis à jour nécessite une connexion Internet. Vos résultats d'évaluation sont toujours disponibles hors ligne car ils sont stockés localement.",
+      "browsersQuestion": "Quels navigateurs sont pris en charge ?",
+      "browsersAnswer": "SocialCaution fonctionne sur tous les navigateurs modernes, y compris Chrome, Firefox, Safari et Edge. Nous utilisons des technologies Web standard et ne nécessitons aucun plugin ou extension spécial. Pour la meilleure expérience, nous recommandons d'utiliser une version de navigateur à jour.",
+      "exportQuestion": "Puis-je exporter mes résultats d'évaluation ?",
+      "exportAnswer": "Oui, mais les options d'export varient selon le plan. PLAN GRATUIT : 1 export PDF par mois (pas d'exports Excel ou JSON). PLANS PREMIUM ET FAMILLE : Exports PDF, Excel et JSON illimités. Tous les exports sont générés localement sur votre appareil. Les abonnés Premium et Famille peuvent également exporter leur historique d'évaluation complet et leurs données d'analyse.",
+      "limitsQuestion": "Que se passe-t-il lorsque j'atteins mes limites du plan gratuit ?",
+      "limitsAnswer": "Lorsque vous atteignez vos limites du plan gratuit (3 évaluations par mois, 5 services suivis ou 1 export PDF par mois), vous verrez une notification expliquant la limite. Vous pouvez soit attendre jusqu'au mois suivant pour que les limites se réinitialisent, soit passer à Premium (2,99 $/mois) ou Famille (7,99 $/mois) pour un accès illimité à toutes les fonctionnalités. Vos données existantes restent accessibles quel que soit votre plan."
+    }
+  },
+  "support": {
+    "title": "Centre d'assistance",
+    "description": "Obtenez de l'aide et du support pour SocialCaution. Trouvez des réponses, des tutoriels et des coordonnées.",
+    "contactBlock": {
+      "heading": "Poser des questions et demander de l'assistance",
+      "description": "Écrivez-nous à support@ermits.com ou utilisez notre formulaire de contact pour toute aide concernant votre compte, des problèmes techniques ou des questions.",
+      "emailLabel": "Email de support :",
+      "contactFormLink": "Formulaire de contact"
+    },
+    "subtitle": "Nous sommes là pour vous aider. Trouvez des réponses, des guides et contactez notre équipe.",
+    "resources": {
+      "faq": {
+        "title": "FAQ",
+        "description": "Réponses aux questions fréquentes"
+      },
+      "tutorial": {
+        "title": "Tutoriel",
+        "description": "Guides pas à pas pour commencer"
+      },
+      "documentation": {
+        "title": "Documentation",
+        "description": "Découvrez notre méthodologie et nos fonctionnalités"
+      },
+      "contact": {
+        "title": "Nous contacter",
+        "description": "Contactez notre équipe"
+      }
+    },
+    "quickHelp": {
+      "title": "Aide rapide",
+      "gettingStarted": {
+        "title": "Démarrage",
+        "item1": "Parcourez notre catalogue de services pour explorer les risques de confidentialité",
+        "item2": "Définissez vos préoccupations de confidentialité pour des recommandations personnalisées",
+        "item3": "Passez les évaluations de confidentialité pour connaître votre empreinte numérique"
+      },
+      "commonQuestions": {
+        "title": "Questions courantes",
+        "item1": "Comment SocialCaution protège-t-il ma vie privée ?",
+        "item2": "Mes données sont-elles stockées de manière sécurisée ?",
+        "item3": "Comment interpréter les scores d'exposition à la confidentialité ?"
+      }
+    },
+    "contact": {
+      "title": "Besoin d'aide ?",
+      "description": "Vous ne trouvez pas ce que vous cherchez ? Notre équipe est là. Contactez-nous via notre formulaire.",
+      "button": "Nous contacter"
+    }
+  },
+  "feedback": {
+    "title": "Aidez-Nous à Nous Améliorer",
+    "description": "À quel point cette évaluation était-elle utile ? Vos commentaires nous aident à améliorer SocialCaution.",
+    "overallRating": "Note Globale",
+    "mostUsefulLabel": "Qu'avez-vous trouvé le plus utile ? (Sélectionnez tout ce qui s'applique)",
+    "wouldRecommendLabel": "Recommanderiez-vous SocialCaution™ à un ami ?",
+    "categoryLabel": "Catégorie (Optionnel)",
+    "additionalFeedbackLabel": "Commentaires Supplémentaires (Optionnel)",
+    "additionalFeedbackPlaceholder": "Que pourrions-nous améliorer ? Qu'avez-vous aimé ?",
+    "skip": "Passer",
+    "submit": "Soumettre les Commentaires",
+    "submitting": "Soumission...",
+    "thankYou": "Merci !",
+    "thankYouMessage": "Vos commentaires nous aident à améliorer SocialCaution.",
+    "privacyNote": "Vos commentaires sont anonymes et nous aident à nous améliorer. Aucune donnée personnelle n'est collectée.",
+    "closeModal": "Fermer la fenêtre de commentaires",
+    "selectCategory": "Sélectionner une catégorie...",
+    "yes": "Oui",
+    "no": "Non",
+    "rateStarSingular": "Noter {{count}} étoile",
+    "rateStarPlural": "Noter {{count}} étoiles",
+    "ratingLabels": {
+      "1": "Nécessite des Améliorations",
+      "2": "Correct",
+      "3": "Bien",
+      "4": "Excellent !",
+      "5": "Parfait !"
+    },
+    "categories": {
+      "bug": "Rapport de Bug",
+      "feature": "Demande de Fonctionnalité",
+      "ux": "Commentaires UX/UI",
+      "content": "Commentaires sur le Contenu",
+      "performance": "Problème de Performance",
+      "general": "Commentaires Généraux"
+    },
+    "usefulFeatures": {
+      "privacyConcerns": "Préoccupations de Confidentialité",
+      "riskScoring": "Notation des Risques de Confidentialité",
+      "actionPlans": "Plans d'Action Personnalisés",
+      "serviceCatalog": "Catalogue de Confidentialité des Services",
+      "resources": "Ressources de Confidentialité",
+      "dashboard": "Tableau de Bord Personnalisé"
+    }
+  },
+  "account": {
+    "subtitle": "Gérez vos préférences et données",
+    "name": "Utilisateur Anonyme",
+    "email": "Aucun email requis",
+    "profile": "Profil",
+    "dataPrivacy": "Données et Confidentialité",
+    "exportData": "Exporter les Données",
+    "subscription": {
+      "title": "Abonnement",
+      "upgrade": "Passer à Standard",
+      "standard": "Abonnement Standard",
+      "monthly": "Mensuel",
+      "renews": "Renouvelle",
+      "provider": "Fournisseur",
+      "manage": "Gérer l'Abonnement",
+      "cancel": "Annuler l'Abonnement",
+      "cancelStore": "Pour annuler votre abonnement, ouvrez les paramètres d'abonnement de votre appareil :\n\n• iOS : Réglages → [Votre Nom] → Abonnements\n• Android : Play Store → Abonnements",
+      "cancelNote": "L'annulation est gérée via les paramètres d'abonnement de votre appareil",
+      "checking": "Vérification du statut d'abonnement..."
+    },
+    "preferences": {
+      "title": "Préférences",
+      "notifications": "Notifications",
+      "haptics": "Haptiques"
+    },
+    "privacyFirst": {
+      "title": "Confidentialité d'Abord :",
+      "description": "Toutes vos données restent sur votre appareil. Pas de comptes, pas de synchronisation cloud, pas de suivi."
+    },
+    "clearData": {
+      "title": "Effacer Toutes les Données",
+      "confirm": "Êtes-vous sûr de vouloir supprimer toutes vos données ? Cette action est irréversible."
+    },
+    "resetSetup": {
+      "title": "Réinitialiser la Configuration",
+      "confirm": "Cela réinitialisera votre progression de configuration. Êtes-vous sûr ?"
+    },
+    "help": {
+      "feedback": "Commentaires",
+      "contact": "Contacter le Support"
+    }
+  },
+  "settings": {
+    "theme": {
+      "title": "Thème",
+      "light": "Clair",
+      "dark": "Sombre"
+    },
+    "language": "Langue"
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "name": "SocialCaution - Personalized Privacy Platform",
+  "short_name": "SocialCaution",
+  "description": "AI-assisted privacy platform that helps you understand your privacy concerns, assess your digital footprint, and get personalized recommendations. Features include privacy assessments, Privacy Exposure Index scoring for 200+ online services, digital footprint analysis, privacy tools (AI-assisted message checker, data broker removal), service monitoring alerts, and 100+ educational resources. All processing happens client-side with zero data collection—your privacy data never leaves your device.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ef4444",
+  "background_color": "#ffffff",
+  "orientation": "any",
+  "categories": ["privacy", "security", "education", "productivity"],
+  "lang": "en",
+  "dir": "ltr",
+  "scope": "/",
+  "id": "/",
+  "icons": [
+    {
+      "src": "/android-chrome-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png", 
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Take Privacy Assessment",
+      "short_name": "Assessment", 
+      "description": "Start your personalized privacy evaluation",
+      "url": "/assessment/full",
+      "icons": [
+        {
+          "src": "/android-chrome-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Privacy Dashboard",
+      "short_name": "Dashboard",
+      "description": "View your personalized privacy dashboard", 
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/android-chrome-96x96.png",
+          "sizes": "96x96", 
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Services Monitoring",
+      "short_name": "Services",
+      "description": "Browse privacy exposure indices for 200+ services",
+      "url": "/service-catalog",
+      "icons": [
+        {
+          "src": "/android-chrome-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Digital Footprint Analyzer",
+      "short_name": "Analyzer",
+      "description": "Get comprehensive digital footprint analysis",
+      "url": "/dashboard?view=footprint",
+      "icons": [
+        {
+          "src": "/android-chrome-96x96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+privacy",
+      "url": "/assessment/full?action=%s"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  },
+  "launch_handler": {
+    "client_mode": ["navigate-existing", "auto"]
+  },
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://socialcaution.com/manifest.json"
+    }
+  ]
+}

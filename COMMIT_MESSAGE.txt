@@ -1,0 +1,35 @@
+feat: Clarify terminology for Exposure Index and Digital Footprint
+
+- Updated all references from "7 personas" to "9 personas" across the project
+- Clarified distinction between Service Exposure Index, Digital Footprint Score, and Combined Exposure Index
+- Added terminology clarification section to ExposureIndexMethodology page
+- Updated ServiceCatalog to use "Service Exposure Index" (service-specific) instead of generic "Privacy Exposure Index"
+- Updated PersonalizedDashboard to clarify "Digital Footprint Score" as personal score
+- Added clarification boxes and tooltips throughout components
+- Updated ExposureIndexDashboard title and labels for clarity
+- Updated DigitalFootprintAnalysis with clear definitions
+
+Terminology Clarifications:
+- Service Exposure Index (0-100): Score for individual services shown in catalog
+- Digital Footprint Score (0-100): Personal score calculated from selected services
+- Combined Privacy Exposure Index (0-100): Final score = (Assessment × 0.6) + (Digital Footprint × 0.4)
+
+Files modified:
+- src/components/pages/ExposureIndexMethodology.jsx - Added terminology section
+- src/components/ServiceCatalog.jsx - Updated labels to "Service Exposure Index"
+- src/components/PersonalizedDashboard.jsx - Clarified "Digital Footprint Score"
+- src/components/DigitalFootprintAnalysis.jsx - Added clarification boxes
+- src/components/ExposureIndexDashboard.jsx - Updated title and labels
+- src/data/translations/en.json - Updated persona count to 9
+- src/data/translations/fr.json - Updated persona count to 9
+- src/data/translations/es.json - Updated persona count to 9
+- src/components/pages/FAQPage.jsx - Updated persona list to include all 9
+- src/components/pages/FeaturesPage.jsx - Updated count from 7 to 9
+- src/components/home/FeaturesSection.jsx - Updated count from 7 to 9
+- src/components/home/HowItWorks.tsx - Updated count from 7 to 9
+- src/components/home/SimpleHowItWorks.jsx - Updated count from 7 to 9
+- src/components/pages/HowItWorksPage.jsx - Updated count and list to 9
+- README.md - Updated persona count
+- Multiple documentation files updated
+
+Related: PERSONA_CONSISTENCY_REVIEW.md, EXPOSURE_INDEX_METHODOLOGY_PAGE.md

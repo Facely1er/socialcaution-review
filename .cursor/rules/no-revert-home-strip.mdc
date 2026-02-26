@@ -1,0 +1,24 @@
+---
+description: Do not revert the home-page "no strip" layout. Header and hero must blend with no visible strip.
+globs: ["src/App.tsx", "src/components/layout/Header.jsx", "src/components/home/Hero.jsx", "src/components/HomePage.jsx"]
+---
+
+# Do not revert: home page no-strip layout
+
+The home page is intentionally styled so there is **no visible strip** between the header and the hero section. Do not revert these behaviors:
+
+1. **App.tsx**
+   - Keep `AppLayout` and use it as the root wrapper (not a plain `div` with `bg-gray-50`).
+   - Keep `HERO_GRADIENT` and use it for root + main on home.
+   - On home, main must use `pt-14 md:pt-16` (not `pt-0`) so content clears the fixed header; the padding area uses the same gradient so no strip is visible.
+
+2. **Header.jsx**
+   - On route `/`, the header background must be the **same gradient** as the hero (`bg-gradient-to-br from-blue-50 via-white to-purple-50` / dark equivalents). On other routes, keep `backdrop-blur-3xl bg-white/95 dark:bg-slate-900/95`. Do not remove the `isHome` / `headerBg` logic.
+
+3. **Hero.jsx**
+   - The hero `<section>` must **not** have `mt-14` or `mt-16` (no margin-top). Main's padding clears the header; margin here would create a visible strip. Keep only `pt-10 md:pt-12` for internal spacing.
+
+4. **HomePage.jsx**
+   - The root wrapper must use the **hero gradient** (`bg-gradient-to-br from-blue-50 via-white to-purple-50` dark:...) on the home page. Do not change it back to `bg-gray-50 dark:bg-slate-900`.
+
+Files contain "DO NOT REVERT" comments at the relevant spots; respect them.

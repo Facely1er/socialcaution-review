@@ -1,0 +1,76 @@
+{
+  "subscriptions": {
+    "premium": {
+      "productId": "prod_TZyU4e9DJCynHH",
+      "monthlyPriceId": "price_1ScoXhI0VYr5zac6E3PQtgsm",
+      "annualPriceId": "price_1ScoXhI0VYr5zac6YPbP5rco"
+    },
+    "family": {
+      "productId": "prod_TZyUDEVnP957Z0",
+      "monthlyPriceId": "price_1ScoXhI0VYr5zac6iKp5cxX4",
+      "annualPriceId": "price_1ScoXiI0VYr5zac693FsQbCP"
+    }
+  },
+  "oneTime": {
+    "privacyToolkit": {
+      "productId": "prod_TZyUGzivY84P9Q",
+      "priceId": "price_1ScoXiI0VYr5zac6FZ9kZcIG"
+    },
+    "serviceMonitoring": {
+      "productId": "prod_TZyUM6ouv7Wqfz",
+      "priceId": "price_1ScoXjI0VYr5zac60wnLjW1T"
+    },
+    "premiumReportTemplate": {
+      "productId": "prod_TZyUHhn37gyqLM",
+      "priceId": "price_1ScoXjI0VYr5zac6yqfLM2BQ"
+    },
+    "professionalAudit": {
+      "productId": "prod_TZyUstofyn2jIk",
+      "priceId": "price_1ScoXkI0VYr5zac6AGSRefnj"
+    }
+  },
+  "dataBroker": {
+    "basic": {
+      "productId": "prod_TZyUtn7k4svAfP",
+      "priceId": "price_1ScoXkI0VYr5zac6niWfjXIQ"
+    },
+    "premium": {
+      "productId": "prod_TZyUlYmWtpeDSQ",
+      "priceId": "price_1ScoXkI0VYr5zac6fcRroqt3"
+    }
+  },
+  "courses": {
+    "privacyBasics": {
+      "productId": "prod_TZyU6p8drxJHWH",
+      "priceId": "price_1ScoXlI0VYr5zac69gUohgIi"
+    },
+    "advancedPrivacy": {
+      "productId": "prod_TZyUcOXphFRNk6",
+      "priceId": "price_1ScoXlI0VYr5zac6VE3PaF5i"
+    },
+    "complianceWorkshop": {
+      "productId": "prod_TZyUlFH1c9SlsD",
+      "priceId": "price_1ScoXmI0VYr5zac6OlqmBbb9"
+    }
+  },
+  "api": {
+    "developer": {
+      "productId": "prod_TZyUoh5oi6A6cU",
+      "priceId": "price_1ScoXmI0VYr5zac640f8CyWY"
+    },
+    "business": {
+      "productId": "prod_TZyU48oyp57dCd",
+      "priceId": "price_1ScoXnI0VYr5zac61A2aMvTT"
+    }
+  },
+  "enterprise": {
+    "starter": {
+      "productId": "prod_TZyUuyyniENoOh",
+      "priceId": "price_1ScoXnI0VYr5zac6it0OUdjT"
+    },
+    "professional": {
+      "productId": "prod_TZyUPVzvBm6xom",
+      "priceId": "price_1ScoXoI0VYr5zac6rTALTJHc"
+    }
+  }
+}

@@ -1,0 +1,827 @@
+/* Privacy Calendar 2026 Styles */
+
+.privacy-calendar-page {
+  min-height: 100vh;
+  background: var(--bg-primary, #f9fafb);
+  padding: 2rem 1rem;
+}
+
+/* Loading State */
+.calendar-loading,
+.calendar-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  text-align: center;
+}
+
+.loading-icon,
+.empty-icon {
+  width: 4rem;
+  height: 4rem;
+  color: var(--accent, #3b82f6);
+  margin-bottom: 1.5rem;
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Header */
+.calendar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.btn-back {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-back:hover {
+  background: var(--bg-hover, #f3f4f6);
+}
+
+.header-content {
+  flex: 1;
+  text-align: center;
+}
+
+.calendar-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+  margin-bottom: 0.5rem;
+}
+
+.title-icon {
+  width: 2rem;
+  height: 2rem;
+  color: var(--accent, #3b82f6);
+}
+
+.calendar-subtitle {
+  color: var(--text-secondary, #6b7280);
+  font-size: 1rem;
+}
+
+.btn-export {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background: var(--accent, #3b82f6);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-export:hover {
+  background: var(--accent-dark, #2563eb);
+}
+
+/* Month Navigation */
+.month-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: white;
+  border: 1px solid var(--border, #e5e7eb);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-nav:hover {
+  background: var(--bg-hover, #f3f4f6);
+}
+
+.current-month-year {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+/* Monthly Theme View */
+.monthly-theme-view {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-left: 4px solid;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.theme-header {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.theme-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.theme-content {
+  flex: 1;
+}
+
+.theme-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+  margin-bottom: 0.5rem;
+}
+
+.theme-focus {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+  margin-bottom: 0.75rem;
+}
+
+.theme-description {
+  color: var(--text-secondary, #6b7280);
+  line-height: 1.6;
+}
+
+.theme-metrics {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.metric-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--bg-secondary, #f9fafb);
+  border-radius: 0.5rem;
+}
+
+.metric-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--accent, #3b82f6);
+}
+
+.metric-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.metric-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.metric-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+/* Calendar Grid */
+.calendar-grid-container {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.calendar-grid-header {
+  margin-bottom: 1.5rem;
+}
+
+.calendar-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.calendar-week-header {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.calendar-day-header {
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+  font-size: 0.875rem;
+}
+
+.calendar-week {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 0.5rem;
+  position: relative;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+
+.calendar-week.has-tasks {
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.calendar-week.has-tasks:hover {
+  background: var(--bg-hover, #f3f4f6);
+  border-color: var(--accent, #3b82f6);
+}
+
+.calendar-week.completed {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.calendar-day {
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+}
+
+.calendar-day.has-day {
+  background: var(--bg-secondary, #f9fafb);
+}
+
+.calendar-day.empty {
+  background: transparent;
+}
+
+.day-number {
+  font-size: 0.875rem;
+  color: var(--text-primary, #111827);
+}
+
+.week-indicator {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.25rem;
+  background: var(--bg-secondary, #f9fafb);
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow: hidden;
+}
+
+.week-progress {
+  height: 100%;
+  background: var(--accent, #3b82f6);
+  transition: width 0.3s;
+}
+
+.week-label {
+  position: absolute;
+  top: -1.5rem;
+  left: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary, #6b7280);
+}
+
+.week-complete-icon {
+  position: absolute;
+  top: -1.5rem;
+  right: 0.5rem;
+  width: 1rem;
+  height: 1rem;
+  color: #22c55e;
+}
+
+/* Week Summary */
+.week-summary {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.week-summary-card {
+  background: var(--bg-secondary, #f9fafb);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 2px solid transparent;
+}
+
+.week-summary-card:hover {
+  background: white;
+  border-color: var(--accent, #3b82f6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.week-summary-card.completed {
+  background: rgba(34, 197, 94, 0.1);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.week-summary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.week-number {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.completion-badge {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent, #3b82f6);
+}
+
+.week-summary-progress {
+  height: 0.5rem;
+  background: var(--bg-primary, #f9fafb);
+  border-radius: 0.25rem;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.progress-bar {
+  height: 100%;
+  background: var(--accent, #3b82f6);
+  transition: width 0.3s;
+}
+
+.week-summary-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+/* Weekly Task View */
+.weekly-task-view-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 2rem;
+}
+
+.weekly-task-view {
+  background: white;
+  border-radius: 0.75rem;
+  max-width: 800px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.task-view-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+
+.task-view-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+  margin-bottom: 0.25rem;
+}
+
+.task-view-subtitle {
+  color: var(--text-secondary, #6b7280);
+}
+
+.btn-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background: transparent;
+  border: none;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn-close:hover {
+  background: var(--bg-hover, #f3f4f6);
+}
+
+.task-view-progress {
+  padding: 1.5rem;
+  border-bottom: 1px solid var(--border, #e5e7eb);
+}
+
+.progress-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.progress-percentage {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.progress-bar-container {
+  height: 0.75rem;
+  background: var(--bg-secondary, #f9fafb);
+  border-radius: 0.375rem;
+  overflow: hidden;
+}
+
+.progress-bar-fill {
+  height: 100%;
+  background: var(--accent, #3b82f6);
+  transition: width 0.3s;
+}
+
+.task-list {
+  padding: 1.5rem;
+}
+
+.task-card {
+  display: flex;
+  gap: 1rem;
+  padding: 1.5rem;
+  border: 2px solid var(--border, #e5e7eb);
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  transition: all 0.2s;
+}
+
+.task-card:hover {
+  border-color: var(--accent, #3b82f6);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.task-card.completed {
+  background: rgba(34, 197, 94, 0.05);
+  border-color: rgba(34, 197, 94, 0.3);
+}
+
+.task-checkbox {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.check-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.check-icon.completed {
+  color: #22c55e;
+}
+
+.check-icon.empty {
+  width: 1.5rem;
+  height: 1.5rem;
+  border: 2px solid var(--border, #e5e7eb);
+  border-radius: 0.25rem;
+}
+
+.task-content {
+  flex: 1;
+}
+
+.task-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+  margin-bottom: 0.5rem;
+}
+
+.task-description {
+  color: var(--text-secondary, #6b7280);
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.task-meta {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.75rem;
+}
+
+.task-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.meta-icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.task-services {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border, #e5e7eb);
+}
+
+.services-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+  margin-right: 0.5rem;
+}
+
+.services-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.service-tag {
+  padding: 0.25rem 0.75rem;
+  background: var(--bg-secondary, #f9fafb);
+  border-radius: 0.375rem;
+  font-size: 0.75rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.week-complete-banner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 1.5rem;
+  background: rgba(34, 197, 94, 0.1);
+  border-top: 1px solid var(--border, #e5e7eb);
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.complete-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Score History Tracker */
+.score-history-tracker {
+  background: white;
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.score-history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.current-score {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.score-label {
+  color: var(--text-secondary, #6b7280);
+}
+
+.score-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--accent, #3b82f6);
+}
+
+.score-history-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
+  height: 200px;
+  margin-bottom: 2rem;
+}
+
+.score-entry {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.score-entry.current {
+  opacity: 1;
+}
+
+.score-bar-container {
+  position: relative;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.score-bar {
+  width: 80%;
+  background: var(--accent, #3b82f6);
+  border-radius: 0.25rem 0.25rem 0 0;
+  transition: height 0.3s;
+  min-height: 10px;
+}
+
+.score-number {
+  position: absolute;
+  top: -1.5rem;
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.score-label {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.month-name {
+  font-weight: 600;
+  color: var(--text-primary, #111827);
+}
+
+.score-change {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.75rem;
+}
+
+.trend-icon {
+  width: 0.875rem;
+  height: 0.875rem;
+}
+
+.trend-icon.up {
+  color: #22c55e;
+}
+
+.trend-icon.down {
+  color: #ef4444;
+}
+
+.trend-icon.neutral {
+  color: var(--text-secondary, #6b7280);
+}
+
+.score-details {
+  font-size: 0.75rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.score-summary {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border, #e5e7eb);
+}
+
+.summary-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.summary-label {
+  font-size: 0.875rem;
+  color: var(--text-secondary, #6b7280);
+}
+
+.summary-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary, #111827);
+}
+
+.summary-value.positive {
+  color: #22c55e;
+}
+
+.summary-value.negative {
+  color: #ef4444;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .calendar-header {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .theme-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-week-header,
+  .calendar-week {
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .week-summary {
+    grid-template-columns: 1fr;
+  }
+
+  .score-history-chart {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .score-entry {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .score-bar-container {
+    height: 2rem;
+    width: 100%;
+  }
+
+  .score-bar {
+    height: 100%;
+    width: var(--score, 50%);
+  }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .privacy-calendar-page {
+    background: var(--bg-primary-dark, #111827);
+  }
+
+  .calendar-header,
+  .monthly-theme-view,
+  .calendar-grid-container,
+  .score-history-tracker,
+  .weekly-task-view {
+    background: var(--bg-card-dark, #1f2937);
+    color: var(--text-primary-dark, #f9fafb);
+  }
+}
+

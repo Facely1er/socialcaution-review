@@ -1,0 +1,36 @@
+Fix translation toggle with persistent event handling solution
+
+CRITICAL FIX: Translation toggle now works reliably in deployment
+
+Root causes fixed:
+- Event timing: Changed from mousedown (capture) to click (bubble phase)
+- Event propagation: Proper stopPropagation() on button and dropdown
+- Race conditions: Added isProcessingRef flag to prevent concurrent operations
+- Error handling: Comprehensive try/catch/finally with fallback to English
+
+Technical changes:
+- LanguageSelector: Uses click event in bubble phase (not mousedown in capture)
+- Click-outside handler: Fires AFTER button onClick handlers
+- Processing flag: Prevents multiple simultaneous language changes
+- Error recovery: Falls back to English on translation load errors
+- Event propagation: stopPropagation() prevents click-outside interference
+
+Key improvements:
+- Button onClick handlers fire BEFORE document-level click handler
+- 100ms delay ensures dropdown is fully rendered before attaching listeners
+- Processing flag prevents race conditions during language changes
+- Comprehensive error handling with graceful fallbacks
+
+Files modified:
+- src/contexts/TranslationContext.jsx - Complete LanguageSelector rewrite
+- TRANSLATION_TOGGLE_PERSISTENT_FIX.md - Comprehensive documentation
+- TRANSLATION_TOGGLE_VERIFICATION.md - Verification report
+
+Build status: ✅ Success, no linter errors
+Testing: ✅ Verified event flow, error handling, and race condition prevention
+
+This fix is designed to be persistent and prevent the recurring translation toggle issues.
+
+Resolves: Translation toggle not working in deployment
+Related: Recurring translation toggle issues
+

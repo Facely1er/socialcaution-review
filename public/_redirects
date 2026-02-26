@@ -1,0 +1,28 @@
+# Netlify redirects for SPA routing
+# Note: SPA routing is handled by netlify.toml to support both basic (index-simple.html) and standard (index.html) versions
+# The catch-all redirect is configured in netlify.toml to avoid conflicts
+
+# Security redirects
+/wp-admin/*  /  301!
+/admin/*     /  301!
+/.env        /  301!
+/.git/*      /  301!
+
+# SEO redirects
+/home        /  301!
+/index       /  301!
+/index.html  /  301!
+
+# API redirects are handled by netlify.toml (redirects to /.netlify/functions/:splat)
+
+# Privacy policy canonical
+/privacy     /privacy-policy  301!
+/legal       /privacy-policy  301!
+
+# Assessment redirects for SEO
+/test        /assessment/full  301!
+/quiz        /assessment/full  301!
+/check       /assessment/exposure  301!
+
+# Removed features page redirect
+/features    /how-it-works  301!

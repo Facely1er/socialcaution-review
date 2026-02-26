@@ -1,0 +1,77 @@
+:root {
+  /* Colors - Light Theme */
+  --color-primary: 10 35 66;
+  --color-accent: 255 107 53;
+  --color-accent-dark: 229 90 41;
+  --color-background: 255 255 255;
+  --color-background-secondary: 249 250 251;
+  --color-text: 17 24 39;
+  --color-text-secondary: 107 114 128;
+  --color-card: 255 255 255;
+  --color-card-hover: 243 244 246;
+  --color-border: 229 231 235;
+  --color-primary-dark: 30 58 95;
+  --color-success: 76 175 80;
+  --color-warning: 255 193 7;
+  --color-danger: 244 67 54;
+  --color-light-blue: 232 241 249;
+  --color-secondary: 107 114 128;
+  
+  /* Additional theme colors for consistency */
+  --color-muted: 156 163 175;
+  --color-muted-foreground: 107 114 128;
+  --color-popover: 255 255 255;
+  --color-popover-foreground: 17 24 39;
+
+  /* Spacing */
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-xxl: 3rem;
+
+  /* Border Radius */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 5%);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px -1px rgb(0 0 0 / 10%);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -2px rgb(0 0 0 / 10%);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 10%), 0 4px 6px -4px rgb(0 0 0 / 10%);
+}
+
+.dark {
+  /* Colors - Dark Theme */
+  --color-primary: 17 24 39;
+  --color-accent: 255 107 53;
+  --color-accent-dark: 229 90 41;
+  --color-background: 15 23 42;
+  --color-background-secondary: 30 41 59;
+  --color-text: 226 232 240;
+  --color-text-secondary: 186 193 205;
+  --color-card: 30 41 59;
+  --color-card-hover: 51 65 85;
+  --color-border: 51 65 85;
+  --color-primary-dark: 226 232 240;
+  --color-success: 76 175 80;
+  --color-warning: 255 193 7;
+  --color-danger: 244 67 54;
+  --color-light-blue: 30 41 59;
+  --color-secondary: 156 163 175;
+  
+  /* Additional theme colors for consistency */
+  --color-muted: 71 85 105;
+  --color-muted-foreground: 156 163 175;
+  --color-popover: 30 41 59;
+  --color-popover-foreground: 226 232 240;
+
+  /* Dark mode specific shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 30%);
+  --shadow: 0 1px 3px 0 rgb(0 0 0 / 40%), 0 1px 2px -1px rgb(0 0 0 / 40%);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 40%), 0 2px 4px -2px rgb(0 0 0 / 40%);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 40%), 0 4px 6px -4px rgb(0 0 0 / 40%);
+}
+

@@ -1,0 +1,1159 @@
+@import './styles/variables.css';
+@import './blog/styles/blog.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --animate-duration: 1s;
+  --animate-delay: 0s;
+  --animate-repeat: 1;
+  
+  /* Responsive spacing */
+  --spacing-xs: clamp(0.5rem, 1vw, 0.75rem);
+  --spacing-sm: clamp(0.75rem, 1.5vw, 1rem);
+  --spacing-md: clamp(1rem, 2vw, 1.5rem);
+  --spacing-lg: clamp(1.5rem, 3vw, 2.5rem);
+  --spacing-xl: clamp(2rem, 4vw, 4rem);
+  
+  /* Touch target sizes */
+  --touch-target-min: 44px;
+  --touch-target-comfortable: 48px;
+  
+  /* Safe area insets */
+  --safe-area-top: env(safe-area-inset-top, 0);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0);
+  --safe-area-left: env(safe-area-inset-left, 0);
+  --safe-area-right: env(safe-area-inset-right, 0);
+}
+
+/* Base overflow prevention for portrait mode */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  position: relative;
+  pointer-events: auto;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+#root {
+  overflow-x: hidden;
+  max-width: 100vw;
+  width: 100%;
+  pointer-events: auto;
+}
+
+/* Enhanced Interactive Classes */
+.btn-interactive {
+  @apply relative overflow-hidden transition-all duration-700;
+  will-change: transform, box-shadow, filter;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  min-height: var(--touch-target-min);
+  min-width: var(--touch-target-min);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile-optimized button */
+@media (max-width: 768px) {
+  .btn-interactive {
+    min-height: var(--touch-target-comfortable);
+    padding: 0.875rem 1.25rem;
+  }
+}
+
+.btn-interactive::before {
+  @apply absolute inset-0;
+  content: '';
+  background: linear-gradient(45deg, transparent 30%, rgba(255, 255, 255, 0.3) 50%, transparent 70%);
+  transform: translateX(-100%) skewX(-15deg);
+  transition: transform 0.8s;
+}
+
+.btn-interactive:hover::before {
+  animation: shimmer 1.5s ease-out;
+}
+
+.card-interactive {
+  @apply transition-all duration-700;
+  will-change: transform, box-shadow, filter;
+  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-style: preserve-3d;
+}
+
+.card-interactive:hover {
+  transform: translateY(-8px) scale(1.02);
+  filter: brightness(1.05) saturate(1.1);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Glass Morphism Enhancement */
+.glass-enhanced {
+  background: rgba(255, 255, 255, 0.15);
+  -webkit-backdrop-filter: blur(40px) saturate(180%);
+  backdrop-filter: blur(40px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.dark .glass-enhanced {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Enhanced Glass Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.dark .glass-card {
+  background: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Modern Card with Enhanced Hover */
+.modern-card {
+  @apply bg-card dark:bg-card border border-border dark:border-border rounded-xl shadow-sm transition-all duration-300;
+  background: linear-gradient(135deg, rgb(var(--color-card)) 0%, rgb(var(--color-card) / 80%) 100%);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.modern-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+/* Gradient Backgrounds */
+.gradient-accent {
+  background: linear-gradient(135deg, rgb(var(--color-accent)) 0%, rgb(var(--color-accent-dark)) 100%);
+}
+
+.gradient-primary {
+  background: linear-gradient(135deg, rgb(var(--color-primary)) 0%, rgb(var(--color-primary-dark)) 100%);
+}
+
+/* Decorative Background Elements */
+.decorative-blur {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+.decorative-blur-blue {
+  background: rgb(59, 130, 246);
+}
+
+.decorative-blur-purple {
+  background: rgb(147, 51, 234);
+}
+
+.decorative-blur-pink {
+  background: rgb(236, 72, 153);
+}
+
+/* Enhanced Card Hover Effects */
+.card-hover-lift {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-hover-lift:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Shimmer Effect */
+.shimmer {
+  background: linear-gradient(90deg, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+@keyframes animate-shimmer {
+  0% { transform: translateX(-100%) skewX(-15deg); }
+  100% { transform: translateX(200%) skewX(-15deg); }
+}
+
+.animate-shimmer {
+  animation: animate-shimmer 2s infinite;
+}
+
+/* Pulse Glow Animation */
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { 
+    box-shadow: 0 0 5px rgb(var(--color-accent) / 50%);
+  }
+  50% { 
+    box-shadow: 0 0 20px rgb(var(--color-accent) / 80%), 0 0 30px rgb(var(--color-accent) / 60%);
+  }
+}
+
+/* Float Animation */
+.float-animation {
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Safe Area Insets for Mobile Devices */
+.safe-area-inset-top {
+  padding-top: env(safe-area-inset-top, 0);
+}
+
+.safe-area-inset-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0);
+}
+
+.safe-area-inset-left {
+  padding-left: env(safe-area-inset-left, 0);
+}
+
+.safe-area-inset-right {
+  padding-right: env(safe-area-inset-right, 0);
+}
+
+/* No strip between header and hero: prevent border/shadow at all breakpoints */
+.header-no-strip {
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Ensure touch targets are large enough */
+  button, a[role="button"], [role="button"] {
+    min-height: var(--touch-target-min);
+    min-width: var(--touch-target-min);
+  }
+  
+  /* Header optimizations for portrait mode */
+  header {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  header > div {
+    width: 100%;
+    max-width: 100%;
+  }
+  
+  /* Optimize text rendering on mobile */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Reduce animations on mobile for better performance */
+  * {
+    animation-duration: 0.3s !important;
+    transition-duration: 0.2s !important;
+  }
+  
+  /* Optimize scrolling on iOS */
+  /* Note: -webkit-overflow-scrolling is deprecated in modern browsers */
+  * {
+    scroll-behavior: smooth;
+  }
+  
+  /* Prevent text size adjustment on iOS */
+  /* Cross-browser compatibility: All three properties needed
+     -webkit-: Safari and older WebKit browsers
+     -moz-: Firefox  
+     Standard: Modern Chrome, Edge, Samsung Internet */
+  html {
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+}
+
+/* ============================================
+   TABLET & IPAD OPTIMIZATIONS
+   ============================================ */
+
+/* Tablet Portrait (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+  /* Tablet-specific styles */
+  .container {
+    max-width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  /* Ensure headings don't truncate in portrait */
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.3;
+    max-width: 100%;
+  }
+  
+  /* Section titles - prevent truncation */
+  .section-title {
+    font-size: 1.875rem; /* 30px */
+    line-height: 1.3;
+    word-break: break-word;
+  }
+  
+  h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.3;
+  }
+  
+  h2, .section-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: 1.3;
+  }
+}
+
+/* Tablet Landscape (768px - 1023px) - PRIMARY FIX AREA */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Critical: Prevent heading truncation in landscape */
+  h1, h2, h3, h4, h5, h6 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.4 !important; /* Increased for better readability */
+    max-width: 100%;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+  }
+  
+  /* Hero section heading fixes */
+  h1 {
+    font-size: clamp(2rem, 4vw, 3rem) !important;
+    line-height: 1.3 !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  /* Section headings */
+  h2, .section-title {
+    font-size: clamp(1.5rem, 3vw, 2.25rem) !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1rem;
+  }
+  
+  /* Subheadings */
+  h3 {
+    font-size: clamp(1.25rem, 2.5vw, 1.75rem) !important;
+    line-height: 1.4 !important;
+  }
+  
+  /* Container adjustments for landscape */
+  .container {
+    max-width: 100%;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+  
+  /* Section padding adjustments */
+  .section {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Hero section specific fixes */
+  .hero-section,
+  section[class*="hero"] {
+    min-height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Card titles - prevent truncation */
+  .card h3,
+  .card h2,
+  [class*="Card"] h3,
+  [class*="Card"] h2 {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    line-height: 1.4;
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
+  }
+  
+  /* Text content adjustments */
+  p, span, div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  /* Remove any truncate classes in landscape */
+  .truncate,
+  [class*="truncate"],
+  .line-clamp-1,
+  .line-clamp-2,
+  .line-clamp-3 {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+    display: block;
+  }
+}
+
+/* iPad Pro Landscape (1024px - 1366px) */
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
+  /* Similar fixes for larger tablets in landscape */
+  h1, h2, h3 {
+    line-height: 1.3;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  h1 {
+    font-size: clamp(2.5rem, 5vw, 3.5rem);
+  }
+  
+  h2, .section-title {
+    font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+  }
+  
+  .container {
+    max-width: 1200px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+/* iPad Portrait (768px - 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  /* Portrait-specific adjustments */
+  h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    line-height: 1.3;
+  }
+  
+  h2, .section-title {
+    font-size: clamp(1.5rem, 4vw, 2rem);
+    line-height: 1.3;
+  }
+  
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1024px) {
+  /* Desktop-specific enhancements */
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* Landscape mobile optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+  /* Reduce padding in landscape */
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  /* Optimize hero section for landscape */
+  .hero-section {
+    min-height: 0;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  /* Compact header in landscape mobile */
+  .header-landscape {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.125rem !important;
+  }
+  
+  .header-container-landscape {
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.125rem !important;
+  }
+  
+  /* Fix logo and branding alignment in landscape */
+  .header-logo-landscape {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+  }
+  
+  /* Align branding text with logo */
+  .header-title-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+    margin: 0 !important;
+  }
+  
+  .header-line1-landscape {
+    font-size: 0.5625rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+  
+  .header-subtitle-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+  
+  .header-tagline-landscape {
+    font-size: 0.4375rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+}
+
+/* Landscape optimizations for all screen sizes - Only apply to tablets, not phones */
+@media (orientation: landscape) and (min-width: 768px) {
+  /* Reduce header size in landscape (tablets only) */
+  .header-landscape {
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.125rem !important;
+  }
+  
+  .header-container-landscape {
+    padding-top: 0.375rem !important;
+    padding-bottom: 0.125rem !important;
+  }
+  
+  /* Fix logo and branding alignment */
+  .header-branding-landscape {
+    align-items: center !important;
+    gap: 0.375rem !important;
+  }
+  
+  /* Ensure branding text is vertically centered with logo */
+  .header-text-container-landscape {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: flex-start !important;
+    gap: 0 !important;
+  }
+  
+  /* Compact logo in landscape */
+  .header-logo-landscape {
+    width: 1.75rem !important;
+    height: 1.75rem !important;
+    flex-shrink: 0;
+  }
+  
+  /* Compact text sizes in landscape */
+  .header-title-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+    margin: 0 !important;
+  }
+  
+  .header-line1-landscape {
+    font-size: 0.5625rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+  
+  .header-subtitle-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+  
+  .header-tagline-landscape {
+    font-size: 0.4375rem !important;
+    line-height: 1.1 !important;
+    margin-top: 0.05em !important;
+  }
+  
+  /* Ensure text doesn't overflow */
+  .header-title-landscape,
+  .header-line1-landscape,
+  .header-subtitle-landscape,
+  .header-tagline-landscape {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Compact bottom navigation for tablets in landscape */
+  nav[data-tutorial="bottom-nav"] {
+    height: 3rem !important; /* Reduced from h-14 (3.5rem) */
+    min-height: 3rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] > div {
+    height: 3rem !important;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button {
+    min-height: 2.5rem !important;
+    padding-top: 0.125rem !important;
+    padding-bottom: 0.125rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button svg {
+    width: 1.125rem !important; /* Reduced from w-5 (1.25rem) */
+    height: 1.125rem !important;
+    margin-bottom: 0.125rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button span {
+    font-size: 0.625rem !important; /* Reduced from text-[11px] */
+    line-height: 1 !important;
+    margin-top: 0 !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] .absolute {
+    height: 0.125rem !important; /* Thinner active indicator */
+  }
+}
+
+/* Tablet landscape specific header fixes (768px - 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Compact header for tablet landscape */
+  .header-landscape {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  
+  .header-container-landscape {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  
+  /* Proper logo sizing */
+  .header-logo-landscape {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  
+  /* Aligned branding text */
+  .header-title-landscape {
+    font-size: 0.75rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-line1-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-subtitle-landscape {
+    font-size: 0.75rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-tagline-landscape {
+    font-size: 0.5625rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  /* Extra compact bottom nav for smaller tablets in landscape */
+  nav[data-tutorial="bottom-nav"] {
+    height: 2.75rem !important;
+    min-height: 2.75rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] > div {
+    height: 2.75rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button {
+    min-height: 2.25rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button svg {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button span {
+    font-size: 0.5625rem !important; /* 9px */
+  }
+}
+
+/* iPad Pro and larger tablets in landscape (1024px+) */
+@media (min-width: 1024px) and (orientation: landscape) and (max-height: 1024px) {
+  /* Compact header for larger tablets in landscape */
+  .header-landscape {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  
+  .header-container-landscape {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+  
+  /* Proper logo sizing */
+  .header-logo-landscape {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  
+  /* Aligned branding text */
+  .header-title-landscape {
+    font-size: 0.8125rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-line1-landscape {
+    font-size: 0.6875rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-subtitle-landscape {
+    font-size: 0.8125rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  .header-tagline-landscape {
+    font-size: 0.625rem !important;
+    line-height: 1.1 !important;
+  }
+  
+  /* Compact bottom nav for larger tablets in landscape */
+  nav[data-tutorial="bottom-nav"] {
+    height: 3.25rem !important;
+    min-height: 3.25rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] > div {
+    height: 3.25rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button {
+    min-height: 2.75rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button svg {
+    width: 1.125rem !important;
+    height: 1.125rem !important;
+  }
+  
+  nav[data-tutorial="bottom-nav"] button span {
+    font-size: 0.6875rem !important; /* 11px */
+  }
+}
+
+/* High DPI display optimizations */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Optimize images and graphics for retina displays */
+  img {
+    /* -webkit-optimize-contrast for Edge 79+, Chrome, and Safari (Edge compatible) */
+    image-rendering: -webkit-optimize-contrast;
+  }
+}
+
+/* Print styles */
+@media print {
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+}
+
+@layer base {
+  body {
+    @apply bg-background text-text font-sans transition-colors duration-200 antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold text-text;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  p, span, div {
+    @apply text-text;
+  }
+  
+  a {
+    @apply transition-colors duration-200;
+  }
+  
+  /* Scrollbar styling */
+  ::-webkit-scrollbar {
+    @apply w-2 h-2;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-background;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border rounded-full;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-text-secondary;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-block bg-accent hover:bg-accent-dark text-white py-2 px-4 rounded-md font-medium transition-all hover:-translate-y-0.5 hover:shadow-md;
+  }
+  
+  .btn-secondary {
+    @apply inline-block bg-transparent text-accent border-2 border-accent hover:bg-accent/10 py-2 px-4 rounded-md font-medium transition-all hover:-translate-y-0.5 hover:shadow-md;
+  }
+
+  .card {
+    @apply bg-card border border-border rounded-lg shadow-sm transition-colors duration-200;
+  }
+  
+  .section {
+    @apply bg-background-secondary transition-colors duration-200;
+  }
+  
+  .page-title {
+    font-size: 1.875rem; /* 30px mobile - matches text-3xl */
+    line-height: 1.3;
+    font-weight: 700;
+    color: rgb(17 24 39); /* gray-900 */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+
+  .dark .page-title {
+    color: rgb(255 255 255);
+  }
+
+  @media (min-width: 640px) {
+    .page-title {
+      font-size: 2.25rem; /* 36px tablet+ - matches text-4xl */
+    }
+  }
+
+  /* Section heading (H2) – aligned with workflow Settings */
+  .section-heading {
+    font-size: 1.125rem;
+    line-height: 1.4;
+    font-weight: 600;
+    color: rgb(17 24 39);
+  }
+  .dark .section-heading {
+    color: rgb(255 255 255);
+  }
+  @media (min-width: 640px) {
+    .section-heading {
+      font-size: 1.25rem;
+    }
+  }
+
+  .section-title {
+    @apply text-2xl md:text-3xl font-bold text-text mb-6 transition-colors duration-200;
+    line-height: 1.2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+  .page-subtitle {
+    @apply text-lg md:text-xl text-text-secondary transition-colors duration-200;
+  }
+}
+
+/* Text Gradient Effect */
+@keyframes gradient-x {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, 
+    rgb(var(--color-accent)) 0%, 
+    rgb(var(--color-primary)) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  animation: gradient-x 8s ease infinite;
+}
+
+/* Navigation Link Enhancement */
+.nav-link {
+  @apply relative overflow-hidden;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.nav-link::after {
+  content: '';
+  @apply absolute -bottom-1 left-1/2 w-0 h-0.5 transition-all duration-300 rounded-sm;
+  background: linear-gradient(90deg, 
+    rgb(var(--color-accent)) 0%, 
+    rgb(var(--color-accent-dark)) 100%);
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.nav-link:hover::after {
+  @apply w-full;
+}
+
+/* Ensure all links and buttons are clickable */
+a, button, [role="button"] {
+  pointer-events: auto !important;
+}
+
+a, button, [role="button"], [onClick] {
+  cursor: pointer;
+}
+
+/* Ensure React Router Links (rendered as anchor tags) are clickable */
+a[href] {
+  pointer-events: auto !important;
+  cursor: pointer;
+}
+
+/* Performance Optimizations */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Enhanced Focus States */
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid rgb(var(--color-accent) / 0.5);
+  outline-offset: 2px;
+}
+
+/* Text Selection */
+::selection {
+  background: rgb(var(--color-accent) / 0.2);
+  color: inherit;
+}
+
+/* Ensure consistent theme transitions */
+* {
+  transition-property: background-color, border-color, color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+
+/* Feedback Modal Animations */
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-up {
+  animation: slide-up 0.3s ease-out;
+}
+
+/* Override button text-align for category cards */
+.category-card[role="button"] {
+  text-align: left !important;
+  display: block !important;
+  justify-content: flex-start !important;
+}
+
+.category-card[role="button"] * {
+  text-align: left !important;
+}
+
+/* Override button text-align for data broker progress cards - Must override global [role="button"] rule */
+.broker-progress-list .broker-card[role="button"] {
+  text-align: left !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  padding: 1rem !important;
+}
+
+.broker-progress-list .broker-card[role="button"] > div {
+  text-align: left !important;
+  justify-content: space-between !important;
+  width: 100% !important;
+}
+
+/* Contact page: move heading higher - reduce main padding and page spacing */
+main#main-content:has(#contact-page) {
+  padding-top: 6.75rem !important; /* 108px - matches header height, saves 4px vs pt-28 */
+}
+#contact-page,
+main#main-content > div.min-h-screen.bg-gray-50:has(> div.max-w-6xl.mx-auto.px-4 > div.text-center.mb-12 > h1.text-4xl) {
+  padding-top: 0 !important;
+  padding-bottom: 3rem;
+}
+@media (min-width: 640px) {
+  #contact-page,
+  main#main-content > div.min-h-screen.bg-gray-50:has(> div.max-w-6xl.mx-auto.px-4 > div.text-center.mb-12 > h1.text-4xl) {
+    padding-bottom: 4rem;
+  }
+}
+
+.broker-progress-list .broker-card[role="button"] > div > div:first-child {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+/* Fixed width icon container - CRITICAL for alignment */
+.broker-progress-list .broker-icon-wrapper {
+  width: 24px !important;
+  min-width: 24px !important;
+  max-width: 24px !important;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+}
+
+.broker-progress-list .broker-card[role="button"] > div > div:first-child > div:first-child,
+.broker-progress-list .broker-card[role="button"] > div > div:first-child > button:first-child,
+.broker-progress-list .broker-card[role="button"] > div > div:first-child > .broker-icon-wrapper {
+  width: 24px !important;
+  min-width: 24px !important;
+  max-width: 24px !important;
+  flex-shrink: 0 !important;
+  flex-grow: 0 !important;
+}
+
+/* Content area - must start at same position */
+.broker-progress-list .broker-card[role="button"] > div > div:first-child > div:last-child {
+  text-align: left !important;
+  flex: 1 1 auto !important;
+  min-width: 0 !important;
+}
+
+.broker-progress-list .broker-card[role="button"] > div > div:first-child > div:last-child > div {
+  justify-content: flex-start !important;
+  text-align: left !important;
+  align-items: center !important;
+}
+
+/* Force left alignment on all text content */
+.broker-progress-list .broker-card[role="button"] h3,
+.broker-progress-list .broker-card[role="button"] span,
+.broker-progress-list .broker-card[role="button"] p {
+  text-align: left !important;
+  display: inline !important;
+}
+
+/* ============================================
+   SPECIFIC COMPONENT FIXES FOR TABLET LANDSCAPE
+   ============================================ */
+
+/* Fix for Hero component headings */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  /* Hero title adjustments */
+  section[class*="hero"] h1,
+  .hero-section h1 {
+    font-size: clamp(2rem, 4.5vw, 2.75rem) !important;
+    line-height: 1.3 !important;
+    padding: 0 1rem;
+    word-break: break-word;
+  }
+  
+  /* Hero subtitle */
+  section[class*="hero"] p,
+  .hero-section p {
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    line-height: 1.5;
+  }
+}
+
+/* Fix for How It Works section */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  section[class*="HowItWorks"] h2,
+  section[class*="how-it-works"] h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+    line-height: 1.3 !important;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Step card titles */
+  section[class*="HowItWorks"] h3,
+  section[class*="how-it-works"] h3 {
+    font-size: clamp(1.125rem, 2vw, 1.375rem) !important;
+    line-height: 1.4 !important;
+    word-wrap: break-word;
+  }
+}
+
+/* Fix for Service Catalog headings */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  [class*="ServiceCatalog"] h1,
+  [class*="ServiceCatalog"] h2,
+  [class*="service-catalog"] h1,
+  [class*="service-catalog"] h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+    line-height: 1.3 !important;
+    word-wrap: break-word;
+  }
+}
+
+/* Fix for Personas Section */
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  [class*="PersonasSection"] h2,
+  [class*="personas"] h2 {
+    font-size: clamp(1.5rem, 3vw, 2rem) !important;
+    line-height: 1.3 !important;
+  }
+}
+
+/* ============================================
+   UTILITY CLASSES FOR TABLET LANDSCAPE
+   ============================================ */
+
+@media (min-width: 768px) and (max-width: 1023px) and (orientation: landscape) {
+  .tablet-landscape-text-normal {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: clip !important;
+  }
+  
+  .tablet-landscape-line-height-relaxed {
+    line-height: 1.4 !important;
+  }
+  
+  .tablet-landscape-heading-safe {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    line-height: 1.3;
+    max-width: 100%;
+  }
+}

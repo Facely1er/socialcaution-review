@@ -1,0 +1,203 @@
+{
+  "app_name": {
+    "full": "SocialCaution - Personalized Privacy Platform",
+    "short": "SocialCaution",
+    "subtitle": "Privacy Protection & Digital Security"
+  },
+  "description": {
+    "short_80": "Privacy exposure insights. On-device analysis with zero data collection.",
+    "short": "Privacy exposure insights for digital services. Analyze data visibility and sharing practices using on-device, AI-assisted analysis with no data collection. Features include Privacy Radar for real-time 24-hour threat monitoring, Privacy Exposure Index scoring for 200+ online services, comprehensive privacy assessments, Services Monitoring, Privacy Toolkit (AI Message Risk Checker for phishing detection, Personal Data Inventory, Data Broker Removal, Privacy Regulations Tracker), and educational resources. All processing happens client-side—your privacy data never leaves your device.",
+    "long_4000": "Privacy exposure insights for digital services. Analyze data visibility and sharing practices using on-device, AI-assisted analysis with zero data collection.\n\nKEY FEATURES:\n\nPrivacy Radar - Real-time Security Threat Monitoring\nMonitor immediate threats with 24-hour tactical window. Get instant alerts for data breaches, phishing campaigns, security vulnerabilities, and scams affecting your monitored services. Aggregates RSS feeds from trusted sources. AI-enhanced detection analyzes content for phishing patterns. Threats classified by severity and matched to your services.\n\nPrivacy Exposure Index - Quantified Risk Scoring\nGet privacy risk scores (0-100) for 200+ online services based on data collection practices, sharing networks, breach history, and privacy policies. Premium: full 8-factor analysis. Free: simplified 4-factor analysis. Compare services, filter by risk level.\n\nServices Monitoring\nTrack privacy risks for services you use. Get personalized alerts when threats, breaches, or policy changes affect them. Premium: unlimited services. Free: up to 5 services.\n\nPrivacy Assessments\nTake comprehensive privacy evaluations:\n• Complete Privacy Assessment (13-19 min) - Full evaluation with persona detection and risk analysis\n• Privacy Risk Exposure Assessment (5-7 min) - Quick digital vulnerability evaluation\n• Privacy Rights Knowledge Checkup (8-12 min) - Test knowledge of GDPR, CCPA, PIPEDA, LGPD\n\nPremium: unlimited. Free: 3 per month.\n\nService Catalog\nBrowse and compare privacy risks across 200+ major online services. Each service includes risk profiles, exposure scores, known privacy issues, breach history, and recommended actions. Filter by category, risk level, or search.\n\nDigital Footprint Analysis\nComprehensive analysis of your online presence and privacy exposure. Premium: full 8-factor analysis. Free: simplified 4-factor analysis.\n\nPrivacy Toolkit\nAccess SocialCaution's integrated privacy tools:\n• AI Message Risk Checker - Analyze suspicious emails, SMS, notifications for phishing patterns. Client-side AI detection. Instant risk scoring (0-100). All analysis in browser, zero data collection\n• Personal Data Inventory - Track personal data you share, where stored, who has access. Export PDF, CSV, JSON\n• Data Broker Removal Tool - Search data across 10+ major data broker websites, step-by-step removal instructions\n• Privacy Radar - Real-time monitoring dashboard with AI-enhanced threat detection\n• Privacy Regulations Tracker - Monitor GDPR, CCPA, HIPAA, COPPA compliance changes\n• Curated External Tools - Recommended third-party privacy tools\n\nEducational Resources\nAccess privacy guides and educational content tailored to your privacy persona. Learn about GDPR rights, CCPA compliance, data protection best practices, privacy settings, password security, social media privacy, device security, VPN selection.\n\nPersonalized Dashboard\nGet customized recommendations based on privacy concerns, risk level, and AI-detected privacy persona. Platform identifies one of seven personas and provides tailored guidance.\n\nPRIVACY BY DESIGN:\n\nZero Data Collection - All processing client-side. Your data never leaves your device. No servers, no cloud storage. Runs in browser using local storage only.\n\nNo User Accounts Required - Use anonymously without registration. Start immediately.\n\n100% Client-Side Processing - AI-assisted analysis runs entirely in browser. No data sent to external servers.\n\nGDPR & CCPA Compliant - Built with privacy by design principles. Complies with GDPR, CCPA, and other major privacy regulations. Transparent practices with full source code available.\n\nOpen Source - Full transparency. Source code available for review.\n\nPerfect for anyone concerned about digital privacy, data protection, online security, and understanding their digital footprint. SocialCaution provides the tools and insights you need—all while keeping your data completely private.",
+    "full": "SocialCaution is a privacy-first platform that provides privacy exposure insights for digital services. Analyze data visibility and sharing practices using on-device, AI-assisted analysis with zero data collection.\n\nKey Features:\n• Privacy Radar - Real-time security threat monitoring with 24-hour tactical window. Get immediate alerts for active data breaches, phishing campaigns, security vulnerabilities, and scams affecting services in your Services Monitoring\n• Privacy Exposure Index - Get quantified privacy risk scores (0-100) for 200+ online services based on data collection, sharing practices, breach history, and privacy policies\n• Privacy Assessments - Take comprehensive privacy evaluations (Complete Assessment, Risk Exposure Assessment, Privacy Rights Knowledge Checkup) to understand your digital footprint\n• Services Monitoring - Track and monitor privacy risks for services you use. Get personalized alerts when threats affect your monitored services\n• Service Catalog - Browse and compare privacy risks across 200+ major online services with detailed risk profiles and exposure scores\n• Digital Footprint Analysis - Comprehensive 8-factor analysis (Premium) or 4-factor analysis (Free) of your online presence and privacy exposure\n• Privacy Toolkit - Integrated privacy tools including AI Message Risk Checker (analyze messages for phishing and manipulation patterns with client-side AI detection), Personal Data Inventory (track and export your data sharing), Data Broker Removal Tool (remove data from 10+ major brokers), Privacy Radar (real-time threat monitoring with AI-enhanced phishing detection), Privacy Regulations Tracker (monitor GDPR, CCPA, HIPAA compliance), plus curated third-party privacy tools\n• Educational Resources - 100+ privacy guides and educational content tailored to your privacy persona and needs\n• Personalized Dashboard - Customized recommendations based on your privacy concerns, risk level, and AI-detected privacy persona\n\nPrivacy by Design:\n• Zero Data Collection - All processing happens client-side, your data never leaves your device\n• No User Accounts Required - Use anonymously without registration\n• 100% Client-Side Processing - AI-assisted analysis runs entirely in your browser\n• GDPR & CCPA Compliant - Built with privacy by design principles\n• Open Source - Full transparency in privacy practices\n\nPerfect for anyone concerned about digital privacy, data protection, online security, and understanding their digital footprint.",
+    "promotional": "Privacy exposure insights for digital services. Analyze data visibility and sharing practices using on-device, AI-assisted analysis with no data collection. Get real-time threat alerts, privacy risk scores for 200+ services, and comprehensive digital footprint analysis—all with zero data collection."
+  },
+  "keywords": [
+    "privacy",
+    "security",
+    "digital privacy",
+    "data protection",
+    "privacy assessment",
+    "digital footprint",
+    "privacy tools",
+    "online security",
+    "data privacy",
+    "privacy concerns",
+    "privacy exposure",
+    "privacy radar",
+    "threat monitoring",
+    "data breach alerts",
+    "phishing detection",
+    "service monitoring",
+    "services monitoring",
+    "privacy education",
+    "GDPR",
+    "CCPA",
+    "data broker",
+    "privacy recommendations",
+    "privacy exposure index",
+    "real-time threats"
+  ],
+  "categories": {
+    "primary": "Privacy & Security",
+    "secondary": "Education"
+  },
+  "app_store_categories": {
+    "ios": {
+      "primary": "Privacy & Security",
+      "secondary": "Education"
+    },
+    "android": {
+      "primary": "Privacy & Security",
+      "secondary": "Education"
+    }
+  },
+  "content_rating": {
+    "age_rating": "4+",
+    "content_descriptors": [],
+    "privacy_practices": {
+      "data_collected": false,
+      "data_linked_to_user": false,
+      "data_used_for_tracking": false,
+      "data_used_for_advertising": false,
+      "data_shared": false
+    }
+  },
+  "screenshots": {
+    "ios": {
+      "iphone_6_7": [
+        {
+          "file": "dashboard-iphone-6.7.png",
+          "caption": "Get personalized privacy insights based on your unique profile"
+        },
+        {
+          "file": "service-catalog-iphone-6.7.png",
+          "caption": "Compare privacy risks across 200+ online services with quantified exposure scores"
+        },
+        {
+          "file": "assessment-iphone-6.7.png",
+          "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+        },
+        {
+          "file": "exposure-index-iphone-6.7.png",
+          "caption": "See quantified privacy risk scores for each service"
+        },
+        {
+          "file": "recommendations-iphone-6.7.png",
+          "caption": "Get tailored action plans and resources based on your privacy concerns"
+        },
+        {
+          "file": "assessment-results-iphone-6.7.png",
+          "caption": "View your privacy assessment results and personalized insights"
+        },
+        {
+          "file": "privacy-radar-iphone-6.7.png",
+          "caption": "Privacy Radar: Real-time 24-hour threat monitoring for data breaches, phishing, and security vulnerabilities"
+        }
+      ],
+      "ipad_12_9": [
+        {
+          "file": "dashboard-ipad-12.9.png",
+          "caption": "Get personalized privacy insights based on your unique profile"
+        },
+        {
+          "file": "service-catalog-ipad-12.9.png",
+          "caption": "Compare privacy risks across 200+ online services with quantified exposure scores"
+        },
+        {
+          "file": "assessment-ipad-12.9.png",
+          "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+        }
+      ]
+    },
+    "android": {
+      "phone": [
+        {
+          "file": "dashboard-phone.png",
+          "caption": "Get personalized privacy insights based on your unique profile"
+        },
+        {
+          "file": "service-catalog-phone.png",
+          "caption": "Compare privacy risks across 200+ online services with quantified exposure scores"
+        },
+        {
+          "file": "assessment-phone.png",
+          "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+        }
+      ],
+      "tablet": [
+        {
+          "file": "dashboard-tablet.png",
+          "caption": "Get personalized privacy insights based on your unique profile"
+        },
+        {
+          "file": "service-catalog-tablet.png",
+          "caption": "Compare privacy risks across 200+ online services with quantified exposure scores"
+        }
+      ]
+    }
+  },
+  "support_url": "https://socialcaution.com/contact",
+  "marketing_url": "https://socialcaution.com",
+  "privacy_policy_url": "https://socialcaution.com/privacy-policy",
+  "version": "1.0.0",
+  "release_notes": "Initial release of SocialCaution - Privacy exposure insights platform with Privacy Radar for real-time 24-hour threat monitoring, Privacy Exposure Index for 200+ services, comprehensive privacy assessments, Services Monitoring, and personalized recommendations. All processing happens client-side with zero data collection.",
+  "whats_new": "Welcome to SocialCaution! Get privacy exposure insights for digital services. Analyze data visibility and sharing practices using on-device, AI-assisted analysis. Features include Privacy Radar (real-time 24-hour threat monitoring), Privacy Exposure Index scoring for 200+ services, Services Monitoring, privacy assessments, and educational resources—all with zero data collection.",
+  "pricing": {
+    "free_tier": {
+      "available": true,
+      "description": "Free forever with 3 assessments/month, track 5 services, basic PDF export"
+    },
+    "premium_tier": {
+      "available": true,
+      "price": "$2.99/month",
+      "description": "Unlimited assessments, unlimited service tracking, full analysis, unlimited exports"
+    }
+  },
+  "in_app_purchases": true,
+  "subscription_info": {
+    "available": true,
+    "tiers": [
+      {
+        "name": "Premium",
+        "price": "$2.99/month",
+        "annual_price": "$24.99/year",
+        "features": [
+          "Unlimited privacy assessments",
+          "Unlimited service tracking",
+          "Full Digital Privacy Footprint Analysis (8-factor)",
+          "Unlimited PDF/Excel/CSV/JSON exports",
+          "Privacy analytics dashboard",
+          "Priority support"
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "required": [],
+    "optional": [
+      "Internet access (for service monitoring and RSS feeds)",
+      "Local storage (for assessment data and preferences)"
+    ]
+  },
+  "compatibility": {
+    "minimum_ios": "15.0",
+    "minimum_android": "8.0",
+    "devices": [
+      "iPhone",
+      "iPad",
+      "Android phones",
+      "Android tablets"
+    ]
+  },
+  "languages": {
+    "primary": "en",
+    "supported": ["en"],
+    "note": "Additional languages will be added in future updates"
+  },
+  "developer": {
+    "name": "SocialCaution",
+    "website": "https://socialcaution.com",
+    "support_email": "support@ermits.com"
+  },
+  "last_updated": "2026-01-06"
+}

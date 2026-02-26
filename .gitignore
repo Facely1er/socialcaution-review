@@ -1,0 +1,86 @@
+# ============================================
+# LOGS & DEPENDENCIES
+# ============================================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+node_modules
+
+# ============================================
+# PWA/WEB BUILD OUTPUTS (All Platforms)
+# ============================================
+dist
+dist-ssr
+dist-simple
+
+# ============================================
+# ENVIRONMENT FILES (All Platforms)
+# ============================================
+.env
+.env.local
+.env.production
+.env.staging
+*.local
+
+# ============================================
+# EDITOR DIRECTORIES (Cross-Platform)
+# ============================================
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea
+
+# Vim/Emacs
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# Visual Studio
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ============================================
+# OS-SPECIFIC FILES
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================
+# DEPLOYMENT FOLDERS
+# ============================================
+.netlify
+
+# ============================================
+# TESTING & COVERAGE
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+.vercel

@@ -1,0 +1,17 @@
+fix: replace tactical priority ratings with strategic impact in Trends Tracker
+
+- Replace feedPriority (tactical security severity) with strategic impact calculation
+- Add calculateStrategicImpact() function for regulatory content analysis
+- Update TrendsTrackerModule to use strategic impact instead of tactical priority
+- Update PrivacyRegulationsMonitoring to consistently use strategic impact
+- Remove meaningless tactical priority ratings from strategic regulatory feeds
+- Strategic impact levels: critical (major regulations/fines), high (enforcement/policy), medium (trends/guidance), low (general news)
+
+The Trends Tracker now shows meaningful ratings based on strategic regulatory
+impact rather than tactical security severity, which was not appropriate for
+long-term regulatory and compliance content.
+
+Files modified:
+- src/components/dashboard/TrendsTrackerModule.jsx
+- src/components/pages/PrivacyRegulationsMonitoring.jsx
+

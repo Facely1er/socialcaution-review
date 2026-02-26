@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Calendar 2026 - Free New Year Gift</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #f9fafb;
+      color: #111827;
+      line-height: 1.6;
+    }
+
+    /* Landing Hero */
+    .landing-hero {
+      padding: 4rem 2rem;
+      text-align: center;
+      background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.5rem 1rem;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 2rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .hero-description {
+      font-size: 1.25rem;
+      opacity: 0.95;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+    }
+
+    .hero-features {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      flex-wrap: wrap;
+      margin: 2rem 0;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1rem;
+    }
+
+    .btn-primary {
+      padding: 1rem 2.5rem;
+      background: white;
+      color: #3b82f6;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      font-size: 1.125rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      margin-top: 1rem;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .hero-subtext {
+      margin-top: 1rem;
+      font-size: 0.875rem;
+      opacity: 0.9;
+    }
+
+    /* Persona Selection */
+    .persona-selector {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: none;
+    }
+
+    .persona-selector.active {
+      display: block;
+    }
+
+    .selector-header {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+
+    .selector-header h2 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+
+    .persona-card {
+      background: white;
+      border: 2px solid #e5e7eb;
+      border-radius: 0.75rem;
+      padding: 1.5rem;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .persona-card:hover {
+      border-color: #3b82f6;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      transform: translateY(-2px);
+    }
+
+    .persona-card.selected {
+      border-color: #3b82f6;
+      background: #eff6ff;
+    }
+
+    .persona-icon {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .persona-name {
+      font-size: 1.125rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .persona-desc {
+      font-size: 0.875rem;
+      color: #6b7280;
+    }
+
+    /* Calendar View */
+    .calendar-view {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 2rem;
+      display: none;
+    }
+
+    .calendar-view.active {
+      display: block;
+    }
+
+    .calendar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 2rem;
+      padding: 1.5rem;
+      background: white;
+      border-radius: 0.75rem;
+    }
+
+    .calendar-title {
+      font-size: 1.875rem;
+      font-weight: 700;
+    }
+
+    .persona-badge {
+      display: inline-block;
+      padding: 0.25rem 0.75rem;
+      background: #3b82f6;
+      color: white;
+      border-radius: 1rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
+
+    .month-navigation {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .btn-nav {
+      padding: 0.5rem 1rem;
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-radius: 0.5rem;
+      cursor: pointer;
+    }
+
+    .month-theme {
+      background: white;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-left: 4px solid #3b82f6;
+    }
+
+    .theme-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+
+    .theme-focus {
+      font-size: 1.125rem;
+      color: #6b7280;
+      margin-bottom: 1rem;
+    }
+
+    .calendar-grid {
+      background: white;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .calendar-week {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .calendar-day {
+      aspect-ratio: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.375rem;
+      background: #f9fafb;
+    }
+
+    .week-summary {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+
+    .week-card {
+      background: #f9fafb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .week-card:hover {
+      background: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Freemium Upsell */
+    .freemium-upsell {
+      padding: 3rem 2rem;
+      background: #f9fafb;
+      border-top: 1px solid #e5e7eb;
+      text-align: center;
+    }
+
+    .upsell-content h3 {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .btn-secondary {
+      padding: 0.75rem 2rem;
+      background: white;
+      color: #3b82f6;
+      border: 2px solid #3b82f6;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .btn-secondary:hover {
+      background: #3b82f6;
+      color: white;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .hero-title {
+        font-size: 2rem;
+      }
+      .persona-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- Landing Page -->
+  <div id="landing-view" class="landing-hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        ✨ New Year Gift 2026
+      </div>
+      <h1 class="hero-title">Your Personalized Privacy Calendar</h1>
+      <p class="hero-description">
+        Start 2026 with a 12-month privacy journey. Get weekly tasks, track your progress, and improve your digital security—completely free.
+      </p>
+      <div class="hero-features">
+        <div class="feature-item">
+          ✓ 12 monthly privacy themes
+        </div>
+        <div class="feature-item">
+          ✓ Weekly actionable tasks
+        </div>
+        <div class="feature-item">
+          ✓ Privacy score tracking
+        </div>
+        <div class="feature-item">
+          ✓ Export to calendar apps
+        </div>
+      </div>
+      <button class="btn-primary" onclick="showPersonaSelection()">
+        Get Your Free Calendar →
+      </button>
+      <p class="hero-subtext">
+        100% Free • No sign-up required • Works offline
+      </p>
+    </div>
+  </div>
+
+  <!-- Persona Selection -->
+  <div id="persona-view" class="persona-selector">
+    <div class="selector-header">
+      <h2>Choose Your Privacy Persona</h2>
+      <p>Select the persona that best describes you to get a personalized calendar</p>
+    </div>
+    <div class="persona-grid" id="persona-grid">
+      <!-- Personas will be inserted here -->
+    </div>
+    <div id="generate-section" style="text-align: center; display: none;">
+      <button class="btn-primary" onclick="generateCalendar()">
+        Generate My Calendar →
+      </button>
+    </div>
+  </div>
+
+  <!-- Calendar View -->
+  <div id="calendar-view" class="calendar-view">
+    <div class="calendar-header">
+      <div>
+        <h1 class="calendar-title">📅 Privacy Calendar 2026</h1>
+        <span class="persona-badge" id="selected-persona-badge"></span>
+      </div>
+      <button class="btn-secondary" onclick="showLanding()">← Home</button>
+    </div>
+
+    <div class="month-navigation">
+      <button class="btn-nav" onclick="previousMonth()">← Previous</button>
+      <h2 id="current-month-year"></h2>
+      <button class="btn-nav" onclick="nextMonth()">Next →</button>
+    </div>
+
+    <div class="month-theme" id="month-theme">
+      <!-- Month theme will be inserted here -->
+    </div>
+
+    <div class="calendar-grid" id="calendar-grid">
+      <!-- Calendar will be inserted here -->
+    </div>
+
+    <div class="week-summary" id="week-summary">
+      <!-- Week summary will be inserted here -->
+    </div>
+  </div>
+
+  <!-- Freemium Upsell -->
+  <div class="freemium-upsell">
+    <div class="upsell-content">
+      <h3>Want More Privacy Protection?</h3>
+      <p>
+        This calendar is a free gift from <strong>SocialCaution</strong>. 
+        Explore our full privacy platform with assessments, service monitoring, and personalized recommendations.
+      </p>
+      <a href="https://socialcaution.com" target="_blank" class="btn-secondary">
+        Explore SocialCaution →
+      </a>
+    </div>
+  </div>
+
+  <script>
+    // Data
+    const personas = [
+      { id: 'cautious-parent', name: 'Cautious Parent', description: 'Protecting family digital privacy and safety', icon: '👨‍👩‍👧‍👦' },
+      { id: 'digital-novice', name: 'Digital Novice', description: 'Learning the basics of digital privacy', icon: '📚' },
+      { id: 'privacy-advocate', name: 'Privacy Advocate', description: 'Maximum privacy and digital rights focus', icon: '🛡️' },
+      { id: 'online-shopper', name: 'Online Shopper', description: 'Safe and secure online shopping focus', icon: '🛒' },
+      { id: 'social-influencer', name: 'Social Influencer', description: 'Managing public presence and content protection', icon: '📱' },
+      { id: 'private-individual', name: 'Private Individual', description: 'Maximum anonymity and data minimization', icon: '🔒' },
+      { id: 'concerned-employee', name: 'Concerned Employee', description: 'Protecting workplace privacy and professional data', icon: '💼' },
+      { id: 'data-controller', name: 'Data Controller', description: 'Managing data control and transparency', icon: '💾' },
+      { id: 'student', name: 'Student', description: 'Protecting academic privacy and educational data', icon: '🎓' }
+    ];
+
+    const monthlyThemes = [
+      { name: 'Foundation Month', focus: 'Banking & Financial Security', icon: '🏦' },
+      { name: 'Social Media Cleanup', focus: 'Social Platform Privacy', icon: '📱' },
+      { name: 'Email & Communication Security', focus: 'Email and Messaging', icon: '📧' },
+      { name: 'Shopping & Commerce Protection', focus: 'E-commerce and Shopping Accounts', icon: '🛒' },
+      { name: 'Professional & Work Security', focus: 'Professional Digital Presence', icon: '💼' },
+      { name: 'Health & Medical Privacy', focus: 'Medical and Health Data', icon: '🏥' },
+      { name: 'Travel & Location Privacy', focus: 'Location and Travel Data', icon: '✈️' },
+      { name: 'Entertainment & Streaming', focus: 'Entertainment Platform Privacy', icon: '🎬' },
+      { name: 'Home & Smart Devices', focus: 'Smart Home and IoT Security', icon: '🏠' },
+      { name: 'Family & Children\'s Privacy', focus: 'Family Digital Security', icon: '👨‍👩‍👧‍👦' },
+      { name: 'Advanced Security Measures', focus: 'Enhanced Protection', icon: '🔐' },
+      { name: 'Year-End Review & Planning', focus: 'Assessment and Future Planning', icon: '📊' }
+    ];
+
+    let selectedPersona = null;
+    let currentMonth = new Date().getMonth();
+    let currentYear = 2026;
+    let calendarData = null;
+
+    // Initialize
+    function init() {
+      // Check for saved data
+      const savedPersona = localStorage.getItem('standalone-persona');
+      const savedCalendar = localStorage.getItem('standalone-calendar-2026');
+      
+      if (savedPersona && savedCalendar) {
+        selectedPersona = JSON.parse(savedPersona);
+        calendarData = JSON.parse(savedCalendar);
+        showCalendar();
+      } else if (savedPersona) {
+        selectedPersona = JSON.parse(savedPersona);
+        showPersonaSelection();
+      } else {
+        showLanding();
+      }
+      
+      renderPersonas();
+    }
+
+    // View Management
+    function showLanding() {
+      document.getElementById('landing-view').style.display = 'block';
+      document.getElementById('persona-view').classList.remove('active');
+      document.getElementById('calendar-view').classList.remove('active');
+    }
+
+    function showPersonaSelection() {
+      document.getElementById('landing-view').style.display = 'none';
+      document.getElementById('persona-view').classList.add('active');
+      document.getElementById('calendar-view').classList.remove('active');
+    }
+
+    function showCalendar() {
+      document.getElementById('landing-view').style.display = 'none';
+      document.getElementById('persona-view').classList.remove('active');
+      document.getElementById('calendar-view').classList.add('active');
+      renderCalendar();
+    }
+
+    // Persona Selection
+    function renderPersonas() {
+      const grid = document.getElementById('persona-grid');
+      grid.innerHTML = personas.map(persona => `
+        <div class="persona-card" onclick="selectPersona('${persona.id}')">
+          <div class="persona-icon">${persona.icon}</div>
+          <h3 class="persona-name">${persona.name}</h3>
+          <p class="persona-desc">${persona.description}</p>
+        </div>
+      `).join('');
+    }
+
+    function selectPersona(id) {
+      selectedPersona = personas.find(p => p.id === id);
+      
+      // Update UI
+      document.querySelectorAll('.persona-card').forEach(card => {
+        card.classList.remove('selected');
+      });
+      event.target.closest('.persona-card').classList.add('selected');
+      
+      document.getElementById('generate-section').style.display = 'block';
+    }
+
+    function generateCalendar() {
+      if (!selectedPersona) return;
+      
+      // Save persona
+      localStorage.setItem('standalone-persona', JSON.stringify(selectedPersona));
+      
+      // Generate simple calendar data
+      calendarData = {
+        year: 2026,
+        months: monthlyThemes.map((theme, index) => ({
+          month: index,
+          monthName: new Date(2026, index, 1).toLocaleString('default', { month: 'long' }),
+          theme: theme.name,
+          focus: theme.focus,
+          icon: theme.icon,
+          weeks: generateWeeksForMonth(index, 2026)
+        }))
+      };
+      
+      localStorage.setItem('standalone-calendar-2026', JSON.stringify(calendarData));
+      showCalendar();
+    }
+
+    function generateWeeksForMonth(monthIndex, year) {
+      const weeks = [];
+      const firstDay = new Date(year, monthIndex, 1);
+      const lastDay = new Date(year, monthIndex + 1, 0);
+      const daysInMonth = lastDay.getDate();
+      const firstDayOfWeek = firstDay.getDay();
+      
+      const weekCount = Math.ceil((daysInMonth + firstDayOfWeek) / 7);
+      
+      for (let i = 0; i < Math.min(weekCount, 4); i++) {
+        weeks.push({
+          weekNumber: i + 1,
+          tasks: [
+            { id: `task-${i}-1`, title: `Week ${i + 1} Task 1`, description: 'Complete privacy task for this week' },
+            { id: `task-${i}-2`, title: `Week ${i + 1} Task 2`, description: 'Review and update privacy settings' }
+          ]
+        });
+      }
+      
+      return weeks;
+    }
+
+    // Calendar Rendering
+    function renderCalendar() {
+      if (!calendarData) return;
+      
+      const monthData = calendarData.months[currentMonth];
+      if (!monthData) return;
+      
+      // Update persona badge
+      document.getElementById('selected-persona-badge').textContent = selectedPersona.name + ' Persona';
+      
+      // Update month/year
+      document.getElementById('current-month-year').textContent = 
+        new Date(currentYear, currentMonth, 1).toLocaleString('default', { month: 'long', year: 'numeric' });
+      
+      // Update month theme
+      document.getElementById('month-theme').innerHTML = `
+        <div style="display: flex; gap: 1.5rem; align-items: center;">
+          <div style="font-size: 3rem;">${monthData.icon}</div>
+          <div>
+            <h2 class="theme-title">${monthData.theme}</h2>
+            <p class="theme-focus">${monthData.focus}</p>
+            <p style="margin-top: 1rem; color: #6b7280;">Monthly Goal: Improve your ${monthData.focus.toLowerCase()}</p>
+          </div>
+        </div>
+      `;
+      
+      // Render calendar grid
+      renderCalendarGrid(monthData);
+      
+      // Render week summary
+      renderWeekSummary(monthData);
+    }
+
+    function renderCalendarGrid(monthData) {
+      const grid = document.getElementById('calendar-grid');
+      const firstDay = new Date(currentYear, currentMonth, 1);
+      const lastDay = new Date(currentYear, currentMonth + 1, 0);
+      const daysInMonth = lastDay.getDate();
+      const firstDayOfWeek = firstDay.getDay();
+      
+      let html = '<div class="calendar-week">';
+      html += ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].map(day => 
+        `<div style="font-weight: 600; text-align: center; padding: 0.5rem;">${day}</div>`
+      ).join('');
+      html += '</div>';
+      
+      // Empty cells for days before month starts
+      for (let i = 0; i < firstDayOfWeek; i++) {
+        html += '<div class="calendar-day"></div>';
+      }
+      
+      // Days of the month
+      for (let day = 1; day <= daysInMonth; day++) {
+        html += `<div class="calendar-day">${day}</div>`;
+        if ((firstDayOfWeek + day) % 7 === 0) {
+          html += '</div><div class="calendar-week">';
+        }
+      }
+      
+      html += '</div>';
+      grid.innerHTML = html;
+    }
+
+    function renderWeekSummary(monthData) {
+      const summary = document.getElementById('week-summary');
+      summary.innerHTML = monthData.weeks.map((week, index) => `
+        <div class="week-card" onclick="showWeekTasks(${index})">
+          <h3>Week ${week.weekNumber}</h3>
+          <p style="color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem;">
+            ${week.tasks.length} tasks
+          </p>
+        </div>
+      `).join('');
+    }
+
+    function showWeekTasks(weekIndex) {
+      const monthData = calendarData.months[currentMonth];
+      const week = monthData.weeks[weekIndex];
+      alert(`Week ${week.weekNumber} Tasks:\n\n${week.tasks.map(t => `• ${t.title}`).join('\n')}`);
+    }
+
+    function previousMonth() {
+      if (currentMonth === 0) {
+        currentMonth = 11;
+        currentYear--;
+      } else {
+        currentMonth--;
+      }
+      renderCalendar();
+    }
+
+    function nextMonth() {
+      if (currentMonth === 11) {
+        currentMonth = 0;
+        currentYear++;
+      } else {
+        currentMonth++;
+      }
+      renderCalendar();
+    }
+
+    // Initialize on load
+    init();
+  </script>
+</body>
+</html>
+

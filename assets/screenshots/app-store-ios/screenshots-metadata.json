@@ -1,0 +1,331 @@
+{
+  "generated": "2026-01-06T13:55:34.839Z",
+  "totalScreenshots": 35,
+  "screenshots": [
+    {
+      "config": "Main Dashboard",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\dashboard-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "Get personalized privacy insights based on your unique profile"
+    },
+    {
+      "config": "Main Dashboard",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\dashboard-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "Get personalized privacy insights based on your unique profile"
+    },
+    {
+      "config": "Main Dashboard",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\dashboard-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "Get personalized privacy insights based on your unique profile"
+    },
+    {
+      "config": "Main Dashboard",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\dashboard-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "Get personalized privacy insights based on your unique profile"
+    },
+    {
+      "config": "Main Dashboard",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\dashboard-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "Get personalized privacy insights based on your unique profile"
+    },
+    {
+      "config": "Service Catalog",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\service-catalog-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "Compare privacy risks across 200+ online services"
+    },
+    {
+      "config": "Service Catalog",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\service-catalog-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "Compare privacy risks across 200+ online services"
+    },
+    {
+      "config": "Service Catalog",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\service-catalog-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "Compare privacy risks across 200+ online services"
+    },
+    {
+      "config": "Service Catalog",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\service-catalog-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "Compare privacy risks across 200+ online services"
+    },
+    {
+      "config": "Service Catalog",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\service-catalog-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "Compare privacy risks across 200+ online services"
+    },
+    {
+      "config": "Privacy Assessment",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\assessment-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+    },
+    {
+      "config": "Privacy Assessment",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\assessment-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+    },
+    {
+      "config": "Privacy Assessment",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\assessment-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+    },
+    {
+      "config": "Privacy Assessment",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\assessment-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+    },
+    {
+      "config": "Privacy Assessment",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\assessment-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "Take comprehensive privacy assessments to understand your digital footprint"
+    },
+    {
+      "config": "Privacy Exposure Index",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\exposure-index-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "See quantified privacy risk scores for each service"
+    },
+    {
+      "config": "Privacy Exposure Index",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\exposure-index-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "See quantified privacy risk scores for each service"
+    },
+    {
+      "config": "Privacy Exposure Index",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\exposure-index-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "See quantified privacy risk scores for each service"
+    },
+    {
+      "config": "Privacy Exposure Index",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\exposure-index-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "See quantified privacy risk scores for each service"
+    },
+    {
+      "config": "Privacy Exposure Index",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\exposure-index-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "See quantified privacy risk scores for each service"
+    },
+    {
+      "config": "Personalized Recommendations",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\recommendations-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "Get tailored action plans and resources based on your privacy concerns"
+    },
+    {
+      "config": "Personalized Recommendations",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\recommendations-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "Get tailored action plans and resources based on your privacy concerns"
+    },
+    {
+      "config": "Personalized Recommendations",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\recommendations-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "Get tailored action plans and resources based on your privacy concerns"
+    },
+    {
+      "config": "Personalized Recommendations",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\recommendations-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "Get tailored action plans and resources based on your privacy concerns"
+    },
+    {
+      "config": "Personalized Recommendations",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\recommendations-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "Get tailored action plans and resources based on your privacy concerns"
+    },
+    {
+      "config": "Assessment Results",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\assessment-results-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "View your privacy assessment results and personalized insights"
+    },
+    {
+      "config": "Assessment Results",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\assessment-results-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "View your privacy assessment results and personalized insights"
+    },
+    {
+      "config": "Assessment Results",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\assessment-results-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "View your privacy assessment results and personalized insights"
+    },
+    {
+      "config": "Assessment Results",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\assessment-results-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "View your privacy assessment results and personalized insights"
+    },
+    {
+      "config": "Assessment Results",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\assessment-results-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "View your privacy assessment results and personalized insights"
+    },
+    {
+      "config": "Privacy Radar",
+      "viewport": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "viewportKey": "iphone-6.7",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.7\\privacy-radar-iphone-6.7.png",
+      "dimensions": "1290x2796",
+      "caption": "Real-time privacy threat monitoring and alerts"
+    },
+    {
+      "config": "Privacy Radar",
+      "viewport": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "viewportKey": "iphone-6.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-6.5\\privacy-radar-iphone-6.5.png",
+      "dimensions": "1284x2778",
+      "caption": "Real-time privacy threat monitoring and alerts"
+    },
+    {
+      "config": "Privacy Radar",
+      "viewport": "iPhone 5.5\" (iPhone 8 Plus)",
+      "viewportKey": "iphone-5.5",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\iphone-5.5\\privacy-radar-iphone-5.5.png",
+      "dimensions": "1242x2208",
+      "caption": "Real-time privacy threat monitoring and alerts"
+    },
+    {
+      "config": "Privacy Radar",
+      "viewport": "iPad Pro 12.9\"",
+      "viewportKey": "ipad-12.9",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-12.9\\privacy-radar-ipad-12.9.png",
+      "dimensions": "2048x2732",
+      "caption": "Real-time privacy threat monitoring and alerts"
+    },
+    {
+      "config": "Privacy Radar",
+      "viewport": "iPad Pro 11\"",
+      "viewportKey": "ipad-11",
+      "filepath": "C:\\Users\\facel\\Downloads\\GitHub\\ERMITS_PRODUCTION\\08-SocialCaution\\assets\\screenshots\\app-store-ios\\ipad-11\\privacy-radar-ipad-11.png",
+      "dimensions": "1668x2388",
+      "caption": "Real-time privacy threat monitoring and alerts"
+    }
+  ],
+  "viewports": {
+    "iphone-6.7": {
+      "name": "iPhone 6.7\" (iPhone 15 Pro Max)",
+      "width": 1290,
+      "height": 2796,
+      "devices": [
+        "iPhone 15 Pro Max",
+        "iPhone 14 Pro Max"
+      ]
+    },
+    "iphone-6.5": {
+      "name": "iPhone 6.5\" (iPhone 13 Pro Max)",
+      "width": 1284,
+      "height": 2778,
+      "devices": [
+        "iPhone 13 Pro Max",
+        "iPhone 12 Pro Max",
+        "iPhone 11 Pro Max"
+      ]
+    },
+    "iphone-5.5": {
+      "name": "iPhone 5.5\" (iPhone 8 Plus)",
+      "width": 1242,
+      "height": 2208,
+      "devices": [
+        "iPhone 8 Plus"
+      ]
+    },
+    "ipad-12.9": {
+      "name": "iPad Pro 12.9\"",
+      "width": 2048,
+      "height": 2732,
+      "devices": [
+        "iPad Pro (12.9-inch) (6th generation)"
+      ]
+    },
+    "ipad-11": {
+      "name": "iPad Pro 11\"",
+      "width": 1668,
+      "height": 2388,
+      "devices": [
+        "iPad Pro (11-inch) (4th generation)"
+      ]
+    }
+  }
+}
